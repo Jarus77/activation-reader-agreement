@@ -2,7 +2,6 @@
 
 **Do J-lens, natural-language autoencoder (NLA), and sparse autoencoder (SAE) readouts of the same activation agree more than readouts paired across different prompts? Does that agreement survive removing literal prompt vocabulary?**
 
-This repository contains a Qwen adaptation of the agreement experiment in [Morgan Hough's tri-lens study](https://github.com/m9h/tri-lens), with saved readouts, analysis code, and figures. The experiment was run on 12 October 2026. It addresses one part of the broader question of cross-referencing interpretability methods; agreement alone does not establish ground truth or justify rating a method by majority vote.
 
 **Finding:** all three pairs show positive excess agreement on this sample, including after prompt-vocabulary removal. The result is exploratory: topic-related words remain, SAE descriptions are automatically screened, and independent instrument validation is incomplete.
 
