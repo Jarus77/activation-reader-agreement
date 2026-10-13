@@ -1,0 +1,2801 @@
+{
+  "status": "exploratory_complete",
+  "agreement_run_id": "d1ab6e3cc5e3",
+  "encoding_run_id": "9d8a496f027d",
+  "annotation_run_id": "5a305df90b97",
+  "report": {
+    "jlens|nla": {
+      "status": "exploratory",
+      "n": 48,
+      "attempted": 48,
+      "matched": 0.32913378900589074,
+      "mismatched": 0.02274043298388874,
+      "excess": 0.306393356022002,
+      "z": 4.426895317573238,
+      "frac_above_own_null": 0.75,
+      "null_pairs": 2112,
+      "mispaired_candidates": [
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44
+      ],
+      "nominal_rank_chance": 0.022222222222222223,
+      "empty_left_content": 5,
+      "empty_right_content": 0
+    },
+    "nla|sae": {
+      "status": "exploratory",
+      "n": 44,
+      "attempted": 48,
+      "matched": 0.20839380951326136,
+      "mismatched": 0.05241468607582922,
+      "excess": 0.15597912343743214,
+      "z": 2.417252304947461,
+      "frac_above_own_null": 0.3181818181818182,
+      "null_pairs": 1770,
+      "mispaired_candidates": [
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        41,
+        41,
+        41,
+        40,
+        40,
+        40,
+        40,
+        42,
+        42,
+        40,
+        40,
+        40,
+        40,
+        41,
+        41,
+        41,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40
+      ],
+      "nominal_rank_chance": 0.024259489801180104,
+      "empty_left_content": 0,
+      "empty_right_content": 0
+    },
+    "jlens|sae": {
+      "status": "exploratory",
+      "n": 44,
+      "attempted": 48,
+      "matched": 0.1427618932104578,
+      "mismatched": 0.009076631094655967,
+      "excess": 0.1336852621158018,
+      "z": 2.7859224053152873,
+      "frac_above_own_null": 0.4318181818181818,
+      "null_pairs": 1770,
+      "mispaired_candidates": [
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        41,
+        41,
+        41,
+        40,
+        40,
+        40,
+        40,
+        42,
+        42,
+        40,
+        40,
+        40,
+        40,
+        41,
+        41,
+        41,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40
+      ],
+      "nominal_rank_chance": 0.024259489801180104,
+      "empty_left_content": 3,
+      "empty_right_content": 0
+    }
+  },
+  "sensitivity_include_empty_sae": {
+    "nla|sae": {
+      "status": "exploratory",
+      "n": 48,
+      "attempted": 48,
+      "matched": 0.19102765872048957,
+      "mismatched": 0.04883268007665466,
+      "excess": 0.1421949786438349,
+      "z": 2.209539900903573,
+      "frac_above_own_null": 0.2916666666666667,
+      "null_pairs": 2112,
+      "mispaired_candidates": [
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44
+      ],
+      "nominal_rank_chance": 0.022222222222222223,
+      "empty_left_content": 0,
+      "empty_right_content": 4
+    },
+    "jlens|sae": {
+      "status": "exploratory",
+      "n": 48,
+      "attempted": 48,
+      "matched": 0.13086506877625298,
+      "mismatched": 0.00906303556282543,
+      "excess": 0.12180203321342756,
+      "z": 2.5929002181017142,
+      "frac_above_own_null": 0.3958333333333333,
+      "null_pairs": 2112,
+      "mispaired_candidates": [
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44
+      ],
+      "nominal_rank_chance": 0.022222222222222223,
+      "empty_left_content": 5,
+      "empty_right_content": 4
+    }
+  },
+  "sensitivity_all_proposed_labels": {
+    "nla|sae_proposed": {
+      "status": "exploratory",
+      "n": 48,
+      "attempted": 48,
+      "matched": 0.13401012581157176,
+      "mismatched": 0.047873809803120435,
+      "excess": 0.08613631600845133,
+      "z": 2.3262043663242538,
+      "frac_above_own_null": 0.4791666666666667,
+      "null_pairs": 2112,
+      "mispaired_candidates": [
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44
+      ],
+      "nominal_rank_chance": 0.022222222222222223,
+      "empty_left_content": 0,
+      "empty_right_content": 0
+    },
+    "jlens|sae_proposed": {
+      "status": "exploratory",
+      "n": 48,
+      "attempted": 48,
+      "matched": 0.2326195808603224,
+      "mismatched": 0.029979047613214505,
+      "excess": 0.20264053324710787,
+      "z": 2.506311057072218,
+      "frac_above_own_null": 0.4583333333333333,
+      "null_pairs": 2112,
+      "mispaired_candidates": [
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44,
+        44
+      ],
+      "nominal_rank_chance": 0.022222222222222223,
+      "empty_left_content": 5,
+      "empty_right_content": 0
+    }
+  },
+  "prompt_cluster_bootstrap": {
+    "jlens|nla": {
+      "prompts": 12,
+      "replicates": 4000,
+      "seed": 1729,
+      "excess_ci95": [
+        0.2573307007705345,
+        0.3535787116806134
+      ],
+      "note": "Prompt-cluster percentile bootstrap with frozen labels; annotation uncertainty is not included"
+    },
+    "nla|sae": {
+      "prompts": 12,
+      "replicates": 4000,
+      "seed": 1729,
+      "excess_ci95": [
+        0.10425680211912634,
+        0.21128448845391104
+      ],
+      "note": "Prompt-cluster percentile bootstrap with frozen labels; annotation uncertainty is not included"
+    },
+    "jlens|sae": {
+      "prompts": 12,
+      "replicates": 4000,
+      "seed": 1729,
+      "excess_ci95": [
+        0.07766774083507617,
+        0.18867862473888078
+      ],
+      "note": "Prompt-cluster percentile bootstrap with frozen labels; annotation uncertainty is not included"
+    }
+  },
+  "coverage": {
+    "items": 48,
+    "items_with_accepted_labels": 44,
+    "selected_feature_slots": 384,
+    "accepted_feature_slots": 105,
+    "unique_selected_features": 272,
+    "unique_accepted_labels": 88,
+    "duplicate_holdout_features": 20,
+    "duplicate_holdout_labels_excluded": 18,
+    "accepted_labels_per_item": [
+      2,
+      2,
+      3,
+      2,
+      1,
+      4,
+      3,
+      2,
+      3,
+      2,
+      1,
+      2,
+      3,
+      2,
+      3,
+      1,
+      4,
+      4,
+      2,
+      2,
+      5,
+      0,
+      2,
+      2,
+      4,
+      2,
+      2,
+      3,
+      0,
+      0,
+      4,
+      3,
+      2,
+      3,
+      3,
+      2,
+      4,
+      0,
+      2,
+      1,
+      1,
+      2,
+      1,
+      2,
+      1,
+      2,
+      2,
+      2
+    ]
+  },
+  "annotation_summary": {
+    "selected_features": 272,
+    "proposed_labels": 272,
+    "initial_accepted_labels": 172,
+    "duplicate_holdout_labels_excluded": 18,
+    "independently_reviewed_labels": 154,
+    "accepted_labels": 88,
+    "validation_format_failures": 0,
+    "heldout_supported": 90,
+    "null_supported": 2
+  },
+  "sae_reconstruction": {
+    "passed": true,
+    "sample_explained_variance": 0.6011190414428711,
+    "mean_cosine": 0.906545102596283,
+    "relative_l2_errors": [
+      0.32453709840774536,
+      0.36149704456329346,
+      0.43948376178741455,
+      0.38099709153175354,
+      0.3178699314594269,
+      0.3526177704334259,
+      0.38789623975753784,
+      0.39709338545799255,
+      0.4646145701408386,
+      0.41297534108161926,
+      0.4120069742202759,
+      0.40414515137672424,
+      0.33648958802223206,
+      0.36071842908859253,
+      0.37044060230255127,
+      0.46807587146759033,
+      0.3440609276294708,
+      0.35278069972991943,
+      0.407450407743454,
+      0.40083587169647217,
+      0.5803369283676147,
+      0.38987764716148376,
+      0.40495797991752625,
+      0.34057724475860596,
+      0.34022051095962524,
+      0.396869033575058,
+      0.3755953013896942,
+      0.4039609432220459,
+      0.8481255769729614,
+      0.46585917472839355,
+      0.3587009906768799,
+      0.41260331869125366,
+      0.4006844460964203,
+      0.5117276906967163,
+      0.35396888852119446,
+      0.3984282314777374,
+      0.3680914342403412,
+      0.3751409947872162,
+      0.321577250957489,
+      0.3684406876564026,
+      0.7860041260719299,
+      0.38143518567085266,
+      0.38926100730895996,
+      0.35730409622192383,
+      0.38585683703422546,
+      0.4295336604118347,
+      0.3399597704410553,
+      0.34737974405288696
+    ],
+    "l0_per_item": [
+      76,
+      90,
+      149,
+      90,
+      103,
+      126,
+      80,
+      113,
+      99,
+      89,
+      108,
+      98,
+      66,
+      129,
+      111,
+      117,
+      120,
+      66,
+      76,
+      137,
+      74,
+      83,
+      88,
+      100,
+      93,
+      79,
+      60,
+      139,
+      98,
+      108,
+      131,
+      78,
+      77,
+      156,
+      105,
+      78,
+      84,
+      63,
+      97,
+      73,
+      51,
+      98,
+      97,
+      107,
+      49,
+      94,
+      76,
+      82
+    ],
+    "threshold": 1.682811975479126,
+    "note": "Diagnostic on the 48 evaluation activations, not an independent population estimate"
+  },
+  "sae_repo": "ceselder/qwen36-27b-sae2m-l42",
+  "sae_revision": "3233a3d8744da53999fe5e6d36a8357b873330ba",
+  "label_model": "Qwen/Qwen3-4B-Instruct-2507",
+  "label_revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+  "review_model": "Qwen/Qwen3.6-27B",
+  "review_revision": "6a9e13bd6fc8f0983b9b99948120bc37f49c13e9",
+  "scoring_protocol_amendment": "Normalized exact-duplicate held-out windows were detected and excluded before any SAE comparison scores were inspected",
+  "timings": {
+    "encoding_seconds": 69.756237071,
+    "annotation_seconds": 190.07407015400003,
+    "review_seconds": 172.21250397900002
+  },
+  "training_performed": false,
+  "steering_performed": false,
+  "items": [
+    {
+      "prompt_idx": 0,
+      "pos": 60,
+      "jlens": " impacts  consequences  impact  effects  repercussions impact effects  impacting  devastation Impact Effects  aftermath",
+      "nla": "Informational article structure: intro promised explanation of volcanic eruption mechanics and effects on surroundings, now delivering on that dual promise.\n\nThe title and introduction explicitly frame two topics \u2014 \"how volcanic eruptions occur and their effects on the surrounding area\" \u2014 the body must now address both systematically.\n\nFinal phrase \"This article will explore how volcanic eruptions occur and\" is a transitional sentence mid-completion, directly mirroring the title's structure; the next tokens must complete with \"their effects on the surrounding area\" or similar phrasing.\n\"Volcanic eruptions are powerful geological events that can cause widespread destruction and long-term environmental changes. This article will explore the process of a volcanic eruption and\" \u2014 the final clause \"This article will outline the process of a volcanic eruption and\" requires completing with \"its effects on surrounding areas\" \u2014 the second half of the title's promised topic: consequences",
+      "sae": "Consistent use of \"and\" to connect lists of benefits, roles, or processes in a structured sequence. ; Repetition of \"significance\" or \"importance\" in introductory phrases to introduce a topic.",
+      "sae_proposed": "Usage of marketing methods without direct payment, with associated costs. ; Connection of two independent ideas using 'and' to link contrasting or complementary actions. ; Reference to historical or societal impacts of religion in academic or analytical contexts. ; Connection between two ideas using 'and' to link explanations or definitions. ; Consistent use of \"and\" to connect lists of benefits, roles, or processes in a structured sequence. ; Tailoring offerings based on user behavior and data analysis ; Optimizing, aligning, or offering solutions in strategic planning and resource management. ; Repetition of \"significance\" or \"importance\" in introductory phrases to introduce a topic.",
+      "features": [
+        {
+          "feature_id": 1590832,
+          "activation": 26.85030174255371
+        },
+        {
+          "feature_id": 1425181,
+          "activation": 12.633671760559082
+        },
+        {
+          "feature_id": 172096,
+          "activation": 10.745124816894531
+        },
+        {
+          "feature_id": 1756058,
+          "activation": 9.00593090057373
+        },
+        {
+          "feature_id": 1587957,
+          "activation": 7.598440170288086
+        },
+        {
+          "feature_id": 1581890,
+          "activation": 6.566776752471924
+        },
+        {
+          "feature_id": 1525889,
+          "activation": 6.230255126953125
+        },
+        {
+          "feature_id": 1093324,
+          "activation": 5.789132595062256
+        }
+      ],
+      "accepted_feature_count": 2,
+      "proposed_feature_count": 8
+    },
+    {
+      "prompt_idx": 0,
+      "pos": 85,
+      "jlens": " geological  accumulation  buildup  volcanic  Earth  groundwater  underground  magma  Formation  formation  Geological  volcan",
+      "nla": "Educational explainer format with numbered sections and bullet points, establishing a step-by-step breakdown of volcanic eruption mechanics.\n\nThe section \"How Volcanic Eruptions Occur\" promises a sequential process explanation, with the numbered list now beginning \u2014 steps like magma formation, pressure buildup, and eruption are expected.\n\n\"1\" is the first numbered step in the process breakdown, immediately requiring a bolded or plain-text label (e.g., \"Magma Formation\") followed by a descriptive sentence explaining the initial stage.\n\"Volcanic eruptions are complex geological events driven by magma, pressure, and tectonic activity. Here is a step-by-step breakdown of how a volcanic eruption occurs:\n\n1\" opens the numbered list, requiring a step title like \"Magma Chamber Formation\" or \"Plate Tectonics\" followed by explanation.\n\nThe final token \"1\" is",
+      "sae": "Listed items or sections followed by a numeral \"1.\" as a concluding marker. ; Numerical conclusion or count following explanatory text.",
+      "sae_proposed": "Usage of marketing methods without direct payment, with associated costs. ; Listed items or sections followed by a numeral \"1.\" as a concluding marker. ; Use of colons to introduce lists of steps or stages in a process. ; Numerical list items follow factual or true/false statements. ; Peak occurs at '1' in contexts involving sudden onset, duration, or timing of physiological or emotional events. ; Tailoring offerings based on user behavior and data analysis ; Numerical conclusion or count following explanatory text. ; Feature: Use of \"Here are\" followed by a numbered list of key points to consider.",
+      "features": [
+        {
+          "feature_id": 1590832,
+          "activation": 23.021299362182617
+        },
+        {
+          "feature_id": 967597,
+          "activation": 9.539241790771484
+        },
+        {
+          "feature_id": 840475,
+          "activation": 9.29248046875
+        },
+        {
+          "feature_id": 464994,
+          "activation": 7.3599748611450195
+        },
+        {
+          "feature_id": 1517115,
+          "activation": 7.167285919189453
+        },
+        {
+          "feature_id": 1581890,
+          "activation": 7.075724124908447
+        },
+        {
+          "feature_id": 1019313,
+          "activation": 6.791298866271973
+        },
+        {
+          "feature_id": 811386,
+          "activation": 5.854950904846191
+        }
+      ],
+      "accepted_feature_count": 2,
+      "proposed_feature_count": 8
+    },
+    {
+      "prompt_idx": 0,
+      "pos": 110,
+      "jlens": " melting  magma  melted  melts  lava \u7194\u5316  melt \u5ca9\u6d46 \u7194 \u7194\u878d \u7194\u70b9  volcanic",
+      "nla": "Educational science article explaining volcanic geology, structured with headers and definitions, establishing foundational concepts before detailing magma formation.\n\nThe section \"How Magma is Formed\" has begun explaining the process, with the mantle's extreme heat and pressure as the starting point \u2014 the next logical step is describing rock melting into magma.\n\nFinal token \"rock\" ends a clause describing mantle conditions (\"extremely hot and under great pressure, causing rock\"), immediately requiring a verb or continuation describing what happens to rock (e.g., \"to melt\" or \"partially melt\").\n\"Magma is formed deep within the Earth's mantle. The mantle is a layer of the Earth that lies beneath the crust. The extreme heat and pressure in the mantle cause rock\" \u2014 expects \"to melt\" or \"to partially melt\" as the immediate next phrase.\n\nFinal token \"rock\" is mid-sentence, requiring",
+      "sae": "Study of rocks, their composition, formation, and distribution in Earth's crust. ; Molten material associated with volcanic or tectonic activity, especially in underwater or divergent plate settings. ; Activation occurs after clauses describing conditions or processes in metamorphic rock formation.",
+      "sae_proposed": "Rock is used to describe reliable, natural, or physical storage mediums or structures. ; Study of rocks, their composition, formation, and distribution in Earth's crust. ; Molten material associated with volcanic or tectonic activity, especially in underwater or divergent plate settings. ; Activation occurs after clauses describing conditions or processes in metamorphic rock formation. ; Partial melting of mantle or igneous rocks in geochemical contexts ; Abstract, theoretical concepts describing intangible or complex ideas in academic or philosophical contexts. ; Presence of defining examples or instances following phase change descriptions. ; Formation or emergence of supercontinents in geological contexts",
+      "features": [
+        {
+          "feature_id": 1598679,
+          "activation": 17.34816551208496
+        },
+        {
+          "feature_id": 1207886,
+          "activation": 14.306612968444824
+        },
+        {
+          "feature_id": 328439,
+          "activation": 13.537981033325195
+        },
+        {
+          "feature_id": 442698,
+          "activation": 13.36411190032959
+        },
+        {
+          "feature_id": 280544,
+          "activation": 9.775435447692871
+        },
+        {
+          "feature_id": 1921482,
+          "activation": 7.80054235458374
+        },
+        {
+          "feature_id": 1295952,
+          "activation": 7.6148247718811035
+        },
+        {
+          "feature_id": 2042288,
+          "activation": 7.4812703132629395
+        }
+      ],
+      "accepted_feature_count": 3,
+      "proposed_feature_count": 8
+    },
+    {
+      "prompt_idx": 0,
+      "pos": 135,
+      "jlens": " volcanic  geopol  volcan  earthquakes  oceans  ocean  geological  geopolitical Pacific \u6d77\u57df \u6d77\u5e95  coastal",
+      "nla": "Educational science article on volcanoes, structured with headers and bullet points, explaining geological concepts systematically for students.\n\nThe text is mid-explanation of magma formation, following a pattern of defining terms then elaborating \u2014 \"Magma is molten rock... It forms when...\" \u2014 now detailing the specific causes/mechanisms of magma formation.\n\nFinal token \"caused by:\" introduces a list of causes for magma formation, requiring bullet points or specific geological mechanisms (e.g., plate boundaries, subduction zones, hotspots) \u2014 likely referencing tectonic plate interactions as the primary volcanic context.\n\"Volcanoes form when magma reaches Earth's surface. Magma is molten rock deep underground. It forms when rock melts due to extreme heat and pressure. Causes of magma formation include:\" \u2014 expects plate boundary types (convergent, divergent, hotspots).\n\nOceanic plate tectonics",
+      "sae": "Movement of tectonic plates or geological forces causing earthquakes or metamorphism ; All windows end with a colon after introducing safety, privacy, or best practice tips.",
+      "sae_proposed": "Subduction-driven formation of volcanic arcs and chains. ; Convergent plate boundaries where earthquakes occur at plate interactions. ; Movement of tectonic plates or geological forces causing earthquakes or metamorphism ; Volcanoes are frequently mentioned in the context of tectonic plate boundaries. ; Locations of subduction zones where tsunamis are generated or studied. ; Mid-ocean ridge-related geological features and volcanic activity. ; All windows end with a colon after introducing safety, privacy, or best practice tips. ; Presence of colons introducing examples or lists in scientific or instructional contexts.",
+      "features": [
+        {
+          "feature_id": 1550806,
+          "activation": 19.70806884765625
+        },
+        {
+          "feature_id": 938569,
+          "activation": 15.33123779296875
+        },
+        {
+          "feature_id": 1827490,
+          "activation": 10.47422981262207
+        },
+        {
+          "feature_id": 1316664,
+          "activation": 8.242705345153809
+        },
+        {
+          "feature_id": 961327,
+          "activation": 8.055203437805176
+        },
+        {
+          "feature_id": 1676946,
+          "activation": 7.936020851135254
+        },
+        {
+          "feature_id": 449301,
+          "activation": 7.921435832977295
+        },
+        {
+          "feature_id": 366724,
+          "activation": 7.684411525726318
+        }
+      ],
+      "accepted_feature_count": 2,
+      "proposed_feature_count": 8
+    },
+    {
+      "prompt_idx": 1,
+      "pos": 60,
+      "jlens": " pricing  prices  rates  price prices \u5229\u7387  costs  affordability pricing  premiums  Pricing  lenders",
+      "nla": "Educational explainer format established: article promises to cover \"what a fixed-rate mortgage is and the factors that affect its interest rate.\"\n\nThe intro paragraph already defined the topic and previewed the article's scope, so the body now elaborates on mechanics and rate factors for fixed-rate home equity loans.\n\nFinal token \"influence\" ends an introductory sentence (\"This article will break down how fixed-rate home equity loans work and the factors that influence\"), requiring a direct object \u2014 specifically \"the interest rate\" or \"your rate,\" mirroring the title's phrasing.\n\"Fixed-rate home equity loans are a popular financial product, but many people don't fully understand how they work or why interest rates vary. In this article, we'll explore what a fixed-rate home equity loan is and the key factors that influence\" \u2014 expects \"the interest rate\" completing the sentence, referencing market conditions",
+      "sae": "Loans, interest rates, and financial calculations in a formal or educational context.",
+      "sae_proposed": "Usage of marketing methods without direct payment, with associated costs. ; Biological or psychological factors exerting an effect on behavior or mental states. ; Effects or influences of variables on health, behavior, or study outcomes. ; Loans, interest rates, and financial calculations in a formal or educational context. ; Action-oriented verbs used to address or resolve issues in a step-by-step context. ; Factors that influence or determine specific outcomes in complex systems. ; Nurturing, processing, or recreating involves deepening connections, managing trauma, or simulating realistic experiences. ; Tailoring offerings based on user behavior and data analysis",
+      "features": [
+        {
+          "feature_id": 1590832,
+          "activation": 22.00334930419922
+        },
+        {
+          "feature_id": 346359,
+          "activation": 17.47626495361328
+        },
+        {
+          "feature_id": 282884,
+          "activation": 8.778899192810059
+        },
+        {
+          "feature_id": 979424,
+          "activation": 8.766439437866211
+        },
+        {
+          "feature_id": 1744767,
+          "activation": 8.271241188049316
+        },
+        {
+          "feature_id": 341173,
+          "activation": 7.834936141967773
+        },
+        {
+          "feature_id": 949869,
+          "activation": 7.722099304199219
+        },
+        {
+          "feature_id": 1581890,
+          "activation": 7.463404178619385
+        }
+      ],
+      "accepted_feature_count": 1,
+      "proposed_feature_count": 8
+    },
+    {
+      "prompt_idx": 1,
+      "pos": 85,
+      "jlens": " fixed Fixed  contractual -fixed  Fixed  contracts fixed \u56fa\u5b9a  FIXED \u56fa\u5b9a\u7684 \u2011  **",
+      "nla": "Educational explainer format with structured sections (headers, bullet points) defining a financial concept for beginners.\n\nThe article has introduced fixed-rate mortgages and promised a breakdown of key characteristics; the \"How a Fixed-Rate Mortgage Works\" section now delivers that explanation, with bullet points expected to cover each defining feature.\n\n\"1. Fixed Interest Rate:\" is the first bullet point label, immediately requiring a colon-followed explanation of what \"fixed\" means \u2014 e.g., \"The interest rate stays the same for the entire loan term.\"\n\"A fixed-rate mortgage is a type of personal loan where the interest rate remains constant throughout the entire loan term. Here\u2019s a breakdown of its key characteristics:\n\n1. **Fixed Interest Rate**:\" \u2014 the bolded label just opened, demanding a plain-language definition sentence explaining the core concept.\n\n\"1. Fixed interest rate\":\" \u2014",
+      "sae": "Locking in fixed, long-term solar or renewable energy rates for cost stability. ; Quotations followed by a period indicating a completed thought or statement. ; Benefits listed using bullet points following a thematic introduction. ; Listed items follow a colon-introduced structure with descriptive phrases preceding the peak token.",
+      "sae_proposed": "Usage of marketing methods without direct payment, with associated costs. ; Presence of colons introducing examples or lists in scientific or instructional contexts. ; Tailoring offerings based on user behavior and data analysis ; Locking in fixed, long-term solar or renewable energy rates for cost stability. ; Closing punctuation marks followed by citations or references in academic or formal text. ; Quotations followed by a period indicating a completed thought or statement. ; Benefits listed using bullet points following a thematic introduction. ; Listed items follow a colon-introduced structure with descriptive phrases preceding the peak token.",
+      "features": [
+        {
+          "feature_id": 1590832,
+          "activation": 23.682823181152344
+        },
+        {
+          "feature_id": 366724,
+          "activation": 10.171300888061523
+        },
+        {
+          "feature_id": 1581890,
+          "activation": 9.214492797851562
+        },
+        {
+          "feature_id": 797134,
+          "activation": 8.931623458862305
+        },
+        {
+          "feature_id": 603383,
+          "activation": 8.127089500427246
+        },
+        {
+          "feature_id": 582149,
+          "activation": 7.0598554611206055
+        },
+        {
+          "feature_id": 27439,
+          "activation": 6.0657830238342285
+        },
+        {
+          "feature_id": 1664252,
+          "activation": 6.0367631912231445
+        }
+      ],
+      "accepted_feature_count": 4,
+      "proposed_feature_count": 8
+    },
+    {
+      "prompt_idx": 1,
+      "pos": 110,
+      "jlens": " payments \u6708\u4f9b  monthly  mortgage  amort payments  payment payment \u6bcf\u6708  Payments monthly  repayment",
+      "nla": "Financial explainer article defining fixed-rate mortgages, establishing educational tone with structured definitions and examples.\n\nThe article is mid-explanation of how a 30-year fixed mortgage works, with the interest rate lock-in concept being elaborated \u2014 the reader expects details about payment stability and amortization.\n\nFinal token \"1\" is the start of \"100%\" (completing \"locked in for 1\"), immediately requiring \"00%\" followed by explanation of monthly payments, likely introducing amortization concepts like principal/interest split or payment consistency over time.\n</ex>: \"locked in for the life of the loan. For example, if you take out a 30-year fixed mortgage at an interest rate of around 6%, that rate is locked in for 1\" \u2014 standard mortgage explanation expects amortization schedule details next, like equal monthly payments covering principal and interest.",
+      "sae": "Consistent use of comparative language to describe loan term impacts on repayment amounts. ; Description of payment schedules and loan amortization details ; Scheduled debt repayments in loan contexts, consistently paired with \"amortization\" or \"payment\" terms.",
+      "sae_proposed": "Consistent use of comparative language to describe loan term impacts on repayment amounts. ; Description of payment schedules and loan amortization details ; Peak occurs at '1' in contexts involving sudden onset, duration, or timing of physiological or emotional events. ; Monthly loan payments calculated with interest and principal breakdowns. ; Scheduled debt repayments in loan contexts, consistently paired with \"amortization\" or \"payment\" terms. ; Usage of possessive or demonstrative pronouns in context-specific ownership or reference. ; Shared use of \"otic\" in biological twin contexts; \"with\" in physical force descriptions; commas in structured financial plans. ; Repetition of \"The Mortgage Calculator helps estimate the\" in fixed structural context.",
+      "features": [
+        {
+          "feature_id": 505124,
+          "activation": 20.581069946289062
+        },
+        {
+          "feature_id": 1730700,
+          "activation": 13.250905990600586
+        },
+        {
+          "feature_id": 1517115,
+          "activation": 8.840296745300293
+        },
+        {
+          "feature_id": 739573,
+          "activation": 8.466550827026367
+        },
+        {
+          "feature_id": 957617,
+          "activation": 7.881973743438721
+        },
+        {
+          "feature_id": 988595,
+          "activation": 7.1785078048706055
+        },
+        {
+          "feature_id": 1125409,
+          "activation": 5.592172622680664
+        },
+        {
+          "feature_id": 975216,
+          "activation": 5.535055637359619
+        }
+      ],
+      "accepted_feature_count": 3,
+      "proposed_feature_count": 8
+    },
+    {
+      "prompt_idx": 1,
+      "pos": 135,
+      "jlens": " predictable  stability  predict  unpredictable  homeowners \u7a33\u5b9a\u6027  guarantee  guarantees \u6708\u4f9b  guaranteed predict Predict",
+      "nla": "Financial explainer article structure: defining mortgage types with headers, bullet points, and comparisons \u2014 fixed-rate section is being detailed first.\n\nThe article promised a comparison of fixed vs. adjustable-rate mortgages, so after explaining fixed-rate mechanics, adjustable-rate details are expected next.\n\nFinal token \"never changes,\" ends a sentence describing payment stability; the immediate continuation must complete this thought, likely adding a benefit clause such as \"making budgeting predictable\" or \"for the entire loan term.\"\n\"With a fixed-rate mortgage, your interest rate is locked in for the entire loan term. Your monthly principal and interest payment never changes,\" \u2014 this comma signals a continuation clause, likely \"making budgeting predictable\" or \"regardless of market rates.\"\n\n\"Your monthly payment stays the same,\" \u2014 the final clause emphasizes stability, a hallmark benefit of fixed-rate mortgages.\n\nPredictable monthly payments throughout \u2014",
+      "sae": "Locking in fixed, long-term solar or renewable energy rates for cost stability. ; Consistent use of comparative language to describe loan term impacts on repayment amounts.",
+      "sae_proposed": "Locking in fixed, long-term solar or renewable energy rates for cost stability. ; Consistent use of comparative language to describe loan term impacts on repayment amounts. ; Frequent use of commas to separate clauses in marketing and automation context. ; Predictable, stable, or consistent outcomes in financial or operational contexts. ; Usage of marketing methods without direct payment, with associated costs. ; Tailoring offerings based on user behavior and data analysis ; Expectation of future expansion of AI capabilities in technology and applications. ; Closing punctuation marks followed by citations or references in academic or formal text.",
+      "features": [
+        {
+          "feature_id": 797134,
+          "activation": 14.861593246459961
+        },
+        {
+          "feature_id": 505124,
+          "activation": 12.970684051513672
+        },
+        {
+          "feature_id": 788549,
+          "activation": 12.046825408935547
+        },
+        {
+          "feature_id": 546226,
+          "activation": 10.172867774963379
+        },
+        {
+          "feature_id": 1590832,
+          "activation": 8.761321067810059
+        },
+        {
+          "feature_id": 1581890,
+          "activation": 7.33839750289917
+        },
+        {
+          "feature_id": 954753,
+          "activation": 7.068386077880859
+        },
+        {
+          "feature_id": 603383,
+          "activation": 6.019403457641602
+        }
+      ],
+      "accepted_feature_count": 2,
+      "proposed_feature_count": 8
+    },
+    {
+      "prompt_idx": 2,
+      "pos": 60,
+      "jlens": "\u9632\u5b88  scoring  defending  innings  defensive \u7c7b\u4f3c\u4e8e  attacking \u653b\u9632  similar  cricket \u6709\u70b9\u50cf \u985e\u4f3c",
+      "nla": "Explanatory article structure: intro promises a beginner's guide to cricket rules, now delivering the core explanation.\n\nThe sentence \"the basic concept is\" sets up a direct, simple definition of cricket's fundamental premise \u2014 likely describing the batting/bowling chase dynamic (e.g., \"similar to baseball\" or \"about scoring runs while avoiding being out\").\n\nFinal token \"is\" completes a copular construction (\"the basic concept is\"), requiring a predicate complement \u2014 a noun phrase or clause explaining the core mechanic, such as \"similar to a target game\" or \"one team attacks while the other defends.\"\n</ex>: \"Cricket is a hybrid sport with baseball, rugby, and soccer influences, but the basic concept is\" \u2014 the classic beginner explanation of cricket's core mechanic (attackers scoring runs, defenders trying to stop them).\n\nClassic analogy: the target game origin",
+      "sae": "Baseball-related terminology and analogies in scientific or educational contexts. ; Played is a consistent verb indicating the core activity of the sport or game being described. ; Use of comparative or qualifying adverbs like \"somewhat,\" \"ly,\" or \"as\" to modify intensity or degree of description.",
+      "sae_proposed": "The word \"is\" is used to define or describe a condition or state in a diagnostic or comparative context. ; Baseball-related terminology and analogies in scientific or educational contexts. ; Presence of capitalized proper nouns and formal, rule-based terminology in sports contexts. ; Objective is consistently used to denote the goal or end aim in game descriptions. ; Played is a consistent verb indicating the core activity of the sport or game being described. ; Repeated use of \"crick\" as a truncated or partial form preceding full word \"cricket\" in context. ; Use of comparative or qualifying adverbs like \"somewhat,\" \"ly,\" or \"as\" to modify intensity or degree of description. ; Use of \"in\" to indicate action, location, or inclusion within a process or system.",
+      "features": [
+        {
+          "feature_id": 1241790,
+          "activation": 11.085386276245117
+        },
+        {
+          "feature_id": 1499494,
+          "activation": 7.808638095855713
+        },
+        {
+          "feature_id": 1639402,
+          "activation": 7.128610610961914
+        },
+        {
+          "feature_id": 552989,
+          "activation": 6.75393009185791
+        },
+        {
+          "feature_id": 847827,
+          "activation": 6.247561454772949
+        },
+        {
+          "feature_id": 422760,
+          "activation": 5.746889591217041
+        },
+        {
+          "feature_id": 2094697,
+          "activation": 5.654060363769531
+        },
+        {
+          "feature_id": 95089,
+          "activation": 5.104323387145996
+        }
+      ],
+      "accepted_feature_count": 3,
+      "proposed_feature_count": 8
+    },
+    {
+      "prompt_idx": 2,
+      "pos": 85,
+      "jlens": " divisions  sections  stages \u5206\u4e3a  periods  divides  sessions \u5206\u6210  innings \u4e24\u90e8\u5206  splits  divided",
+      "nla": "Explanatory article structure: beginner-friendly cricket guide, systematically introducing rules and mechanics with accessible analogies.\n\nThe article has introduced cricket's complexity and is now delivering the promised explanation of how the game works, specifically the batting/bowling dynamic and scoring structure.\n\n\"The game is divided\" is an incomplete sentence mid-explanation, requiring immediate continuation describing cricket's structural divisions \u2014 most likely \"into innings\" or \"into sessions/overs,\" as this is the fundamental organizational unit of cricket.\n\"Cricket is a team sport where two teams take turns batting and bowling. The goal is to score more runs than the opposing team.\n\nUnlike most sports, cricket is played over a much longer period of time. The game is divided\" \u2014 expects \"into innings\" or \"into two main parts\" as the next phrase.\n\n\"The game is divided\" is an incomplete sentence requiring immediate continuation",
+      "sae": "Division of something into parts or sections is the consistent theme. ; Division of a description into four parts is consistently activated.",
+      "sae_proposed": "Division or fragmentation of a system or entity into parts. ; Division of mechanisms or features across different names, formats, or protocols in technical inventions. ; Repeated use of \"crick\" as a truncated or partial form preceding full word \"cricket\" in context. ; Usage of prepositions indicating processes or actions in progress. ; Division of something into parts or sections is the consistent theme. ; Match play is a competitive format where players or teams face off in structured, pairwise engagements. ; Presence of a subject performing an action followed by a clause introducing a process or state. ; Division of a description into four parts is consistently activated.",
+      "features": [
+        {
+          "feature_id": 1149339,
+          "activation": 11.914563179016113
+        },
+        {
+          "feature_id": 986623,
+          "activation": 11.685846328735352
+        },
+        {
+          "feature_id": 422760,
+          "activation": 10.59139633178711
+        },
+        {
+          "feature_id": 73255,
+          "activation": 8.983469009399414
+        },
+        {
+          "feature_id": 947660,
+          "activation": 8.488211631774902
+        },
+        {
+          "feature_id": 194171,
+          "activation": 6.2917633056640625
+        },
+        {
+          "feature_id": 66306,
+          "activation": 5.670029163360596
+        },
+        {
+          "feature_id": 622934,
+          "activation": 5.496051788330078
+        }
+      ],
+      "accepted_feature_count": 2,
+      "proposed_feature_count": 8
+    },
+    {
+      "prompt_idx": 2,
+      "pos": 110,
+      "jlens": " swapping \u4e92\u6362  swapped  swaps  swap \u4ea4\u6362 \u8f6e\u6362 Swap _swap swap \u8f6e\u6d41 .swap",
+      "nla": "Educational explainer format with structured sections (\"What is Cricket?\") signals continued systematic breakdown of cricket rules for beginners.\n\nThe text is mid-explanation of cricket's two-team alternating structure, establishing the batting/bowling dynamic \u2014 the next tokens will likely complete the role-switching mechanic (e.g., \"then they switch roles\").\n\nFinal token \"bowls),\" ends a clause describing team roles (\"One team bats while the other bowls and fields,\") \u2014 a comma signals continuation, likely \"then they switch\" or \"and then they swap over\" to complete the innings-exchange concept.\n\"Cricket is a two-sided game played between two teams. The goal is to score more runs than your opponent. One team bats while the other bowls and fields,\" \u2014 the sentence is incomplete, requiring the innings-switching explanation.\n\n\"One team bats while the other bowls and fields,\"",
+      "sae": "Switching occurs after a delay or action, involving a change of role or turn between participants.",
+      "sae_proposed": "Frequent use of commas to separate clauses in marketing and automation context. ; Fixed time periods followed by a time-based conclusion or end condition. ; Swapping or flipping of positions in a system or structure. ; Closing punctuation marks followed by citations or references in academic or formal text. ; Repeated use of \"player\" in gaming contexts with turn-based or real-time mechanics. ; Repeated use of \"crick\" as a truncated or partial form preceding full word \"cricket\" in context. ; Usage of marketing methods without direct payment, with associated costs. ; Switching occurs after a delay or action, involving a change of role or turn between participants.",
+      "features": [
+        {
+          "feature_id": 788549,
+          "activation": 9.588196754455566
+        },
+        {
+          "feature_id": 2095058,
+          "activation": 8.393472671508789
+        },
+        {
+          "feature_id": 1032029,
+          "activation": 7.222747802734375
+        },
+        {
+          "feature_id": 603383,
+          "activation": 7.004474639892578
+        },
+        {
+          "feature_id": 2067078,
+          "activation": 6.139362335205078
+        },
+        {
+          "feature_id": 422760,
+          "activation": 6.094841003417969
+        },
+        {
+          "feature_id": 1590832,
+          "activation": 5.87131404876709
+        },
+        {
+          "feature_id": 951832,
+          "activation": 5.6278228759765625
+        }
+      ],
+      "accepted_feature_count": 1,
+      "proposed_feature_count": 8
+    },
+    {
+      "prompt_idx": 2,
+      "pos": 135,
+      "jlens": " **  teams  players \u2011  **\u2013  **- \u00ads  Teams  Players \u00adt  **+ \u00adtion",
+      "nla": "Beginner-friendly cricket explainer with structured sections, bullet points, and simple analogies \u2014 next content continues the \"Basic Setup\" section.\n\nThe document follows a clear instructional format: intro \u2192 analogy \u2192 rules overview \u2192 detailed sections, so \"Basic Setup\" now requires concrete field/game elements explained.\n\nThe final token \"-\" opens a bullet point list under \"Basic Setup: The Field and Teams\\nHere\u2019s the basic setup:\\n-\", immediately requiring a short explanatory bullet describing a core cricket concept (e.g., \"Two teams of 11 players\").\n\"Cricket is a team sport played on a large field with two teams competing to score more runs than the other.\n\nHere\u2019s the basic setup:\n-\" opens a bulleted list, so the next token continues with a dash-prefixed explanation of a specific game element or rule.\n\nThe final \"-\" is a list item marker",
+      "sae": "Use of hyphens to denote list items or sentence breaks in explanatory text. ; Played is a consistent verb indicating the core activity of the sport or game being described.",
+      "sae_proposed": "Usage of marketing methods without direct payment, with associated costs. ; Use of hyphens to denote list items or sentence breaks in explanatory text. ; Focus on injury types and legal claims in personal injury contexts. ; Tailoring offerings based on user behavior and data analysis ; Played is a consistent verb indicating the core activity of the sport or game being described. ; Presence of capitalized proper nouns and formal, rule-based terminology in sports contexts. ; Feature: Lists structured with numbered steps or categorized factors followed by a dash. ; Presence of \"board\" or \"a\" in chess-related contexts with consistent formatting and domain-specific terminology.",
+      "features": [
+        {
+          "feature_id": 1590832,
+          "activation": 17.525419235229492
+        },
+        {
+          "feature_id": 1681630,
+          "activation": 14.550369262695312
+        },
+        {
+          "feature_id": 3746,
+          "activation": 7.252633571624756
+        },
+        {
+          "feature_id": 1581890,
+          "activation": 7.050528049468994
+        },
+        {
+          "feature_id": 847827,
+          "activation": 6.890740394592285
+        },
+        {
+          "feature_id": 1639402,
+          "activation": 6.597418785095215
+        },
+        {
+          "feature_id": 955793,
+          "activation": 6.211231708526611
+        },
+        {
+          "feature_id": 1715292,
+          "activation": 5.876964569091797
+        }
+      ],
+      "accepted_feature_count": 2,
+      "proposed_feature_count": 8
+    },
+    {
+      "prompt_idx": 3,
+      "pos": 60,
+      "jlens": " centuries  decades -era  modern  era  historical  contemporary  classics  century  classical  historically  historic",
+      "nla": "Educational/expository tone introducing classical music concepts, establishing accessibility and broad appeal for general readers.\n\nThe article follows a structured explainer format: hook \u2192 definition \u2192 elaboration, now detailing the scope and diversity of orchestral music history.\n\nFinal phrase \"from the Baroque era\" opens a historical range construction (\"Whether it's classical music ranging from the Baroque era\"), requiring continuation with a contrasting endpoint, e.g., \"to the Romantic period\" or \"to today.\"\n\"Orchestral music is a complex art form that demands both technical skill and emotional depth. Its versatility is unmatched, allowing composers to explore nearly any subject matter. Whether it's classical music ranging from the Baroque era\" \u2014 this incomplete comparative phrase demands a continuation listing another era or specific examples.\n\n\"Baroque era\" ends mid-range, expecting a continuation like \"to Mozart\" or historical figures.",
+      "sae": "Reference to a historical or cultural period, specifically the 'modern era' or 'era' in societal or developmental contexts. ; Consistent use of \"Philosophical Transactions\" as a document title or source. ; Classical music and its historical period, specifically the common practice period.",
+      "sae_proposed": "Reference to a historical or cultural period, specifically the 'modern era' or 'era' in societal or developmental contexts. ; Usage of marketing methods without direct payment, with associated costs. ; Abstract, theoretical concepts describing intangible or complex ideas in academic or philosophical contexts. ; Tailoring offerings based on user behavior and data analysis ; Consistent use of \"Philosophical Transactions\" as a document title or source. ; Optimizing, aligning, or offering solutions in strategic planning and resource management. ; Geographic or regional focus with location-based descriptors like Florida, Badami, Ages, or century. ; Classical music and its historical period, specifically the common practice period.",
+      "features": [
+        {
+          "feature_id": 787948,
+          "activation": 15.252854347229004
+        },
+        {
+          "feature_id": 1590832,
+          "activation": 11.241018295288086
+        },
+        {
+          "feature_id": 1921482,
+          "activation": 8.074148178100586
+        },
+        {
+          "feature_id": 1581890,
+          "activation": 5.948726177215576
+        },
+        {
+          "feature_id": 1950035,
+          "activation": 5.898799419403076
+        },
+        {
+          "feature_id": 1525889,
+          "activation": 5.345005035400391
+        },
+        {
+          "feature_id": 1805721,
+          "activation": 5.279111862182617
+        },
+        {
+          "feature_id": 23701,
+          "activation": 5.022208213806152
+        }
+      ],
+      "accepted_feature_count": 3,
+      "proposed_feature_count": 8
+    },
+    {
+      "prompt_idx": 3,
+      "pos": 85,
+      "jlens": " emotional  emotions  emotionally  emotion \u60c5\u611f \u7684\u60c5\u611f emotion  emocional \u60c5\u611f\u7684  Emotional  \u044d\u043c\u043e\u0446\u0438\u043e\u043d\u0430  emot",
+      "nla": "Educational/promotional essay structure: introduction to opera genre, building toward explaining its unique artistic value and emotional power.\n\nThe text is mid-argument, having established opera's historical and cultural significance, now pivoting to explain *why* it captivates audiences \u2014 the \"unique power\" thesis demands elaboration of opera's emotional or expressive capabilities.\n\nFinal token \"amplify\" is a verb mid-clause (\"Opera captivates because it has the power to amplify\"), requiring a direct object \u2014 likely \"emotion,\" \"human experience,\" or \"psychological depth\" \u2014 completing the explanation of how music intensifies drama.\n\"Opera is a genre that demands explanation, but its appeal is universal. This guide explores opera's history, conventions, and enduring relevance. The argument is that opera's power lies in its ability to amplify\" \u2014 music intensifying human emotion, drama, voice",
+      "sae": "Amplification in the context of hearing aids and tinnitus treatment. ; Expression of a full or varied range of emotions or experiences",
+      "sae_proposed": "Usage of marketing methods without direct payment, with associated costs. ; Amplification in the context of hearing aids and tinnitus treatment. ; Nurturing, processing, or recreating involves deepening connections, managing trauma, or simulating realistic experiences. ; Use of prepositions like 'of' in questions about loss or internal states. ; Expression of a full or varied range of emotions or experiences ; Abstract, theoretical concepts describing intangible or complex ideas in academic or philosophical contexts. ; Intensification of abstract concepts in architectural or philosophical discourse. ; Amplify is used to describe how certain conditions worsen or intensify other effects.",
+      "features": [
+        {
+          "feature_id": 1590832,
+          "activation": 24.525020599365234
+        },
+        {
+          "feature_id": 237396,
+          "activation": 19.043415069580078
+        },
+        {
+          "feature_id": 949869,
+          "activation": 14.654339790344238
+        },
+        {
+          "feature_id": 1977710,
+          "activation": 11.196928977966309
+        },
+        {
+          "feature_id": 1843061,
+          "activation": 8.248115539550781
+        },
+        {
+          "feature_id": 1921482,
+          "activation": 7.726114749908447
+        },
+        {
+          "feature_id": 1046545,
+          "activation": 7.413206100463867
+        },
+        {
+          "feature_id": 1780611,
+          "activation": 7.326012134552002
+        }
+      ],
+      "accepted_feature_count": 2,
+      "proposed_feature_count": 8
+    },
+    {
+      "prompt_idx": 3,
+      "pos": 110,
+      "jlens": " theatrical  storytelling  narrative  theater  narratives  cinematic  dramat  Narrative  dramatic  orchest  theaters  thematic",
+      "nla": "Educational guide structure: article systematically explains opera's components, now entering a numbered breakdown of typical opera experience elements.\n\nThe section header \"What Happens in an Opera?\" promises a structured walkthrough of opera's defining features (music, staging, libretto, etc.), with numbered subsections expected.\n\n\"1\" is the start of a numbered list item under \"The Structure and Experience of Opera,\" requiring a bolded or titled label (e.g., \"The Overture,\" \"Story and Libretto\") followed by a descriptive explanation.\n\"Opera is a distinct theatrical form with a unique structure and conventions. Below is a breakdown of what typically happens in an opera experience:\n\n1\" opens the numbered list, demanding a labeled component of opera (e.g., \"Story and Narrative Setup\") followed by a descriptive paragraph.\n\n\"1\" is the first list item marker, requiring a title",
+      "sae": "Listed items or sections followed by a numeral \"1.\" as a concluding marker. ; Numerical conclusion or count following explanatory text. ; Use of conjunctions and transitional phrases to link actions or elements within performing arts contexts.",
+      "sae_proposed": "Usage of marketing methods without direct payment, with associated costs. ; Listed items or sections followed by a numeral \"1.\" as a concluding marker. ; Numerical conclusion or count following explanatory text. ; Peak occurs at '1' in contexts involving sudden onset, duration, or timing of physiological or emotional events. ; Feature: Use of \"Here are\" followed by a numbered list of key points to consider. ; Numerical list items follow factual or true/false statements. ; Use of colons to introduce lists of steps or stages in a process. ; Use of conjunctions and transitional phrases to link actions or elements within performing arts contexts.",
+      "features": [
+        {
+          "feature_id": 1590832,
+          "activation": 22.64019775390625
+        },
+        {
+          "feature_id": 967597,
+          "activation": 9.47553539276123
+        },
+        {
+          "feature_id": 1019313,
+          "activation": 7.831361770629883
+        },
+        {
+          "feature_id": 1517115,
+          "activation": 6.867917060852051
+        },
+        {
+          "feature_id": 811386,
+          "activation": 6.452175140380859
+        },
+        {
+          "feature_id": 464994,
+          "activation": 6.326476097106934
+        },
+        {
+          "feature_id": 840475,
+          "activation": 5.6910810470581055
+        },
+        {
+          "feature_id": 1591407,
+          "activation": 5.490017890930176
+        }
+      ],
+      "accepted_feature_count": 3,
+      "proposed_feature_count": 8
+    },
+    {
+      "prompt_idx": 3,
+      "pos": 135,
+      "jlens": " orchestra  musical  songs  melod  melodies \u6b4c\u5267  theatrical  opera  concerts  scenes  music  stages",
+      "nla": "Educational explainer format with structured sections defining opera components, establishing a pattern of detailed, accessible descriptions.\n\nThe text is systematically listing structural elements of opera (definition, history, components), now detailing how opera is organized \u2014 acts and subdivisions are being enumerated.\n\nFinal token \"into\" completes \"divided into acts, and acts are in turn divided into\" \u2014 immediately requires the next structural subdivision term, most likely \"arias, recitatives, ensembles, and scenes\" or similar traditional opera terminology.\n\"Opera is a musical performance art form that combines music, singing, and drama. It is typically structured in acts and scenes.\n\nAn opera is divided into acts, and acts are in turn divided into\" \u2014 expects continuation with traditional opera subdivisions like \"arias, recitatives, or scenes\" (modern operas use continuous form).\n\nThe final phrase \"divided into\"",
+      "sae": "Division of something into parts or components is the consistent theme.",
+      "sae_proposed": "Opera is a central feature in Italian classical music and cultural identity. ; Soliloquy usage in dramatic contexts, especially in thematic or emotional scenes. ; Musical form descriptions involving baroque-era sonatas and their structural components. ; Flirtatious behavior and gendered blame in comedic character interactions. ; Paraphrasing or rewriting text into alternative formulations using automated tools. ; Activation occurs consistently on \"\u0120on\" following a clause or concept, indicating continuation or consequence. ; Presence of medical or health-related symptoms and conditions listed with specific causes and effects. ; Division of something into parts or components is the consistent theme.",
+      "features": [
+        {
+          "feature_id": 1506521,
+          "activation": 14.249228477478027
+        },
+        {
+          "feature_id": 1511513,
+          "activation": 10.014908790588379
+        },
+        {
+          "feature_id": 22251,
+          "activation": 8.271034240722656
+        },
+        {
+          "feature_id": 2041263,
+          "activation": 8.044293403625488
+        },
+        {
+          "feature_id": 10796,
+          "activation": 7.779633522033691
+        },
+        {
+          "feature_id": 1922410,
+          "activation": 7.156666278839111
+        },
+        {
+          "feature_id": 966132,
+          "activation": 5.7276201248168945
+        },
+        {
+          "feature_id": 874212,
+          "activation": 5.723823547363281
+        }
+      ],
+      "accepted_feature_count": 1,
+      "proposed_feature_count": 8
+    },
+    {
+      "prompt_idx": 4,
+      "pos": 60,
+      "jlens": " powerful  geological  destructive  Powerful  eros  glaciers  erosion  forces  power power  landscapes \u7684\u529b\u91cf",
+      "nla": "Educational article structure: intro paragraph establishes topic, now expanding into detailed explanation of glaciers and their characteristics.\n\nGeological/scientific domain: content about glacial formation, movement, and landscape impact signals upcoming discussion of erosional/depositional processes and landforms.\n\nFinal token \"powerful\" ends an introductory definition sentence (\"Glaciers are massive bodies of ice that form over long periods. They cover about 10% of Earth's land surface and are powerful\"), requiring a completing adjective complement or noun phrase, most likely \"agents of erosion\" or \"forces that shape landscapes.\"\n\"Glaciers are massive bodies of ice that form over long periods. They cover about 10% of Earth's land surface and are powerful\" \u2014 the sentence is mid-completion, demanding a concluding descriptor like \"agents of erosion\" or \"forces that dramatically reshape landscapes.\"",
+      "sae": "Powerful used to describe impactful or influential aspects of a phenomenon or strategy. ; Forces that shape Earth's surface including weathering, water, and mass movement. ; Activation occurs in phrases describing Earth's geological processes and their environmental drivers. ; The use of \"force\" to describe influence, power, or impact in abstract or ideological contexts.",
+      "sae_proposed": "Powerful used to describe impactful or influential aspects of a phenomenon or strategy. ; Usage of marketing methods without direct payment, with associated costs. ; Use of \"power\" to describe physical strength, influence, or capability in mechanical or bodily contexts. ; Forces that shape Earth's surface including weathering, water, and mass movement. ; Preference for static or unchanging states over dynamic or evolving ones. ; Activation occurs in phrases describing Earth's geological processes and their environmental drivers. ; The use of \"force\" to describe influence, power, or impact in abstract or ideological contexts. ; Fluorescence time-lapse microscopy is described as powerful in scientific research contexts.",
+      "features": [
+        {
+          "feature_id": 47319,
+          "activation": 18.45674705505371
+        },
+        {
+          "feature_id": 1590832,
+          "activation": 17.926725387573242
+        },
+        {
+          "feature_id": 1284574,
+          "activation": 13.170838356018066
+        },
+        {
+          "feature_id": 1588500,
+          "activation": 9.856968879699707
+        },
+        {
+          "feature_id": 667587,
+          "activation": 9.67591381072998
+        },
+        {
+          "feature_id": 577932,
+          "activation": 9.09469985961914
+        },
+        {
+          "feature_id": 1286721,
+          "activation": 8.03296947479248
+        },
+        {
+          "feature_id": 1817999,
+          "activation": 7.178112983703613
+        }
+      ],
+      "accepted_feature_count": 4,
+      "proposed_feature_count": 8
+    },
+    {
+      "prompt_idx": 4,
+      "pos": 85,
+      "jlens": " process  processes  and  formation process \u4ee5\u53ca\u5982\u4f55 :\\  environmental Process /process  creation \u7684\u8fc7\u7a0b",
+      "nla": "Educational article structure: intro established glaciers' importance, now delivering on promised explanation of formation and impact processes.\n\nThe article explicitly promised to cover \"how glaciers form and how they impact the environment,\" creating a two-part content obligation that guides the entire piece.\n\nFinal phrase \"This article will explore how glaciers form\" is the concluding clause of the introduction's roadmap sentence, directly requiring continuation with \"and how they move\" (mirroring the earlier \"how they form and move\") to complete the parallel structure.\n\"Glaciers are massive bodies of ice that play a significant role in Earth's climate and environment. Understanding how glaciers form and move is essential to comprehending their environmental impact. This article will explore the processes involved in glacier formation and their effects on the environment. In this article, we will explore the processes by which glaciers form\" \u2014 formation conditions, accumulation, compaction steps",
+      "sae": "Formation or creation of physical structures via defined shapes or processes ; Formation of geological features and rock types is the consistent topic. ; Coastal landforms and glacial processes involving erosion and deposition features ; How something originated or began to exist in a specific context.",
+      "sae_proposed": "Usage of marketing methods without direct payment, with associated costs. ; Formation or creation of physical structures via defined shapes or processes ; Activation occurs in contexts involving data visualization, statistical modeling, or quantitative analysis. ; Formation of geological features and rock types is the consistent topic. ; How a system, organization, or process functions or is structured. ; Coastal landforms and glacial processes involving erosion and deposition features ; Activation occurs at nouns denoting abstract concepts or physical entities in specific contextual domains. ; How something originated or began to exist in a specific context.",
+      "features": [
+        {
+          "feature_id": 1590832,
+          "activation": 12.023088455200195
+        },
+        {
+          "feature_id": 1141451,
+          "activation": 11.29046630859375
+        },
+        {
+          "feature_id": 273429,
+          "activation": 7.8498311042785645
+        },
+        {
+          "feature_id": 24752,
+          "activation": 7.131555557250977
+        },
+        {
+          "feature_id": 563006,
+          "activation": 6.332241535186768
+        },
+        {
+          "feature_id": 1576064,
+          "activation": 5.602653980255127
+        },
+        {
+          "feature_id": 436239,
+          "activation": 5.578125476837158
+        },
+        {
+          "feature_id": 1697159,
+          "activation": 5.378875732421875
+        }
+      ],
+      "accepted_feature_count": 4,
+      "proposed_feature_count": 8
+    },
+    {
+      "prompt_idx": 4,
+      "pos": 110,
+      "jlens": " process  processes  accumulation  compress  snow  accumulated  centuries  compressed  compression  accumulating  accum  gradually",
+      "nla": "Educational geography article structure: section headers signal systematic coverage of glacier topics, now entering formation explanation.\n\nThe article follows a structured format with defined sections (\"What is a Glacier?\", \"How Glaciers Form\"), establishing that a detailed, factual explanation of glacier formation processes is expected next.\n\nFinal phrase \"Glacier formation is a\" opens a definitional sentence requiring a noun phrase (e.g., \"multi-stage process\" or \"long-term accumulation process\"), specifically describing snow compaction into ice.\n\"Glaciers are large, persistent bodies of ice that form on land. They are found in cold climates and high altitudes around the world.\n\nHow Glaciers Form\nGlacier formation is a\" \u2014 expects a noun phrase describing the snow-to-ice accumulation process, e.g., \"multi-stage process involving snow accumulation and compaction.\"\n\nClassic glacier science: snow density",
+      "sae": "Glacial formation and movement involving snow accumulation and pressure buildup ; Accumulation of snow over time leading to ice sheet formation",
+      "sae_proposed": "Presence of \"a\" following a noun or concept in a generalizing or initiating context. ; Feature: Use of \"the\" as a definite article introducing a specific process or system. ; Glacial formation and movement involving snow accumulation and pressure buildup ; Formation of glaciers and ice sheets in specific geographic regions. ; Accumulation of snow over time leading to ice sheet formation ; The word \"a\" follows a noun phrase and introduces a subsequent noun or concept. ; Glacier-related phenomena in climate change, sea level rise, and weather interactions. ; Presence of large, natural masses or bodies of water or ice.",
+      "features": [
+        {
+          "feature_id": 969282,
+          "activation": 12.744290351867676
+        },
+        {
+          "feature_id": 389321,
+          "activation": 11.29712200164795
+        },
+        {
+          "feature_id": 1928171,
+          "activation": 9.283588409423828
+        },
+        {
+          "feature_id": 293680,
+          "activation": 8.541686058044434
+        },
+        {
+          "feature_id": 1856183,
+          "activation": 7.865889549255371
+        },
+        {
+          "feature_id": 1842096,
+          "activation": 7.340627670288086
+        },
+        {
+          "feature_id": 1301615,
+          "activation": 7.02009391784668
+        },
+        {
+          "feature_id": 1589802,
+          "activation": 6.603625297546387
+        }
+      ],
+      "accepted_feature_count": 2,
+      "proposed_feature_count": 8
+    },
+    {
+      "prompt_idx": 4,
+      "pos": 135,
+      "jlens": " annually  seasonal  yearly  winters  winter  accumulating  annual  accumulation  **  seasons  accumulated  accum",
+      "nla": "Educational science article structure: glacier formation explained systematically, with headers and definitions guiding content progression.\n\nThe section \"How Do Glaciers Form?\" has introduced the prerequisite condition for glacier formation, establishing a cause-effect explanation pattern requiring elaboration of accumulation mechanics.\n\nFinal phrase \"more snow accumulates than melts\" is mid-sentence, part of a defining condition clause (\"The key requirement is that more snow falls than melts\"), immediately requiring a temporal qualifier like \"over many years\" or \"year after year.\"\n\"Glaciers form in cold climates where snow accumulates over time. The key requirement for glacier formation is that the amount of snow accumulation exceeds the amount of snow loss.\n\nA glacier can only form when the climate allows for sustained snow accumulation. The key requirement is that **more snow accumulates than melts**\" \u2014 the classic net accumulation condition, implying annual surplus over",
+      "sae": "Consistent use of parentheses to enclose specific categories or subtopics. ; Closing phrases following parenthetical citations or references to images or sources.",
+      "sae_proposed": "Usage of marketing methods without direct payment, with associated costs. ; Formation of glaciers and ice sheets in specific geographic regions. ; Consistent use of parentheses to enclose specific categories or subtopics. ; Tailoring offerings based on user behavior and data analysis ; Activation occurs at tokens indicating emotional or psychological reactions to loss or stress. ; Quoted phrases with punctuation marks or formatting indicating direct speech or citation. ; Closing phrases following parenthetical citations or references to images or sources. ; Presence of the definite article \"the\" preceding a noun phrase in economic or statistical contexts.",
+      "features": [
+        {
+          "feature_id": 1590832,
+          "activation": 11.607229232788086
+        },
+        {
+          "feature_id": 293680,
+          "activation": 9.854731559753418
+        },
+        {
+          "feature_id": 2041821,
+          "activation": 8.310059547424316
+        },
+        {
+          "feature_id": 1581890,
+          "activation": 7.001777172088623
+        },
+        {
+          "feature_id": 1949447,
+          "activation": 6.788815498352051
+        },
+        {
+          "feature_id": 2053260,
+          "activation": 6.537416934967041
+        },
+        {
+          "feature_id": 315584,
+          "activation": 6.1258440017700195
+        },
+        {
+          "feature_id": 1238165,
+          "activation": 6.068933010101318
+        }
+      ],
+      "accepted_feature_count": 2,
+      "proposed_feature_count": 8
+    },
+    {
+      "prompt_idx": 5,
+      "pos": 60,
+      "jlens": " energy energy  fuel Energy \u80fd\u6e90  ATP  fuels  metabol -energy  Energy  metabolic  powering",
+      "nla": "Encyclopedic/educational register established: formal biology article defining mitochondrial function, following Wikipedia-style structure.\n\nThe sentence is mid-definition, explaining what oxidative phosphorylation does \u2014 \"is the process by which cells generate most of their energy in the form of adenosine triphosphate (ATP)\" \u2014 requiring completion of the relative clause describing ATP's role (e.g., \"serves as the cell's primary energy currency\").\n\nFinal token \"which\" opens a relative clause mid-sentence (\"ATP, which\"), immediately requiring a verb phrase describing ATP's function, such as \"serves as the primary energy currency for cellular processes.\"\n\"Mitochondria are the powerhouse of the cell because they are responsible for oxidative phosphorylation, the process by which cells generate most of their energy in the form of adenosine triphosphate (ATP), which\" \u2014 standard Wikipedia",
+      "sae": "Introduction of a clause that follows a contrast or reason, starting with \"which\" or \"\u0120which\" to connect ideas. ; Function or role in cellular energy processes or biological mechanisms ; Energy storage and transfer in cellular processes involving ATP. ; Reference to a subordinate clause introducing a reason or explanation following a noun or concept. ; The consistently activating token \"the\" precedes the introduction of ATP in biological contexts.",
+      "sae_proposed": "MicroRNA (miRNA) is a recurring scientific term in biological and medical research contexts. ; Introduction of a clause that follows a contrast or reason, starting with \"which\" or \"\u0120which\" to connect ideas. ; Function or role in cellular energy processes or biological mechanisms ; Decreased energy levels or impaired respiration in cellular contexts. ; Energy storage and transfer in cellular processes involving ATP. ; Reference to a subordinate clause introducing a reason or explanation following a noun or concept. ; The consistently activating token \"the\" precedes the introduction of ATP in biological contexts. ; Metabolic effects of fructose in nutritional and physiological contexts.",
+      "features": [
+        {
+          "feature_id": 1686574,
+          "activation": 23.3612060546875
+        },
+        {
+          "feature_id": 897740,
+          "activation": 16.832338333129883
+        },
+        {
+          "feature_id": 176436,
+          "activation": 11.602676391601562
+        },
+        {
+          "feature_id": 248721,
+          "activation": 9.993202209472656
+        },
+        {
+          "feature_id": 2241,
+          "activation": 9.237709999084473
+        },
+        {
+          "feature_id": 503683,
+          "activation": 8.75640869140625
+        },
+        {
+          "feature_id": 1731566,
+          "activation": 8.670595169067383
+        },
+        {
+          "feature_id": 290383,
+          "activation": 8.213337898254395
+        }
+      ],
+      "accepted_feature_count": 5,
+      "proposed_feature_count": 8
+    },
+    {
+      "prompt_idx": 5,
+      "pos": 85,
+      "jlens": " process  processes  stages  metabolic  oxygen  chemical  complex  metabolism  aerobic  biochemical  metabol \u4e09\u4e2a\u9636\u6bb5",
+      "nla": "Educational biology article structure: intro promised explanation of mitochondria's ATP production process, now delivering it systematically.\n\nThe article follows a clear pedagogical pattern \u2014 defining the problem (energy needs), introducing the organelle (mitochondria), and now explaining the mechanism, with \"cellular respiration\" as the named process requiring elaboration of its stages (glycolysis, Krebs cycle, ETC).\n\nFinal token \"Respiration\" ends an introductory definition sentence (\"The process that mitochondria use to convert food into ATP is called Cellular Respiration\"), immediately expecting a period or continuation describing its stages/components.\n\"Mitochondria are the powerhouse of the cell because they convert food into energy in the form of ATP.\n\nThe process that mitochondria use to convert food into ATP is called Cellular Respiration\" \u2014 expects a period or elaboration like \"which occurs in three main stages\"",
+      "sae": "",
+      "sae_proposed": "Presence of \"The\" at the start of each biological process description. ; Light-dependent reactions and the Calvin cycle in photosynthesis ; Respiration is a key energy-producing process in cells, involving oxygen and glucose. ; Usage of marketing methods without direct payment, with associated costs. ; Cellular respiration is a central biological process involving energy production in cells. ; Feature: Presence of compound nouns or phrases describing medical or physiological conditions. ; Presence of medical or health-related terminology in clinical or therapeutic contexts. ; High glycemic index or unhealthy dietary patterns associated with health risks.",
+      "features": [
+        {
+          "feature_id": 585680,
+          "activation": 9.82853889465332
+        },
+        {
+          "feature_id": 1687629,
+          "activation": 8.590606689453125
+        },
+        {
+          "feature_id": 1825337,
+          "activation": 6.948083877563477
+        },
+        {
+          "feature_id": 1590832,
+          "activation": 6.944036483764648
+        },
+        {
+          "feature_id": 148399,
+          "activation": 6.607128620147705
+        },
+        {
+          "feature_id": 667344,
+          "activation": 6.454640865325928
+        },
+        {
+          "feature_id": 163343,
+          "activation": 6.096500396728516
+        },
+        {
+          "feature_id": 937524,
+          "activation": 6.060649871826172
+        }
+      ],
+      "accepted_feature_count": 0,
+      "proposed_feature_count": 8
+    },
+    {
+      "prompt_idx": 5,
+      "pos": 110,
+      "jlens": "\u4e09\u4e2a\u9636\u6bb5  stages  phases -stage \u7b2c\u4e00\u9636\u6bb5  stage -three \u5173\u952e\u73af\u8282  metabolic :\\ -phase \u9636\u6bb5",
+      "nla": "Educational biology article structure: detailed explanation of cellular respiration, building toward a systematic breakdown of stages.\n\nThe article has introduced cellular respiration and its ATP yield, now transitioning to enumerate the specific stages \u2014 the reader expects a numbered or named list of the three main stages (glycolysis, Krebs cycle, electron transport chain).\n\nFinal token \"three\" is part of the sentence \"Cellular respiration takes place in three,\" requiring immediate continuation with \"main stages\" or \"steps/phases\" to complete the enumeration setup.\n\"Cellular respiration is the process by which cells convert glucose into ATP, NADH, and FADH2. This process is essential for energy production in the mitochondria.\n\nCellular respiration occurs in three\" \u2014 the sentence demands the named stages (glycolysis, Krebs cycle, oxidative phosphorylation) as the immediate next tokens.",
+      "sae": "Presence of exactly three items or quantities in a problem context. ; Activation consistently occurs around the word \"ric\" in contexts related to citric acid or citric acid cycle.",
+      "sae_proposed": "Four is used to list types or components in descriptive, factual explanations. ; Light-dependent reactions and the Calvin cycle in photosynthesis ; Presence of exactly three items or quantities in a problem context. ; Division of photosynthesis into light-dependent and light-independent phases ; Presence of \"The\" at the start of each biological process description. ; Presence of \"two\" indicating a count of distinct types or components in a categorization. ; Activation consistently occurs around the word \"ric\" in contexts related to citric acid or citric acid cycle. ; gold standard\" consistently referenced in medical methodology contexts.",
+      "features": [
+        {
+          "feature_id": 183188,
+          "activation": 11.685967445373535
+        },
+        {
+          "feature_id": 1687629,
+          "activation": 10.924301147460938
+        },
+        {
+          "feature_id": 898142,
+          "activation": 10.844799041748047
+        },
+        {
+          "feature_id": 589991,
+          "activation": 9.630688667297363
+        },
+        {
+          "feature_id": 585680,
+          "activation": 8.771699905395508
+        },
+        {
+          "feature_id": 1983800,
+          "activation": 8.11721420288086
+        },
+        {
+          "feature_id": 758232,
+          "activation": 7.492408752441406
+        },
+        {
+          "feature_id": 503831,
+          "activation": 7.36206579208374
+        }
+      ],
+      "accepted_feature_count": 2,
+      "proposed_feature_count": 8
+    },
+    {
+      "prompt_idx": 5,
+      "pos": 135,
+      "jlens": " processes  process  mechanisms  how process  mechanism -process  methods  Processes  procedures /process  complex",
+      "nla": "Educational explainer format with structured sections (headers, bullet points) covering cellular respiration and ATP production in solar cells.\n\nThe article has introduced the topic and outlined the three-stage process (glycolysis, Krebs cycle, electron transport chain), now transitioning to detailed explanation of each stage sequentially.\n\nFinal phrase \"Below is a step-by-step analysis of\" is an incomplete sentence requiring a noun phrase completing the object, most likely \"how cellular respiration produces energy\" or \"this process.\"\n\"Cellular respiration is the biological process by which plant and animal cells convert nutrients into ATP energy. This process involves multiple stages, including glycolysis, the Krebs cycle, and the electron transport chain, each contributing to the final energy output.\n\nHere is a step-by-step breakdown of\" \u2014 the final phrase \"Here is a step-by-step analysis of\" demands immediate continuation with the",
+      "sae": "Activation occurs before \"of\" in phrases describing complex systems or conditions requiring comprehensive analysis. ; Common use of \"to see\" or \"to decide\" in contexts involving experimentation or evaluation of methods and outcomes.",
+      "sae_proposed": "Usage of marketing methods without direct payment, with associated costs. ; Usage of \"of\" to denote a relationship between a tool or method and its function or purpose. ; Activation occurs before \"of\" in phrases describing complex systems or conditions requiring comprehensive analysis. ; Feature: Use of \"the\" as a definite article introducing a specific process or system. ; Common use of \"to see\" or \"to decide\" in contexts involving experimentation or evaluation of methods and outcomes. ; Optimizing, aligning, or offering solutions in strategic planning and resource management. ; Light-dependent reactions and the Calvin cycle in photosynthesis ; Presence of \"The\" at the start of each biological process description.",
+      "features": [
+        {
+          "feature_id": 1590832,
+          "activation": 22.938785552978516
+        },
+        {
+          "feature_id": 1837920,
+          "activation": 12.580978393554688
+        },
+        {
+          "feature_id": 1971381,
+          "activation": 8.70649242401123
+        },
+        {
+          "feature_id": 389321,
+          "activation": 7.797619342803955
+        },
+        {
+          "feature_id": 1288120,
+          "activation": 6.71791934967041
+        },
+        {
+          "feature_id": 1525889,
+          "activation": 6.500270843505859
+        },
+        {
+          "feature_id": 1687629,
+          "activation": 6.478184700012207
+        },
+        {
+          "feature_id": 585680,
+          "activation": 6.400925159454346
+        }
+      ],
+      "accepted_feature_count": 2,
+      "proposed_feature_count": 8
+    },
+    {
+      "prompt_idx": 6,
+      "pos": 60,
+      "jlens": " geological  continents  movements  oceans  movement \u5730\u8d28  billions  boundaries  earthquakes  regions  geopol  Earth",
+      "nla": "Educational science article structure: introduction established, now moving into detailed explanation of fault mechanics and earthquake formation.\n\nThe article promises to explain \"how faults form and the role they play in earthquakes,\" so the body must now elaborate on tectonic plate movement as the causal mechanism.\n\nFinal token \"plates\" ends a sentence fragment introducing the topic (\"Faults are geological features that form as a result of stress and movement within the Earth's crust. This process is primarily driven by the movement of tectonic plates\"), expecting continuation such as \"that make up the Earth's surface\" or a relative clause elaborating on plate behavior.\n\"Faults are geological features that form as a result of stress and movement within the Earth's crust. This process is primarily driven by the movement of tectonic plates\" \u2014 the sentence is incomplete, requiring a closing phrase or period about plate boundaries.",
+      "sae": "Plate tectonics and related geological features such as ridges, subduction zones, and boundaries. ; Large, solid rock plates that make up Earth's lithosphere and move over the mantle. ; Informal, conversational interaction via chatbots in customer service contexts. ; Movement of tectonic plates or geological forces causing earthquakes or metamorphism",
+      "sae_proposed": "Plate tectonics and related geological features such as ridges, subduction zones, and boundaries. ; Presence of \"plate\" in contexts related to products, fitness equipment, or microbial testing. ; Lithospheric plates are a recurring theme in geologic context, consistently referenced in plate tectonics explanations. ; Large, solid rock plates that make up Earth's lithosphere and move over the mantle. ; Usage of marketing methods without direct payment, with associated costs. ; Informal, conversational interaction via chatbots in customer service contexts. ; Movement of tectonic plates or geological forces causing earthquakes or metamorphism ; Tailoring offerings based on user behavior and data analysis",
+      "features": [
+        {
+          "feature_id": 1443870,
+          "activation": 13.424118041992188
+        },
+        {
+          "feature_id": 545722,
+          "activation": 13.415962219238281
+        },
+        {
+          "feature_id": 56244,
+          "activation": 12.671953201293945
+        },
+        {
+          "feature_id": 110553,
+          "activation": 12.271589279174805
+        },
+        {
+          "feature_id": 1590832,
+          "activation": 11.007107734680176
+        },
+        {
+          "feature_id": 2076250,
+          "activation": 10.289549827575684
+        },
+        {
+          "feature_id": 1827490,
+          "activation": 9.519155502319336
+        },
+        {
+          "feature_id": 1581890,
+          "activation": 7.561747074127197
+        }
+      ],
+      "accepted_feature_count": 4,
+      "proposed_feature_count": 8
+    },
+    {
+      "prompt_idx": 6,
+      "pos": 85,
+      "jlens": " movement  movements  Movement  earthquakes  geological Movement movement  Earth  pressures  pressure  forces  tension",
+      "nla": "Educational explainer format with numbered steps structure \u2014 \"How Earthquakes Happen: A Step-by-Step Process\" signals a sequential breakdown of earthquake mechanics.\n\nThe introductory paragraph established the elastic rebound theory framework, so the steps must now elaborate on tectonic plate movement, stress accumulation, and fault rupture in order.\n\n\"Step 1:\" is the opening of the first numbered section, requiring a bolded or titled label describing the initial mechanism \u2014 almost certainly \"Plate Movement\" or \"Tectonic Forces,\" followed by explanation of plates constantly moving and building stress.\n\"Earthquakes are caused by the sudden release of energy stored in Earth's crust due to tectonic plate movement. The process involves several key steps:\n\n1. **Plate Movement and Stress Buildup**\n\nStep 1.\" \u2014 expects explanation of driving forces (convection currents, plates sliding past each other)",
+      "sae": "Large, solid rock plates that make up Earth's lithosphere and move over the mantle. ; Movement of tectonic plates or geological forces causing earthquakes or metamorphism",
+      "sae_proposed": "Lithospheric plates are a recurring theme in geologic context, consistently referenced in plate tectonics explanations. ; Convergent plate boundaries where earthquakes occur at plate interactions. ; Focus on physical health, symptoms, and recovery processes with descriptive, cause-effect syntax. ; Focus on tectonic activity, earth movements, and seismic events in geological contexts. ; Usage of marketing methods without direct payment, with associated costs. ; Large, solid rock plates that make up Earth's lithosphere and move over the mantle. ; Movement of tectonic plates or geological forces causing earthquakes or metamorphism ; Stars are not fixed; they move and exist at varying distances from Earth.",
+      "features": [
+        {
+          "feature_id": 56244,
+          "activation": 10.965022087097168
+        },
+        {
+          "feature_id": 938569,
+          "activation": 9.334421157836914
+        },
+        {
+          "feature_id": 1005543,
+          "activation": 8.732061386108398
+        },
+        {
+          "feature_id": 1504051,
+          "activation": 8.252734184265137
+        },
+        {
+          "feature_id": 1590832,
+          "activation": 8.223234176635742
+        },
+        {
+          "feature_id": 110553,
+          "activation": 7.512030124664307
+        },
+        {
+          "feature_id": 1827490,
+          "activation": 5.589576244354248
+        },
+        {
+          "feature_id": 2016117,
+          "activation": 5.56947135925293
+        }
+      ],
+      "accepted_feature_count": 2,
+      "proposed_feature_count": 8
+    },
+    {
+      "prompt_idx": 6,
+      "pos": 110,
+      "jlens": " ** -** ** >** **. (** \u2019** .** !**  **\u2013  **. **-",
+      "nla": "Educational explainer format with structured sections (headers, bullet points) covering earthquake mechanics systematically.\n\nThe document follows a defined outline: \"How Earthquakes Form\" section is now elaborating on tectonic plates, directly continuing the introductory explanation of plate movement and stress buildup.\n\nFinal token \"large, rigid pieces called **\" opens a bolded term definition mid-sentence (\"The Earth's outermost layer is divided into large, rigid pieces called **\"), requiring the term \"tectonic plates\" to complete the bolded phrase.\n\"\n</ex>: \"How Earthquakes Form\" section is now elaborating on tectonic plates, directly continuing the introductory explanation of plate movement and stress buildup.\n\n\"Earth's crust is divided into large, rigid sections called **\" \u2014 bold formatting signals a key term definition, expecting \"tectonic plates\" or similar bolded term immediately next.",
+      "sae": "Use of italicized or emphasized text to highlight key concepts or terms. ; Closing punctuation marks followed by asterisks or bold formatting in academic or technical contexts.",
+      "sae_proposed": "Usage of marketing methods without direct payment, with associated costs. ; Quotations surrounding defined terms or concepts in explanatory contexts. ; Use of italicized or emphasized text to highlight key concepts or terms. ; Absolute nutritional values measured in grams, not relative terms like \"a lot\" or \"some ; Tailoring offerings based on user behavior and data analysis ; Data points in a chart or graph are referred to as being \"called\" something. ; Closing punctuation marks followed by asterisks or bold formatting in academic or technical contexts. ; Quoted content within parentheses or direct speech marked by * or \" with peak_token at the opening delimiter.",
+      "features": [
+        {
+          "feature_id": 1590832,
+          "activation": 7.875389575958252
+        },
+        {
+          "feature_id": 1803328,
+          "activation": 6.974769592285156
+        },
+        {
+          "feature_id": 1741744,
+          "activation": 6.944809436798096
+        },
+        {
+          "feature_id": 1080786,
+          "activation": 6.325010299682617
+        },
+        {
+          "feature_id": 1581890,
+          "activation": 5.470611095428467
+        },
+        {
+          "feature_id": 565938,
+          "activation": 5.168028354644775
+        },
+        {
+          "feature_id": 1007942,
+          "activation": 4.920877933502197
+        },
+        {
+          "feature_id": 1654161,
+          "activation": 4.6700849533081055
+        }
+      ],
+      "accepted_feature_count": 2,
+      "proposed_feature_count": 8
+    },
+    {
+      "prompt_idx": 6,
+      "pos": 135,
+      "jlens": " speeds  slow  slower \u5e74\u5747 \u6bcf\u5e74 Slow \u7684\u901f\u5ea6 \u7f13\u6162 slow \u5e74\u5e73\u5747 annual average",
+      "nla": "Educational article structure: Japanese translation header signals a science explainer, now detailing earthquake mechanics systematically.\n\nSequential explanation momentum: The text is defining plate tectonics and building toward how plate movement causes earthquakes; the mechanism of stress accumulation is being established.\n\nFinal token \"typically\" opens a parenthetical qualifier mid-sentence (\"Earth's tectonic plates are large slabs of rock that move slowly (typically\"), requiring a specific speed measurement, e.g., \"a few centimeters per year.\"\n\"Plate tectonics is the scientific theory explaining Earth's surface movement. It describes how Earth's lithosphere is divided into large tectonic plates that move slowly (typically\" demands a numerical rate with units, e.g., \"1-10 centimeters per year.\"\n\n\"plates move slowly (typically\" is an incomplete parenthetical requiring a speed/rate",
+      "sae": "Movement and interaction of tectonic plates forming Earth's crust structure. ; Strong, consistent use of adverbs modifying growth or development in biological contexts. ; Consistent use of \"typically\" to indicate general patterns or common occurrences in descriptive contexts.",
+      "sae_proposed": "Movement and interaction of tectonic plates forming Earth's crust structure. ; Lithospheric plates are a recurring theme in geologic context, consistently referenced in plate tectonics explanations. ; Strong, consistent use of adverbs modifying growth or development in biological contexts. ; Commonly used to indicate generalization or frequency in descriptive contexts. ; Relative plate movement speeds and types: divergent, convergent, transform. ; Measurement of time or duration in technical or procedural contexts. ; Consistent use of \"typically\" to indicate general patterns or common occurrences in descriptive contexts. ; Relative plate movement speeds and types described in geological contexts.",
+      "features": [
+        {
+          "feature_id": 1558624,
+          "activation": 24.16202735900879
+        },
+        {
+          "feature_id": 56244,
+          "activation": 12.844456672668457
+        },
+        {
+          "feature_id": 139165,
+          "activation": 12.56534481048584
+        },
+        {
+          "feature_id": 708640,
+          "activation": 10.721816062927246
+        },
+        {
+          "feature_id": 1080556,
+          "activation": 10.294219970703125
+        },
+        {
+          "feature_id": 629255,
+          "activation": 9.567544937133789
+        },
+        {
+          "feature_id": 738026,
+          "activation": 8.95541000366211
+        },
+        {
+          "feature_id": 943971,
+          "activation": 8.569295883178711
+        }
+      ],
+      "accepted_feature_count": 3,
+      "proposed_feature_count": 8
+    },
+    {
+      "prompt_idx": 7,
+      "pos": 60,
+      "jlens": " ** **  **[  **\u2014   \n\n  **# \uff1a**  **+  **( **\u2014  **- ]**",
+      "nla": "Educational/explanatory tone established: a structured overview of a CS concept is being introduced, typical of Stack Exchange or tutorial content.\n\nThe phrase \"Here's an overview of the key differences:\" signals an upcoming list or structured breakdown of distinctions between supervised and unsupervised learning.\n\nFinal token \"\n\" closes the introductory sentence (\"Machine learning is a broad field, and it's worth understanding the key concepts.\n\n\"), immediately requiring a list, bullet points, or numbered items detailing those concepts.\n\n\"Machine learning is a broad field, and it's worth understanding the key concepts.\n\n\" \u2014 the trailing \"here:\n\n\" is a list-introduction colon, demanding enumerated or bulleted content (e.g., \"1. Bias-variance tradeoff\") to follow immediately.\n\nThe final token \"\n\n\" ends a transitional sentence (\"Here are some key considerations:\n\n\"), a standard",
+      "sae": "",
+      "sae_proposed": "MicroRNA (miRNA) is a recurring scientific term in biological and medical research contexts. ; Metabolic effects of fructose in nutritional and physiological contexts. ; Presence of medical or anatomical terms with descriptive, technical syntax and specific terminology. ; Medical conditions and their non-surgical treatments discussed in clinical contexts. ; Use of capitalized proper nouns or named entities in scientific or cosmic contexts. ; Abstract, theoretical concepts describing intangible or complex ideas in academic or philosophical contexts. ; Phonetic symbol representations with IPA and alternative pronunciations ; Flavonoids and fiber-rich diets support gut health by reducing pro-inflammatory bacteria.",
+      "features": [
+        {
+          "feature_id": 1686574,
+          "activation": 47.77977752685547
+        },
+        {
+          "feature_id": 290383,
+          "activation": 7.76904821395874
+        },
+        {
+          "feature_id": 1343697,
+          "activation": 7.544653415679932
+        },
+        {
+          "feature_id": 334807,
+          "activation": 7.19870138168335
+        },
+        {
+          "feature_id": 469746,
+          "activation": 4.525328636169434
+        },
+        {
+          "feature_id": 1921482,
+          "activation": 3.036512613296509
+        },
+        {
+          "feature_id": 1379459,
+          "activation": 2.6322808265686035
+        },
+        {
+          "feature_id": 1101290,
+          "activation": 2.623347759246826
+        }
+      ],
+      "accepted_feature_count": 0,
+      "proposed_feature_count": 8
+    },
+    {
+      "prompt_idx": 7,
+      "pos": 85,
+      "jlens": " **   \n\n \uff1a**  **- :\\ :**  **[  **: **  **\u201c  :** **:",
+      "nla": "Technical educational article on compiler design, structured with headers and bullet points, systematically explaining each compilation stage in sequence.\n\nThe article has introduced a multi-stage compilation pipeline (Front End \u2192 Middle End \u2192 Back End \u2192 Linker) and is now elaborating each stage in order, starting with the Front End.\n\nFinal token ends mid-section: \"1. Front End: Lexing, Parsing, and Semantic Analysis\\n\\nThe front end handles source code preprocessing, parsing, and semantic analysis.\\n\" \u2014 immediately expects elaboration: bullet points, code examples, or descriptive sentences detailing specific front-end tasks.\n\n\"1. Front End: Lexing, Parsing, and Semantic Analysis\n\nThe front end handles source code preprocessing, parsing, and semantic analysis.\n\n\" \u2014 this sentence is a section intro, expecting continuation with bullet points or elaborating sentences about what happens here.\n\nFinal token ends with",
+      "sae": "",
+      "sae_proposed": "Usage of marketing methods without direct payment, with associated costs. ; Diabetes-related symptoms and insulin dysfunction in glucose metabolism. ; Feature: Consistent use of \"\u010a\" marking technical or scientific terminology in context. ; Feature: Use of '\u010a' to denote a specific cultural or lifestyle practice in daily routines. ; Presence of structured lists or numbered items followed by a capitalized term or concept. ; Structured guides with step-by-step instructions on processes or procedures. ; Abstract, theoretical concepts describing intangible or complex ideas in academic or philosophical contexts. ; Use of present tense verbs in descriptive, explanatory contexts.",
+      "features": [
+        {
+          "feature_id": 1590832,
+          "activation": 11.337878227233887
+        },
+        {
+          "feature_id": 716731,
+          "activation": 7.267698764801025
+        },
+        {
+          "feature_id": 1123212,
+          "activation": 6.87864875793457
+        },
+        {
+          "feature_id": 1346403,
+          "activation": 5.528154373168945
+        },
+        {
+          "feature_id": 1892289,
+          "activation": 5.1165032386779785
+        },
+        {
+          "feature_id": 643137,
+          "activation": 4.86142635345459
+        },
+        {
+          "feature_id": 1921482,
+          "activation": 4.738060474395752
+        },
+        {
+          "feature_id": 877607,
+          "activation": 4.495724201202393
+        }
+      ],
+      "accepted_feature_count": 0,
+      "proposed_feature_count": 8
+    },
+    {
+      "prompt_idx": 7,
+      "pos": 110,
+      "jlens": " files files \u6587\u4ef6  file  libraries  compilers  interfaces  Files  filenames  templates  FILES  headers",
+      "nla": "Educational blog post explaining C++ compilation stages, structured with headers and bullet points, systematically detailing each phase.\n\nThe post is mid-way through listing the four compilation stages (preprocessing, compilation, assembly, linking), currently detailing the preprocessor stage with bullet-point examples.\n\nFinal token \"header\" is part of a bullet-point list item describing preprocessor tasks (\"Removing comments, expanding macros, including header\"), immediately requiring a noun completion like \"files\" (e.g., \"header files\") to complete the phrase.\n\"\n</ex>: \"The preprocessor handles tasks like:\n- Removing comments and expanding macros\n- Including header\" \u2014 expects \"files\" or similar C++ terminology to complete this phrase.\n\n\"header\" is part of a list of preprocessor tasks in a C++ compilation explanation, strongly implying \"files\" (e.g., standard library headers included).",
+      "sae": "Activation occurs around header files and their inclusion in code compilation. ; Presence of \"header\" in email structure or document formatting contexts ; Use of \"include\" in compiler directives or header file management contexts. ; Usage following a necessity or prerequisite statement in technical setup instructions.",
+      "sae_proposed": "Activation occurs around header files and their inclusion in code compilation. ; Usage of marketing methods without direct payment, with associated costs. ; Presence of \"header\" in email structure or document formatting contexts ; Use of \"include\" in compiler directives or header file management contexts. ; Presence of bed bugs indicated by bedding issues and grooming concerns. ; Head used in contexts of physical weight, eating habits, or leadership roles. ; Usage following a necessity or prerequisite statement in technical setup instructions. ; Abstract, theoretical concepts describing intangible or complex ideas in academic or philosophical contexts.",
+      "features": [
+        {
+          "feature_id": 1168003,
+          "activation": 19.741512298583984
+        },
+        {
+          "feature_id": 1590832,
+          "activation": 18.75702476501465
+        },
+        {
+          "feature_id": 1599065,
+          "activation": 10.483509063720703
+        },
+        {
+          "feature_id": 1066429,
+          "activation": 9.435153007507324
+        },
+        {
+          "feature_id": 418127,
+          "activation": 8.199947357177734
+        },
+        {
+          "feature_id": 876320,
+          "activation": 6.906594276428223
+        },
+        {
+          "feature_id": 443592,
+          "activation": 6.820876598358154
+        },
+        {
+          "feature_id": 1921482,
+          "activation": 6.333887577056885
+        }
+      ],
+      "accepted_feature_count": 4,
+      "proposed_feature_count": 8
+    },
+    {
+      "prompt_idx": 7,
+      "pos": 135,
+      "jlens": " preprocessing  preprocess \u5220\u9664  ...\\  removal  removes  remove  processing  eliminated  elimination \u6d88\u9664  processed",
+      "nla": "Educational blog post explaining C++ compilation stages in structured sequence, with consistent bullet-point formatting throughout.\n\nThe post is systematically detailing each compilation stage (Preprocessor \u2192 Compiler \u2192 Assembler \u2192 Linker), with the preprocessor section currently being elaborated \u2014 more stages and their sub-steps are expected to follow.\n\nFinal token ends a bulleted list of preprocessor tasks mid-section: \"Handles #include directives\\nExpands macros\\nHandles conditional compilation (#ifdef, #ifndef, etc.)\" \u2014 the list likely continues with one more item or closes, then transitions to the next compilation stage.\n\n\"The preprocessor is the first stage of compilation. It processes the source code before actual compilation begins. It:\"\n\"- Replaces #include directives with actual header file contents\n- Expands macros\n- Handles conditional compilation directives (#ifdef, #ifndef, etc.)\" \u2014 removes comments",
+      "sae": "Consistent use of parentheses to enclose specific categories or subtopics. ; Consistent use of cause-and-effect relationships linking actions to physiological or environmental outcomes. ; Presence of 'macro' or 'macros' in contexts related to code generation, programming, or automated input sequences.",
+      "sae_proposed": "Consistent use of comparative or explanatory clauses following a defining noun. ; Use of \"the\" to introduce a concept or entity in technical explanations of macros and functions. ; Consistent use of parentheses to enclose specific categories or subtopics. ; Percentages used to quantify risks, costs, or proportions in healthcare or educational contexts. ; Transmission by vectors such as insects or parasites ; Consistent use of cause-and-effect relationships linking actions to physiological or environmental outcomes. ; Presence of 'macro' or 'macros' in contexts related to code generation, programming, or automated input sequences. ; Common programming language translation processes and tools",
+      "features": [
+        {
+          "feature_id": 420327,
+          "activation": 9.186362266540527
+        },
+        {
+          "feature_id": 35618,
+          "activation": 8.611486434936523
+        },
+        {
+          "feature_id": 2041821,
+          "activation": 7.449794769287109
+        },
+        {
+          "feature_id": 1509140,
+          "activation": 6.0212507247924805
+        },
+        {
+          "feature_id": 419955,
+          "activation": 5.877281188964844
+        },
+        {
+          "feature_id": 1154426,
+          "activation": 5.280636310577393
+        },
+        {
+          "feature_id": 744956,
+          "activation": 5.151118278503418
+        },
+        {
+          "feature_id": 563826,
+          "activation": 5.109333038330078
+        }
+      ],
+      "accepted_feature_count": 3,
+      "proposed_feature_count": 8
+    },
+    {
+      "prompt_idx": 8,
+      "pos": 60,
+      "jlens": "\u76ee\u7684\u5730  destinations  destination  direction \u65b9\u5411 \u65b9\u4f4d \u7684\u65b9\u5411 destination Destination \u5730\u7406\u4f4d\u7f6e Direction  location",
+      "nla": "Educational article structure: intro established migration mystery, now delivering promised explanation of navigation mechanisms.\n\nThe article has introduced bird migration navigation as the topic and is building toward explaining specific mechanisms (sun, stars, magnetic fields, landmarks), as signaled by the title.\n\nFinal phrase \"Birds use these cues to determine their\" is mid-sentence, requiring a noun phrase completing what birds determine \u2014 most likely \"direction,\" \"position,\" or \"destination\" (e.g., \"direction and destination\" or \"latitude and longitude\").\n</ex>: \"Bird migration navigation refers to the complex set of abilities that allow migratory birds to travel long distances accurately. These abilities involve multiple sensory systems and environmental cues that help birds navigate.\n\nBirds use these cues to determine their\" \u2014 expects directional/positional terms like \"direction,\" \"destination,\" or \"hemisphere\" in migratory flight paths.",
+      "sae": "Possession marked by the definite article \"their\", \"my\", \"his\" in personal or relational contexts. ; Difficulty in navigating or orienting oneself in physical spaces.",
+      "sae_proposed": "Possession marked by the definite article \"their\", \"my\", \"his\" in personal or relational contexts. ; Use of \"of\" to link information or cues to navigation or orientation in migratory birds. ; Migration patterns and seasonal movements of birds ; Ownership or association with brands, trademarks, or third-party services. ; Difficulty in navigating or orienting oneself in physical spaces. ; Use of \"its\" to refer to a GPS receiver's calculated position or function. ; Migratory butterflies in long-distance, multi-generational movements across varying conditions. ; Migratory behavior in birds and animals responding to magnetic fields.",
+      "features": [
+        {
+          "feature_id": 17222,
+          "activation": 16.126787185668945
+        },
+        {
+          "feature_id": 2022054,
+          "activation": 8.596943855285645
+        },
+        {
+          "feature_id": 1410381,
+          "activation": 8.172947883605957
+        },
+        {
+          "feature_id": 1645647,
+          "activation": 7.937011241912842
+        },
+        {
+          "feature_id": 1348830,
+          "activation": 7.879298210144043
+        },
+        {
+          "feature_id": 2055501,
+          "activation": 6.543600082397461
+        },
+        {
+          "feature_id": 1202824,
+          "activation": 6.541135311126709
+        },
+        {
+          "feature_id": 662436,
+          "activation": 6.347273349761963
+        }
+      ],
+      "accepted_feature_count": 2,
+      "proposed_feature_count": 8
+    },
+    {
+      "prompt_idx": 8,
+      "pos": 85,
+      "jlens": "  \n\n  \n\n \n\n \t\n\n  **#     \n\n    \n\n  **[  \n\n\n\n  **  \r\n\r\n   \r\n\r\n",
+      "nla": "Structured educational article format with headers and bullet points signals a detailed multi-section breakdown of solar energy conversion mechanisms.\n\nThe introduction explicitly promised \"several mechanisms, including radiative, non-radiative, and mechanical processes,\" creating expectation for organized subsections covering each mechanism systematically.\n\n\"###\" is a markdown header delimiter, immediately requiring a section title (e.g., \"1. Radiative Cooling\" or \"Types of Solar Energy Conversion Mechanisms\"), beginning the enumerated body content.\n\"\nWhat are the mechanisms by which solar energy is converted into electricity?\n\nSolar energy conversion involves several distinct mechanisms and processes that determine efficiency and performance. Below is a detailed breakdown of the primary mechanisms:\n\n###\" \u2014 this final token opens a new section header, requiring a bold or numbered heading like \"1. Radiative Processes\" or \"Key Mechanisms\" to follow immediately.\n\nThe structured listicle",
+      "sae": "Activation occurs at hash symbols marking structured steps or documents in instructional or procedural contexts. ; Activation occurs at sentence boundaries or after punctuation marks. ; Section numbers followed by descriptive policy headings in a hierarchical structure.",
+      "sae_proposed": "Feature: Lists of 5 items followed by a peak token \"\u010a\" after a numbered or thematic heading. ; Presence of a dot followed by a capital letter at the start of a new section. ; Activation occurs at hash symbols marking structured steps or documents in instructional or procedural contexts. ; Activation occurs at sentence boundaries or after punctuation marks. ; Paraphrasing or rewriting text into alternative formulations using automated tools. ; Closing punctuation marks followed by citations or references in academic or formal text. ; Section numbers followed by descriptive policy headings in a hierarchical structure. ; Numerical identifiers used in structured lists or sequences.",
+      "features": [
+        {
+          "feature_id": 1683709,
+          "activation": 6.828715801239014
+        },
+        {
+          "feature_id": 1206086,
+          "activation": 6.421219825744629
+        },
+        {
+          "feature_id": 1761995,
+          "activation": 6.000218391418457
+        },
+        {
+          "feature_id": 614714,
+          "activation": 5.6528825759887695
+        },
+        {
+          "feature_id": 10796,
+          "activation": 5.567309379577637
+        },
+        {
+          "feature_id": 603383,
+          "activation": 5.481748580932617
+        },
+        {
+          "feature_id": 1041650,
+          "activation": 5.080926418304443
+        },
+        {
+          "feature_id": 751816,
+          "activation": 4.5610737800598145
+        }
+      ],
+      "accepted_feature_count": 3,
+      "proposed_feature_count": 8
+    },
+    {
+      "prompt_idx": 8,
+      "pos": 110,
+      "jlens": " daytime  solar  daylight  animals  sunlight \u663c\u591c  birds  scientists  noct \u767d\u5929  insects  astronomers",
+      "nla": "Educational article structure: detailed biology explainer with headers, bullet points, and systematic coverage of navigation mechanisms in migratory birds.\n\nList continuation pattern: \"Several key mechanisms include:\" introduces a bulleted list; \"Solar and Celestial Navigation\" section has begun, with \"Sun compass\" as the first item, implying more celestial mechanisms (e.g., star compass) will follow.\n\nFinal token \"compass\": \"Sun compass:\" is a bullet-point label mid-definition, immediately requiring a descriptive sentence explaining how birds use sunlight for navigation, e.g., \"Birds use the sun's position...\"\n\"\nMigratory birds use various environmental cues and internal mechanisms to navigate during migration. These include:\n\n1. Celestial and Magnetic Cues\n   - **Sun compass**:\" \u2014 expects a sentence explaining sun-based navigation, likely mentioning time-compensation ability.\n\nThe next tokens must",
+      "sae": "Listed items follow a colon-introduced structure with descriptive phrases preceding the peak token. ; Use of present tense verbs in active voice describing educational or experiential benefits. ; Quotations followed by a period indicating a completed thought or statement.",
+      "sae_proposed": "Usage of marketing methods without direct payment, with associated costs. ; Listed items follow a colon-introduced structure with descriptive phrases preceding the peak token. ; Migratory behavior in birds and animals responding to magnetic fields. ; Presence of colons introducing examples or lists in scientific or instructional contexts. ; Tailoring offerings based on user behavior and data analysis ; Activation occurs at tokens indicating emotional or psychological reactions to loss or stress. ; Use of present tense verbs in active voice describing educational or experiential benefits. ; Quotations followed by a period indicating a completed thought or statement.",
+      "features": [
+        {
+          "feature_id": 1590832,
+          "activation": 17.39373016357422
+        },
+        {
+          "feature_id": 1664252,
+          "activation": 9.989774703979492
+        },
+        {
+          "feature_id": 662436,
+          "activation": 7.936752796173096
+        },
+        {
+          "feature_id": 366724,
+          "activation": 7.722787380218506
+        },
+        {
+          "feature_id": 1581890,
+          "activation": 7.714089870452881
+        },
+        {
+          "feature_id": 1949447,
+          "activation": 6.170533657073975
+        },
+        {
+          "feature_id": 397645,
+          "activation": 5.9909348487854
+        },
+        {
+          "feature_id": 582149,
+          "activation": 5.9803924560546875
+        }
+      ],
+      "accepted_feature_count": 3,
+      "proposed_feature_count": 8
+    },
+    {
+      "prompt_idx": 8,
+      "pos": 135,
+      "jlens": " clock  clocks  time  by  daily  hour  hours  hourly \u6bcf\u5c0f\u65f6  changing  using  day",
+      "nla": "Scientific article structure: detailed bee navigation section is mid-explanation, systematically covering each navigation method (sun compass, landmarks, polarized light).\n\nList continuation pattern: the article is enumerating bee navigation mechanisms; sun compass is being explained first, with more methods (landmarks, polarized light) still to follow.\n\nFinal token \"sky\" ends a sentence explaining how bees compensate for the sun's movement: \"Bees use the sun as a compass. They compensate for the movement of the sun across the sky\" \u2014 immediately expects a clause explaining *how* they compensate, e.g., \"by using an internal clock.\"\n\"Bees use the sun as a compass. They use the sun's position to navigate. Bees compensate for the sun's movement across the sky\" \u2014 the sentence is incomplete, requiring a continuation explaining the compensation mechanism, such as \"throughout the day\"",
+      "sae": "Focus on environmental sustainability and energy efficiency solutions. ; Use of \"can\" to indicate potential or possible systematic effects in measurement contexts.",
+      "sae_proposed": "Sky is consistently used to denote the heavens or atmosphere in descriptive contexts. ; Focus on environmental sustainability and energy efficiency solutions. ; Use of \"can\" to indicate potential or possible systematic effects in measurement contexts. ; The consistent use of \"\u0120the\" introducing a noun phrase in solar panel positioning contexts. ; Repetition of introductory or generalizing phrases followed by a specific claim or explanation. ; Tailoring offerings based on user behavior and data analysis ; Abstract, theoretical concepts describing intangible or complex ideas in academic or philosophical contexts. ; Focus on medical or clinical contexts involving treatment, therapy, or health conditions.",
+      "features": [
+        {
+          "feature_id": 737461,
+          "activation": 10.989444732666016
+        },
+        {
+          "feature_id": 709021,
+          "activation": 8.59652328491211
+        },
+        {
+          "feature_id": 243959,
+          "activation": 5.7006731033325195
+        },
+        {
+          "feature_id": 1959798,
+          "activation": 5.519274711608887
+        },
+        {
+          "feature_id": 1835324,
+          "activation": 5.374810218811035
+        },
+        {
+          "feature_id": 1581890,
+          "activation": 5.000791072845459
+        },
+        {
+          "feature_id": 1921482,
+          "activation": 4.941992282867432
+        },
+        {
+          "feature_id": 1802062,
+          "activation": 4.346253395080566
+        }
+      ],
+      "accepted_feature_count": 2,
+      "proposed_feature_count": 8
+    },
+    {
+      "prompt_idx": 9,
+      "pos": 60,
+      "jlens": " reefs  reef  coral  Reef  islands  ecosystems  underwater \u7901  ocean  marine  seaw  oceans",
+      "nla": "Educational explainer format with Q&A structure: \"How do coral reefs form?\" signals a direct, factual answer is expected.\n\nThe introduction established coral reefs as complex, living structures built by tiny animals, priming the explanation to cover biological/geological formation processes.\n\n\"Coral reefs\" is the subject of the opening sentence of the answer section, requiring a predicate \u2014 likely a definition or description of what they are (e.g., \"are underwater ecosystems,\" \"are the largest living structures on Earth\").\n</ex>: \"Coral reefs are formed by...\" or \"Coral reefs are underwater ecosystems...\"\n\n\"How are coral reefs formed?\" section header just opened, establishing the explanatory content domain.\n\n\"How are coral reefs formed?\n\nCoral reefs\" \u2014 the final token begins the answer sentence, requiring a predicate describing reef characteristics, typically referencing tropical oceans, biodiversity, or growth",
+      "sae": "Coral reefs are consistently mentioned in contexts involving environmental threats and conservation. ; Coral reefs are a central theme, consistently linked to tropical, marine, and ecological contexts. ; Informal, conversational interaction via chatbots in customer service contexts. ; Activation occurs at verbs or noun fragments related to movement or action in dynamic, physical contexts.",
+      "sae_proposed": "Reef-building corals in compact colonies of identical polyps ; Coral reefs are consistently mentioned in contexts involving environmental threats and conservation. ; Coral reefs are a central theme, consistently linked to tropical, marine, and ecological contexts. ; Coral reefs formed by polyps, rock, or sand in marine environments. ; Tropical rainforests are consistently referenced as vital, biodiverse, and essential to planetary health. ; Informal, conversational interaction via chatbots in customer service contexts. ; Feature: Consistent use of \"review\" in academic coral reef research contexts. ; Activation occurs at verbs or noun fragments related to movement or action in dynamic, physical contexts.",
+      "features": [
+        {
+          "feature_id": 1740109,
+          "activation": 23.725587844848633
+        },
+        {
+          "feature_id": 1300474,
+          "activation": 17.523696899414062
+        },
+        {
+          "feature_id": 640286,
+          "activation": 16.33607292175293
+        },
+        {
+          "feature_id": 465784,
+          "activation": 14.104337692260742
+        },
+        {
+          "feature_id": 1183221,
+          "activation": 9.961366653442383
+        },
+        {
+          "feature_id": 2076250,
+          "activation": 9.55461597442627
+        },
+        {
+          "feature_id": 1215425,
+          "activation": 9.31258487701416
+        },
+        {
+          "feature_id": 1818067,
+          "activation": 8.08865737915039
+        }
+      ],
+      "accepted_feature_count": 4,
+      "proposed_feature_count": 8
+    },
+    {
+      "prompt_idx": 9,
+      "pos": 85,
+      "jlens": " complex  centuries  processes  millions  thousands  billions  scientists  ecosystems  generations  process  hundreds  intricate",
+      "nla": "Educational explainer format with structured sections (overview, then detailed breakdown) signals a deep dive into coral reef formation mechanisms is beginning.\n\nThe document follows a Q&A/section structure: \"How Do Coral Reefs Form?\" introduces the first major section, so detailed biological and geological processes of reef formation are expected next.\n\nFinal token ends mid-sentence introducing coral polyps as the building blocks: \"Coral reefs are not rocks or plants; they are living structures built by tiny marine animals called coral polyps.\" \u2014 a period or continuation elaborating on how polyps build reefs (e.g., calcium carbonate secretion process) is immediately expected.\n\n\"Understanding Coral Reef Formation\" section header just opened, and the sentence \"Coral reefs are not rocks or plants; they are massive living structures built by tiny marine animals called coral polyps.\" ends, expecting elaboration on the formation process steps",
+      "sae": "",
+      "sae_proposed": "Usage of marketing methods without direct payment, with associated costs. ; Graphic dashboards for easy interpretation of complex information. ; Mention of specific expenses or costs associated with delays or processes. ; Focus on practical, step-by-step guidance with clear, actionable instructions. ; Focus on optimizing home environments through thoughtful arrangement and functional design. ; Feature: Use of \"the\" as a definite article introducing a specific process or system. ; Syntactic structure ending with punctuation or closing brackets in technical explanations. ; Tailoring offerings based on user behavior and data analysis",
+      "features": [
+        {
+          "feature_id": 1590832,
+          "activation": 17.352619171142578
+        },
+        {
+          "feature_id": 1567095,
+          "activation": 14.791765213012695
+        },
+        {
+          "feature_id": 62628,
+          "activation": 9.025354385375977
+        },
+        {
+          "feature_id": 478882,
+          "activation": 7.009518146514893
+        },
+        {
+          "feature_id": 877076,
+          "activation": 5.387181282043457
+        },
+        {
+          "feature_id": 389321,
+          "activation": 4.76785135269165
+        },
+        {
+          "feature_id": 319025,
+          "activation": 4.622108459472656
+        },
+        {
+          "feature_id": 1581890,
+          "activation": 4.34693717956543
+        }
+      ],
+      "accepted_feature_count": 0,
+      "proposed_feature_count": 8
+    },
+    {
+      "prompt_idx": 9,
+      "pos": 110,
+      "jlens": " organisms  biology  biological  humans  animals  anatomy  organism organisms  insects  species  creatures  insect",
+      "nla": "Educational article structure: detailed science explainer with headers, systematically covering coral reef formation biology for general audiences.\n\nSequential section progression: \"How Coral Reefs Are Built\" section has begun, with subsections expected covering polyps, calcium carbonate, and reef-building processes in order.\n\nFinal token \"Pol\" is the truncated start of \"Polyp,\" beginning a new subsection header \"The Coral Pol[y]\" \u2014 the next tokens must complete this word and introduce a descriptive explanation of what coral polyps are.\n\"\n</ex>: \"Coral reefs are built by tiny animals called coral polyps. To understand how reefs form, we must first understand the biology and chemistry of these creatures.\n\n1. The Coral Pol\" is a subsection header mid-word, requiring completion as \"Polyp\" followed by a paragraph explaining the polyp's role.\n\n\"1. The Coral Pol\"",
+      "sae": "Activation occurs at the end of words related to biological or physiological processes. ; Presence of \"polyp\" in biological context of coral structure and function.",
+      "sae_proposed": "Usage of marketing methods without direct payment, with associated costs. ; Activation occurs at the end of words related to biological or physiological processes. ; Questions beginning with \"What Is\" or \"Find a, b, c, Such\" indicate inquiry into definitions or conditions. ; Genetically identical polyps forming coral colonies in tropical marine environments. ; Reference to lotteries in historical, governmental, or critical contexts. ; Activation occurs at tokens indicating emotional or psychological reactions to loss or stress. ; Presence of \"polyp\" in biological context of coral structure and function. ; Presence of historical or technical descriptions followed by a truncated clause ending with a peak token.",
+      "features": [
+        {
+          "feature_id": 1590832,
+          "activation": 20.95832061767578
+        },
+        {
+          "feature_id": 768071,
+          "activation": 8.994161605834961
+        },
+        {
+          "feature_id": 1136713,
+          "activation": 8.871485710144043
+        },
+        {
+          "feature_id": 47819,
+          "activation": 8.257627487182617
+        },
+        {
+          "feature_id": 43158,
+          "activation": 7.791154861450195
+        },
+        {
+          "feature_id": 1949447,
+          "activation": 7.067902565002441
+        },
+        {
+          "feature_id": 545451,
+          "activation": 6.688350200653076
+        },
+        {
+          "feature_id": 267316,
+          "activation": 6.302947998046875
+        }
+      ],
+      "accepted_feature_count": 2,
+      "proposed_feature_count": 8
+    },
+    {
+      "prompt_idx": 9,
+      "pos": 135,
+      "jlens": " protective  protected  shells  each  living  protects  protect  protecting  shell  shelter  skeletons  individual",
+      "nla": "Educational explainer format with structured sections and bullet points, establishing a pattern of defining coral biology concepts for general audiences.\n\nThe document follows a Q&A structure with headers (\"What is a coral reef?\", \"How do coral reefs form?\"), now detailing coral anatomy under \"The Coral Polyp,\" with bullet-point sub-items expected to continue.\n\nFinal token introduces the first bullet point definition of a coral polyp \u2014 \"A coral polyp is a tiny, soft-bodied marine animal.\" \u2014 the next tokens must complete this sentence, likely describing its calcium carbonate skeleton or protective structure, e.g., \"It secretes a hard calcium carbonate skeleton.\"\n\"\n</ex>: \"Coral polyps are the building blocks of reefs. Key characteristics include:\n- **Polyp Structure:** A coral polyp is a tiny, soft-bodied marine animal.\" \u2014 the sentence is incomplete, requiring continuation",
+      "sae": "Presence of \"polyp\" in biological context of coral structure and function.",
+      "sae_proposed": "Graphic dashboards for easy interpretation of complex information. ; Withdrawal or seclusion as a defensive or protective behavior. ; Presence of \"polyp\" in biological context of coral structure and function. ; Usage of marketing methods without direct payment, with associated costs. ; Medical procedures described with technical terms and specific equipment used in treatment. ; Tailoring offerings based on user behavior and data analysis ; Focus on health-related issues, specifically erectile dysfunction and stress management. ; Presence of coral-related structures described in biological or ecological contexts.",
+      "features": [
+        {
+          "feature_id": 1567095,
+          "activation": 10.797361373901367
+        },
+        {
+          "feature_id": 294319,
+          "activation": 10.644194602966309
+        },
+        {
+          "feature_id": 545451,
+          "activation": 10.17172622680664
+        },
+        {
+          "feature_id": 1590832,
+          "activation": 7.077663898468018
+        },
+        {
+          "feature_id": 996495,
+          "activation": 6.024511337280273
+        },
+        {
+          "feature_id": 1581890,
+          "activation": 5.784128189086914
+        },
+        {
+          "feature_id": 170477,
+          "activation": 5.510576248168945
+        },
+        {
+          "feature_id": 1518623,
+          "activation": 4.222297191619873
+        }
+      ],
+      "accepted_feature_count": 1,
+      "proposed_feature_count": 8
+    },
+    {
+      "prompt_idx": 10,
+      "pos": 60,
+      "jlens": " ** **\u2014  **\u201c  **\u2014 \uff1a**  **\u2013 !** \u2026** ]** \u2019**   \n\n **",
+      "nla": "Q&A educational format established: a direct question was posed, and the answer is now being delivered with structured explanation.\n\nThe topic is photosynthesis, so the response must cover the process, reactants (CO\u2082, water, light), and products (glucose, oxygen), likely with a chemical equation.\n\nThe final token is a line break after \"Here is a detailed explanation:\\n\\n\", signaling the start of the main explanatory content \u2014 likely a bulleted list, numbered steps, or paragraph beginning with \"Photosynthesis is...\" or a citation/reference.\n\n\"\n</ex>: \"How does climate change affect photosynthesis?\"\n\"\n</ex>: \"Here is a detailed explanation:\n\n\" \u2014 the final line break after the colon introduces the body content, expecting structured educational text, bullet points, or a citation block next.\n\nThe final token is a newline, expecting a",
+      "sae": "References to journal names followed by volume, issue, and page numbers.",
+      "sae_proposed": "MicroRNA (miRNA) is a recurring scientific term in biological and medical research contexts. ; Presence of medical or anatomical terms with descriptive, technical syntax and specific terminology. ; Medical conditions and their non-surgical treatments discussed in clinical contexts. ; References to journal names followed by volume, issue, and page numbers. ; Immediate medical concern in kittens with severe symptoms like vomiting and diarrhea. ; Presence of \"the\" or \"of\" introducing specific anatomical or medical features in descriptive contexts. ; Feature: Lists of numbered or ranked tips followed by a peak token indicating continuation or next step. ; Numerical model identifiers like \"9\" appear in product feature descriptions.",
+      "features": [
+        {
+          "feature_id": 1686574,
+          "activation": 30.9195499420166
+        },
+        {
+          "feature_id": 1343697,
+          "activation": 10.451616287231445
+        },
+        {
+          "feature_id": 334807,
+          "activation": 4.706637859344482
+        },
+        {
+          "feature_id": 180853,
+          "activation": 4.705967903137207
+        },
+        {
+          "feature_id": 674593,
+          "activation": 4.244211673736572
+        },
+        {
+          "feature_id": 528473,
+          "activation": 3.9851951599121094
+        },
+        {
+          "feature_id": 810606,
+          "activation": 3.6443636417388916
+        },
+        {
+          "feature_id": 1683804,
+          "activation": 3.191532611846924
+        }
+      ],
+      "accepted_feature_count": 1,
+      "proposed_feature_count": 8
+    },
+    {
+      "prompt_idx": 10,
+      "pos": 85,
+      "jlens": " bacteria  biological  scientists  organisms  microbi  yeast  humans  fungi  microbial \u5fae\u751f\u7269  living  biologist",
+      "nla": "Educational article structure: intro promised explanation of yeast's role in bread-making, now delivering detailed scientific breakdown.\n\nSection-by-section format established: \"What is Yeast?\" heading signals a definitional explanation, with biological/scientific detail expected about yeast's properties and fermentation process.\n\nFinal token \"microorgan\" is a truncated word mid-sentence (\"Yeast is a microorgan-\"), immediately requiring completion as \"microorganism\" followed by a period or continuation describing its classification/characteristics.\n\"Yeast is not a chemical or additive; it's a living organism that naturally occurs in the environment. In bread-making, yeast is the key ingredient responsible for fermentation.\n\n\"Yeast is a type of fungus.\n\n\"Yeast is a living microorgan\" \u2014 the sentence is mid-word, requiring completion as \"ism\" followed by a descriptive clause about its biological nature.",
+      "sae": "Named entities referring to specific systems, services, or disorders in a factual, descriptive context. ; Activation occurs at the end of words related to biological or physiological processes.",
+      "sae_proposed": "Named entities referring to specific systems, services, or disorders in a factual, descriptive context. ; Microorganisms are consistently referenced in contexts related to food, decomposition, and biological composition. ; Activation occurs at the end of words related to biological or physiological processes. ; Tailoring offerings based on user behavior and data analysis ; Usage of marketing methods without direct payment, with associated costs. ; Active dry yeast is commonly used in pizza crust recipes, requiring rehydration and appearing in ingredient lists with specific measurements. ; Activation occurs at or near the start of phrases involving scientific methods or experimental conditions. ; Focus on internal system dynamics or self-regulation within personal or organizational contexts.",
+      "features": [
+        {
+          "feature_id": 359477,
+          "activation": 13.089902877807617
+        },
+        {
+          "feature_id": 1249284,
+          "activation": 10.000589370727539
+        },
+        {
+          "feature_id": 768071,
+          "activation": 7.799496650695801
+        },
+        {
+          "feature_id": 1581890,
+          "activation": 7.606724262237549
+        },
+        {
+          "feature_id": 1590832,
+          "activation": 6.919528007507324
+        },
+        {
+          "feature_id": 419585,
+          "activation": 5.877676010131836
+        },
+        {
+          "feature_id": 375217,
+          "activation": 5.494124889373779
+        },
+        {
+          "feature_id": 1924116,
+          "activation": 5.17683744430542
+        }
+      ],
+      "accepted_feature_count": 2,
+      "proposed_feature_count": 8
+    },
+    {
+      "prompt_idx": 10,
+      "pos": 110,
+      "jlens": " moisture \u6c34\u6e29  warmth  moist  water  hydration  temperature  humidity  temperatures temperature Temperature hydration",
+      "nla": "Educational baking article explaining bread science, establishing yeast as the key leavening agent with a structured, accessible tone.\n\nThe section \"How Yeast Works\" is mid-explanation, detailing yeast's biological mechanism \u2014 the sentence is building toward listing conditions yeast needs to activate and ferment.\n\nFinal token \"warmth\" is part of an incomplete list of conditions yeast requires (\"when given the right conditions \u2013 warmth\"), immediately expecting continuation with additional conditions like moisture, food/sugar, and salt.\n\"Yeast is a living, single-celled organism that is responsible for making bread rise. When you add yeast to your bread dough, it begins to feed on the sugars and starches in the flour, producing carbon dioxide gas bubbles.\n\nYeast is alive and needs the right conditions to thrive (warmth\" \u2014 expects continuation of the list: \"warmth, water, food\"",
+      "sae": "Use of comparative or analogical language to explain baking ingredients and processes.",
+      "sae_proposed": "Warmness associated with living beings, especially humans and animals. ; High glycemic index or unhealthy dietary patterns associated with health risks. ; Warm, moist, protein-rich environments favor bacterial and fungal growth. ; Extreme temperatures and environmental conditions affecting biological and mechanical systems. ; Use of comparative or analogical language to explain baking ingredients and processes. ; Tailoring offerings based on user behavior and data analysis ; Active dry yeast is commonly used in pizza crust recipes, requiring rehydration and appearing in ingredient lists with specific measurements. ; Abstract, theoretical concepts describing intangible or complex ideas in academic or philosophical contexts.",
+      "features": [
+        {
+          "feature_id": 784183,
+          "activation": 12.14553451538086
+        },
+        {
+          "feature_id": 937524,
+          "activation": 9.700580596923828
+        },
+        {
+          "feature_id": 1201174,
+          "activation": 8.557605743408203
+        },
+        {
+          "feature_id": 392941,
+          "activation": 7.60595703125
+        },
+        {
+          "feature_id": 1566753,
+          "activation": 6.205706596374512
+        },
+        {
+          "feature_id": 1581890,
+          "activation": 6.197687149047852
+        },
+        {
+          "feature_id": 419585,
+          "activation": 6.172591209411621
+        },
+        {
+          "feature_id": 1921482,
+          "activation": 6.168617248535156
+        }
+      ],
+      "accepted_feature_count": 1,
+      "proposed_feature_count": 8
+    },
+    {
+      "prompt_idx": 10,
+      "pos": 135,
+      "jlens": " yeast  fermentation  bacteria \u9175\u6bcd  ferment  microbes \u83cc \u5fae\u751f\u7269  food  fungi  sugars  carbohydrate",
+      "nla": "Educational science article explaining bread-making chemistry, structured with headers and accessible prose for general audiences.\n\nThe article has introduced yeast as the key agent and is now detailing the fermentation process step-by-step; the section \"How Yeast Makes Bread Rise\" sets up a mechanistic explanation of yeast's role in bread dough.\n\nFinal token \"yeast\" ends an introductory sentence (\"When yeast\"), beginning a clause that must explain what happens when yeast is introduced to dough \u2014 specifically its interaction with sugars and water, e.g., \"is added to flour and water, it feeds on...\"\n\"Yeast is a single-celled microorganism that is essential to bread-making. When yeast is introduced to a bread dough, it begins a process called fermentation, which produces carbon dioxide gas and alcohol.\n\nHow does fermentation work?\n\nWhen yeast\" \u2014 expects immediate continuation describing yeast's feeding conditions",
+      "sae": "Reference to legal interpretation or societal analysis in academic or formal context. ; Yeast is consistently mentioned at the start of fermentation steps in beer brewing processes.",
+      "sae_proposed": "Usage of marketing methods without direct payment, with associated costs. ; Yeast-related biological contexts with \"yeast\" as a core activating term in disease and growth descriptions. ; Active dry yeast is commonly used in pizza crust recipes, requiring rehydration and appearing in ingredient lists with specific measurements. ; Reference to legal interpretation or societal analysis in academic or formal context. ; Yeast is consistently mentioned at the start of fermentation steps in beer brewing processes. ; Antifungal properties associated with natural remedies for yeast infections ; Tailoring offerings based on user behavior and data analysis ; Activation occurs following a subject-verb structure introducing a condition that triggers a subsequent change or reaction.",
+      "features": [
+        {
+          "feature_id": 1590832,
+          "activation": 17.160049438476562
+        },
+        {
+          "feature_id": 1878961,
+          "activation": 12.659016609191895
+        },
+        {
+          "feature_id": 419585,
+          "activation": 10.36502742767334
+        },
+        {
+          "feature_id": 1478003,
+          "activation": 10.10208797454834
+        },
+        {
+          "feature_id": 1208869,
+          "activation": 8.441609382629395
+        },
+        {
+          "feature_id": 1559667,
+          "activation": 8.419480323791504
+        },
+        {
+          "feature_id": 1581890,
+          "activation": 7.757246494293213
+        },
+        {
+          "feature_id": 449376,
+          "activation": 7.411991119384766
+        }
+      ],
+      "accepted_feature_count": 2,
+      "proposed_feature_count": 8
+    },
+    {
+      "prompt_idx": 11,
+      "pos": 60,
+      "jlens": " methods  technologies  techniques  mechanisms \u4e0d\u540c\u7c7b\u578b\u7684  types  different  technology  method  mechanism  ways  methodologies",
+      "nla": "Educational explainer format with structured headers and bullet points, establishing a step-by-step breakdown of how vaccines work.\n\nThe article promised a \"step-by-step breakdown\" of the immune system training process, so the next content must deliver that mechanism clearly.\n\n\"Here is the\" ends mid-sentence, beginning a definition/explanation of the core mechanism; the next word must complete this phrase, likely \"mechanism\" or \"different types of vaccines\" (e.g., \"different ways vaccines deliver antigens\").\n</ex>: \"Vaccines work by tricking the immune system into recognizing a threat without causing disease. Here is the\" \u2014 the sentence requires completion, likely explaining the mechanism (e.g., \"different ways vaccines deliver antigens\" or \"different types of vaccines, like mRNA or weakened virus\").\n\nThe explanation must address how vaccines introduce antigens, contrasting with",
+      "sae": "Presence of medical or health-related terminology in clinical or diagnostic contexts.",
+      "sae_proposed": "The consistent use of \"the\" preceding nouns in scientific or naturalistic contexts. ; Activation occurs at the start of sentences explaining medication uses or mechanisms. ; MicroRNA (miRNA) is a recurring scientific term in biological and medical research contexts. ; Use of \"it\" to refer to a previously mentioned concept or object in a question or explanation. ; Presence of prepositional phrases with 'of' or 'the' indicating possession or association ; Presence of medical or health-related terminology in clinical or diagnostic contexts. ; Presence of \"There\" initiating a sentence in a medical or scientific context. ; Exposing the body to pathogens or pathogen components to trigger immune response.",
+      "features": [
+        {
+          "feature_id": 160071,
+          "activation": 9.372136116027832
+        },
+        {
+          "feature_id": 37403,
+          "activation": 4.86988639831543
+        },
+        {
+          "feature_id": 1686574,
+          "activation": 4.755406379699707
+        },
+        {
+          "feature_id": 110306,
+          "activation": 4.645552158355713
+        },
+        {
+          "feature_id": 412743,
+          "activation": 4.4545698165893555
+        },
+        {
+          "feature_id": 316127,
+          "activation": 3.730069637298584
+        },
+        {
+          "feature_id": 1986242,
+          "activation": 3.7184343338012695
+        },
+        {
+          "feature_id": 1503108,
+          "activation": 3.6475658416748047
+        }
+      ],
+      "accepted_feature_count": 1,
+      "proposed_feature_count": 8
+    },
+    {
+      "prompt_idx": 11,
+      "pos": 85,
+      "jlens": " conceptual  preparation  concept  foundational  concepts  Preparation  Initialization  initiation  Concept  initialization  introduction  Initial",
+      "nla": "Educational explainer structure: article uses numbered sections to break down vaccine mechanics step-by-step, with \"How Vaccines Work: A Step-by-Step Breakdown\" signaling an ordered list.\n\nAnalogy-driven content: the text consistently uses the \"training simulation\" metaphor, so each step will likely explain a biological phase (antigen presentation, immune recognition, response).\n\n\"1\" is the start of a numbered section header, immediately requiring a title/label for the first step (e.g., \"Antigen Introduction\" or \"The Antigen Presentation\"), followed by a paragraph explaining that phase.\n\"How does a vaccine work? The process can be broken down into several key stages that mirror the body's natural immune response.\n\n### 1\" opens the first numbered section, requiring a bolded or plain-text step title describing the initial vaccine injection/antigen introduction phase.",
+      "sae": "Listed items or sections followed by a numeral \"1.\" as a concluding marker. ; Numerical conclusion or count following explanatory text.",
+      "sae_proposed": "Usage of marketing methods without direct payment, with associated costs. ; Listed items or sections followed by a numeral \"1.\" as a concluding marker. ; Use of colons to introduce lists of steps or stages in a process. ; Numerical conclusion or count following explanatory text. ; Numerical list items follow factual or true/false statements. ; Peak occurs at '1' in contexts involving sudden onset, duration, or timing of physiological or emotional events. ; Alignment with specific goals, preferences, or standards in decision-making contexts. ; Step-by-step instructions begin with \"Step 1:\" followed by a descriptive sentence ending in a colon.",
+      "features": [
+        {
+          "feature_id": 1590832,
+          "activation": 11.84507942199707
+        },
+        {
+          "feature_id": 967597,
+          "activation": 8.257538795471191
+        },
+        {
+          "feature_id": 840475,
+          "activation": 7.955259323120117
+        },
+        {
+          "feature_id": 1019313,
+          "activation": 5.924233436584473
+        },
+        {
+          "feature_id": 464994,
+          "activation": 5.699741363525391
+        },
+        {
+          "feature_id": 1517115,
+          "activation": 5.433069229125977
+        },
+        {
+          "feature_id": 1390988,
+          "activation": 5.093332290649414
+        },
+        {
+          "feature_id": 151564,
+          "activation": 4.785073280334473
+        }
+      ],
+      "accepted_feature_count": 2,
+      "proposed_feature_count": 8
+    },
+    {
+      "prompt_idx": 11,
+      "pos": 110,
+      "jlens": " viruses  pathogens  bacteria  virus  infect  diseases \u75c5\u539f\u4f53  infectious virus  disease  microbes  parasites",
+      "nla": "Educational explainer structure: article systematically defines vaccine concepts, moving from overview to detailed mechanism explanation.\n\nThe \"How Do Antibodies Work?\" section has just begun, establishing a foundational immunology explanation \u2014 the next content must define antigens and their role in immune recognition.\n\nFinal token \"pathogens\" ends a sentence fragment defining antigens (\"unique markers found on the surface of pathogens\"), immediately requiring continuation \u2014 likely a list or examples such as \"like viruses, bacteria\" or a relative clause elaborating what pathogens are.\n\"\n</ex>: \"To understand how vaccines work, we first need to understand the concept of antigens. Antigens are unique molecular markers that our immune system recognizes. Specifically, they are distinctive features or 'signatures' found on the surface of pathogens\" \u2014 expects continuation like \"like viruses or bacteria.\"\n\nFinal token \"pathogens\" ends mid-definition",
+      "sae": "The path is a plant pathogen affecting crops and causing economic or agricultural threats. ; Informal, conversational interaction via chatbots in customer service contexts.",
+      "sae_proposed": "Usage of marketing methods without direct payment, with associated costs. ; Presence of \"pathogen\" in biological or medical contexts involving disease transmission or immune response. ; Underlying pathological causes or conditions in medical contexts ; Intense itching or pruritus in skin or animal bites, often delayed. ; Focus on microorganisms causing infectious diseases and their clinical applications. ; Activation occurs with tokens denoting external threats to the immune system. ; The path is a plant pathogen affecting crops and causing economic or agricultural threats. ; Informal, conversational interaction via chatbots in customer service contexts.",
+      "features": [
+        {
+          "feature_id": 1590832,
+          "activation": 13.283891677856445
+        },
+        {
+          "feature_id": 1460426,
+          "activation": 12.575624465942383
+        },
+        {
+          "feature_id": 1956978,
+          "activation": 10.84790325164795
+        },
+        {
+          "feature_id": 1887486,
+          "activation": 9.632463455200195
+        },
+        {
+          "feature_id": 843363,
+          "activation": 9.374112129211426
+        },
+        {
+          "feature_id": 1693585,
+          "activation": 7.494813919067383
+        },
+        {
+          "feature_id": 1615348,
+          "activation": 7.304152965545654
+        },
+        {
+          "feature_id": 2076250,
+          "activation": 7.201571464538574
+        }
+      ],
+      "accepted_feature_count": 2,
+      "proposed_feature_count": 8
+    },
+    {
+      "prompt_idx": 11,
+      "pos": 135,
+      "jlens": " disease  illness  diseases  infection  infected  infectious  infections  infect  sickness  illnesses \u751f\u75c5 \u75be\u75c5",
+      "nla": "Educational explainer structure: article systematically defines vaccine mechanisms, now contrasting natural vs. artificial antigen presentation.\n\nParallel comparison pattern: \"Natural antigen presentation vs. mRNA vaccines\" section header signals a two-part contrast; natural presentation is being explained first, with mRNA explanation to follow.\n\nFinal token \"you\" opens a concrete example sentence (\"Natural antigen presentation: When you\"), requiring a relatable illness scenario (e.g., \"catch a disease\" or \"get infected with a virus\") to illustrate natural antigen presentation.\n\"mRNA vaccines work by tricking your immune system into thinking it's fighting a real infection.\"\n\n\"Natural antigen presentation vs. mRNA vaccines\" section establishes contrast.\n\n\"Natural antigen presentation is slower and riskier. For example, when you\" \u2014 expects a natural infection scenario like \"catch measles\" or \"get sick in childhood.\"\n\nFinal token \"you\"",
+      "sae": "Presence of \"You\" as a direct address or narrative entry point in otherwise descriptive or technical contexts. ; Use of personal pronouns like \"your\" or \"you\" in health and communication contexts.",
+      "sae_proposed": "Presence of \"You\" as a direct address or narrative entry point in otherwise descriptive or technical contexts. ; Fear of rejection and social avoidance in personal or psychological contexts. ; History of prior infection or immunity to a disease ; Presence of a subject pronoun (e.g., \"He\", \"they\") initiating a clause in biographical or instructional text. ; Immunity derived from natural or vaccine-induced exposure to pathogens ; Usage of marketing methods without direct payment, with associated costs. ; Use of personal pronouns like \"your\" or \"you\" in health and communication contexts. ; Action-oriented sentences involving file or data manipulation in tech contexts.",
+      "features": [
+        {
+          "feature_id": 1520233,
+          "activation": 8.750033378601074
+        },
+        {
+          "feature_id": 1682895,
+          "activation": 8.590950965881348
+        },
+        {
+          "feature_id": 1301971,
+          "activation": 7.888337135314941
+        },
+        {
+          "feature_id": 1972321,
+          "activation": 7.722288131713867
+        },
+        {
+          "feature_id": 1979809,
+          "activation": 7.094008445739746
+        },
+        {
+          "feature_id": 1590832,
+          "activation": 6.751628875732422
+        },
+        {
+          "feature_id": 399695,
+          "activation": 6.59869384765625
+        },
+        {
+          "feature_id": 981058,
+          "activation": 5.755850315093994
+        }
+      ],
+      "accepted_feature_count": 2,
+      "proposed_feature_count": 8
+    }
+  ],
+  "limitations": [
+    "Automatic SAE labels screened with a separate larger model; not independently human-validated semantics",
+    "SAE example-based labels were frozen without evaluation prompts, J-lens tokens, or NLA descriptions as input",
+    "Each label checked on one withheld document and one random other-feature window",
+    "Primary scoring excludes labels whose held-out window duplicates training-window text across different document IDs",
+    "Feature coverage and proposed-label sensitivity are reported; unlabeled features cannot establish negative evidence",
+    "The SAE publisher reports duplicated training documents; reconstruction here covers only 48 evaluation activations",
+    "Original English lexical metric, not a semantic-equivalence measure",
+    "z is a descriptive pairwise-null effect size, not a significance test; observations cluster by prompt",
+    "Independent NLA reconstruction and published J-lens provenance validation remain pending"
+  ]
+}

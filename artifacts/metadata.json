@@ -1,0 +1,2184 @@
+{
+  "repos": {
+    "base": {
+      "id": "Qwen/Qwen3.6-27B",
+      "revision": "6a9e13bd6fc8f0983b9b99948120bc37f49c13e9",
+      "files": [
+        {
+          "path": ".gitattributes",
+          "bytes": 1570
+        },
+        {
+          "path": "LICENSE",
+          "bytes": 11343
+        },
+        {
+          "path": "README.md",
+          "bytes": 62593
+        },
+        {
+          "path": "chat_template.jinja",
+          "bytes": 7764
+        },
+        {
+          "path": "config.json",
+          "bytes": 4308
+        },
+        {
+          "path": "configuration.json",
+          "bytes": 51
+        },
+        {
+          "path": "generation_config.json",
+          "bytes": 202
+        },
+        {
+          "path": "merges.txt",
+          "bytes": 3353259
+        },
+        {
+          "path": "model-00001-of-00015.safetensors",
+          "bytes": 3968861352
+        },
+        {
+          "path": "model-00002-of-00015.safetensors",
+          "bytes": 3921677136
+        },
+        {
+          "path": "model-00003-of-00015.safetensors",
+          "bytes": 3921677128
+        },
+        {
+          "path": "model-00004-of-00015.safetensors",
+          "bytes": 3921677128
+        },
+        {
+          "path": "model-00005-of-00015.safetensors",
+          "bytes": 3921677112
+        },
+        {
+          "path": "model-00006-of-00015.safetensors",
+          "bytes": 3900710888
+        },
+        {
+          "path": "model-00007-of-00015.safetensors",
+          "bytes": 3994391976
+        },
+        {
+          "path": "model-00008-of-00015.safetensors",
+          "bytes": 3879219776
+        },
+        {
+          "path": "model-00009-of-00015.safetensors",
+          "bytes": 3921677136
+        },
+        {
+          "path": "model-00010-of-00015.safetensors",
+          "bytes": 3921677128
+        },
+        {
+          "path": "model-00011-of-00015.safetensors",
+          "bytes": 3921677136
+        },
+        {
+          "path": "model-00012-of-00015.safetensors",
+          "bytes": 3921677136
+        },
+        {
+          "path": "model-00013-of-00015.safetensors",
+          "bytes": 3995081848
+        },
+        {
+          "path": "model-00014-of-00015.safetensors",
+          "bytes": 3942652952
+        },
+        {
+          "path": "model-00015-of-00015.safetensors",
+          "bytes": 508670568
+        },
+        {
+          "path": "model.safetensors.index.json",
+          "bytes": 112216
+        },
+        {
+          "path": "preprocessor_config.json",
+          "bytes": 390
+        },
+        {
+          "path": "tokenizer.json",
+          "bytes": 12807982
+        },
+        {
+          "path": "tokenizer_config.json",
+          "bytes": 16718
+        },
+        {
+          "path": "video_preprocessor_config.json",
+          "bytes": 385
+        },
+        {
+          "path": "vocab.json",
+          "bytes": 6722759
+        }
+      ],
+      "metadata": {
+        "config.json": {
+          "architectures": [
+            "Qwen3_5ForConditionalGeneration"
+          ],
+          "image_token_id": 248056,
+          "language_model_only": false,
+          "model_type": "qwen3_5",
+          "text_config": {
+            "attention_bias": false,
+            "attention_dropout": 0.0,
+            "attn_output_gate": true,
+            "bos_token_id": 248044,
+            "dtype": "bfloat16",
+            "eos_token_id": 248044,
+            "full_attention_interval": 4,
+            "head_dim": 256,
+            "hidden_act": "silu",
+            "hidden_size": 5120,
+            "initializer_range": 0.02,
+            "intermediate_size": 17408,
+            "layer_types": [
+              "linear_attention",
+              "linear_attention",
+              "linear_attention",
+              "full_attention",
+              "linear_attention",
+              "linear_attention",
+              "linear_attention",
+              "full_attention",
+              "linear_attention",
+              "linear_attention",
+              "linear_attention",
+              "full_attention",
+              "linear_attention",
+              "linear_attention",
+              "linear_attention",
+              "full_attention",
+              "linear_attention",
+              "linear_attention",
+              "linear_attention",
+              "full_attention",
+              "linear_attention",
+              "linear_attention",
+              "linear_attention",
+              "full_attention",
+              "linear_attention",
+              "linear_attention",
+              "linear_attention",
+              "full_attention",
+              "linear_attention",
+              "linear_attention",
+              "linear_attention",
+              "full_attention",
+              "linear_attention",
+              "linear_attention",
+              "linear_attention",
+              "full_attention",
+              "linear_attention",
+              "linear_attention",
+              "linear_attention",
+              "full_attention",
+              "linear_attention",
+              "linear_attention",
+              "linear_attention",
+              "full_attention",
+              "linear_attention",
+              "linear_attention",
+              "linear_attention",
+              "full_attention",
+              "linear_attention",
+              "linear_attention",
+              "linear_attention",
+              "full_attention",
+              "linear_attention",
+              "linear_attention",
+              "linear_attention",
+              "full_attention",
+              "linear_attention",
+              "linear_attention",
+              "linear_attention",
+              "full_attention",
+              "linear_attention",
+              "linear_attention",
+              "linear_attention",
+              "full_attention"
+            ],
+            "linear_conv_kernel_dim": 4,
+            "linear_key_head_dim": 128,
+            "linear_num_key_heads": 16,
+            "linear_num_value_heads": 48,
+            "linear_value_head_dim": 128,
+            "mamba_ssm_dtype": "float32",
+            "max_position_embeddings": 262144,
+            "model_type": "qwen3_5_text",
+            "mtp_num_hidden_layers": 1,
+            "mtp_use_dedicated_embeddings": false,
+            "num_attention_heads": 24,
+            "num_hidden_layers": 64,
+            "num_key_value_heads": 4,
+            "output_gate_type": "swish",
+            "pad_token_id": null,
+            "partial_rotary_factor": 0.25,
+            "rms_norm_eps": 1e-06,
+            "rope_parameters": {
+              "mrope_interleaved": true,
+              "mrope_section": [
+                11,
+                11,
+                10
+              ],
+              "partial_rotary_factor": 0.25,
+              "rope_theta": 10000000,
+              "rope_type": "default"
+            },
+            "tie_word_embeddings": false,
+            "use_cache": true,
+            "vocab_size": 248320
+          },
+          "tie_word_embeddings": false,
+          "transformers_version": "4.57.1",
+          "video_token_id": 248057,
+          "vision_config": {
+            "deepstack_visual_indexes": [],
+            "depth": 27,
+            "hidden_act": "gelu_pytorch_tanh",
+            "hidden_size": 1152,
+            "in_channels": 3,
+            "initializer_range": 0.02,
+            "intermediate_size": 4304,
+            "model_type": "qwen3_5",
+            "num_heads": 16,
+            "num_position_embeddings": 2304,
+            "out_hidden_size": 5120,
+            "patch_size": 16,
+            "spatial_merge_size": 2,
+            "temporal_patch_size": 2
+          },
+          "vision_end_token_id": 248054,
+          "vision_start_token_id": 248053
+        }
+      }
+    },
+    "nla": {
+      "id": "ceselder/qwen3.6-27b-nla-L42",
+      "revision": "54e3ce6040b9a37fd341e286870b7480b3e6bd50",
+      "files": [
+        {
+          "path": ".gitattributes",
+          "bytes": 1647
+        },
+        {
+          "path": "README.md",
+          "bytes": 3130
+        },
+        {
+          "path": "ar_sft_critic/chat_template.jinja",
+          "bytes": 7764
+        },
+        {
+          "path": "ar_sft_critic/config.json",
+          "bytes": 2248
+        },
+        {
+          "path": "ar_sft_critic/generation_config.json",
+          "bytes": 213
+        },
+        {
+          "path": "ar_sft_critic/model.safetensors",
+          "bytes": 35284007816
+        },
+        {
+          "path": "ar_sft_critic/nla_meta.yaml",
+          "bytes": 3418
+        },
+        {
+          "path": "ar_sft_critic/tokenizer.json",
+          "bytes": 19989343
+        },
+        {
+          "path": "ar_sft_critic/tokenizer_config.json",
+          "bytes": 1099
+        },
+        {
+          "path": "ar_sft_critic/value_head.safetensors",
+          "bytes": 104857688
+        },
+        {
+          "path": "av_rl_lora_step400/adapter_config.json",
+          "bytes": 1122
+        },
+        {
+          "path": "av_rl_lora_step400/adapter_model.safetensors",
+          "bytes": 1266738896
+        },
+        {
+          "path": "av_sft_lora/README.md",
+          "bytes": 5186
+        },
+        {
+          "path": "av_sft_lora/adapter_config.json",
+          "bytes": 1097
+        },
+        {
+          "path": "av_sft_lora/adapter_model.safetensors",
+          "bytes": 1266738896
+        },
+        {
+          "path": "av_sft_lora/chat_template.jinja",
+          "bytes": 7764
+        },
+        {
+          "path": "av_sft_lora/nla_meta.yaml",
+          "bytes": 3383
+        },
+        {
+          "path": "av_sft_lora/tokenizer.json",
+          "bytes": 19989343
+        },
+        {
+          "path": "av_sft_lora/tokenizer_config.json",
+          "bytes": 1099
+        },
+        {
+          "path": "nla_meta.yaml",
+          "bytes": 3383
+        },
+        {
+          "path": "rl_critic_step400/config.json",
+          "bytes": 2248
+        },
+        {
+          "path": "rl_critic_step400/generation_config.json",
+          "bytes": 213
+        },
+        {
+          "path": "rl_critic_step400/model.safetensors",
+          "bytes": 35284007816
+        },
+        {
+          "path": "rl_critic_step400/saved_at_step.txt",
+          "bytes": 3
+        },
+        {
+          "path": "rl_critic_step400/value_head.safetensors",
+          "bytes": 104857688
+        }
+      ],
+      "metadata": {
+        "nla_meta.yaml": {
+          "dataset_id": "av_sft_Qwen3.6-27B_L42_regen__av_sft_Qwen3-8B_L24_6a22e324__av_sft_raw__explained__shuf42",
+          "stage": "av_sft",
+          "row_count": 247261,
+          "extraction": {
+            "base_model": "Qwen/Qwen3.6-27B",
+            "d_model": 5120,
+            "layer_index": 42,
+            "norm": "none",
+            "corpus": "/workspace-vast/celeste/nla-data/finefineweb_100k.parquet",
+            "corpus_slice": {
+              "start": 0,
+              "length": 100000
+            },
+            "positions_per_doc": 10
+          },
+          "kind": "nla_dataset",
+          "schema_version": 1,
+          "keep_debug_metadata": true,
+          "tokens": {
+            "injection_char": "\u321c",
+            "injection_token_id": 158983,
+            "injection_left_neighbor_id": 29,
+            "injection_right_neighbor_id": 510,
+            "critic_suffix_ids": null
+          },
+          "prompt_templates": {
+            "actor": "You are a meticulous AI researcher conducting an important investigation into activation vectors from a language model. Your overall task is to describe the semantic content of that activation vector.\n\nWe will pass the vector enclosed in <concept> tags into your context. You must then produce an explanation for the vector, enclosed within <explanation> tags. The explanation consists of 2-3 text snippets describing that vector.\n\nHere is the vector:\n\n<concept>{injection_char}</concept>\n\nPlease provide an explanation.",
+            "critic": "Summary of the following text: <text>{explanation}</text> <summary>"
+          },
+          "api_summaries": {
+            "model": "claude-sonnet-4-6",
+            "max_tokens": 300,
+            "temperature": 1.0,
+            "instruction_prompt": "A language model needs to predict what text comes next after a snippet which will be presented to you shortly. Identify the 2-3 most important features it would use for this prediction.\nFocus on what the language model must be \"thinking about\" at the point where the provided text ends. You should not need to reference the fact that the text is truncated/incomplete/a prefix: the language model is causal, so only sees the prefix to what it predicts and this is implicit.\nOrder features by what is most important for predicting the next tokens. Each feature should consist of a concise ~10-20 word description. Feel free to include specific textual examples inline.\n\nFeature types to consider (as inspiration, not a rigid checklist):\n- Syntactic/structural constraints: \"unclosed parenthesis requires matching close\"\n- Immediate semantic expectations: \"list promised three items but only two given\"\n- Stylistic/register patterns: \"formal academic tone maintained throughout\"\n- Narrative/argumentative momentum: \"thesis stated, supporting evidence now expected\"\n- Domain/genre signals: \"medical case history following SOAP format\"\n- Repetition/continuation patterns: \"same phrase structure repeating with variations\"\n\nThe final feature must describe the very end of the presented sequence: its role, what it's part of, and immediate constraints on what follows.\n\nFormat \u2014 IMPORTANT: keep to ~80-100 words total and ALWAYS close the tag:\n<analysis>\n[first feature \u2014 include specific examples when relevant]\n[second feature]\n[final feature: the last token, its role, immediate constraints]\n</analysis>\n\nText to analyze:\n\n<begin_text>{text}<end_text>"
+          },
+          "parent_datasets": [
+            "av_sft_Qwen3-8B_L24_6a22e324__av_sft_raw__explained__shuf42"
+          ],
+          "created_at": "2026-07-05T23:48:31.933973+00:00",
+          "created_by": "scripts.regenerate_activations",
+          "git_commit": "6bdd604"
+        },
+        "av_rl_lora_step400/adapter_config.json": {
+          "alora_invocation_tokens": null,
+          "alpha_pattern": {},
+          "arrow_config": null,
+          "auto_mapping": null,
+          "base_model_name_or_path": "/workspace/easyNLA-qwen36/ckpts/av_merged",
+          "bias": "none",
+          "corda_config": null,
+          "ensure_weight_tying": false,
+          "eva_config": null,
+          "exclude_modules": null,
+          "fan_in_fan_out": false,
+          "inference_mode": true,
+          "init_lora_weights": true,
+          "layer_replication": null,
+          "layers_pattern": null,
+          "layers_to_transform": null,
+          "loftq_config": {},
+          "lora_alpha": 16,
+          "lora_bias": false,
+          "lora_dropout": 0.0,
+          "lora_ga_config": null,
+          "megatron_config": null,
+          "megatron_core": "megatron.core",
+          "modules_to_save": null,
+          "peft_type": "LORA",
+          "peft_version": "0.19.1",
+          "qalora_group_size": 16,
+          "r": 128,
+          "rank_pattern": {},
+          "revision": null,
+          "target_modules": [
+            "q_proj",
+            "in_proj_z",
+            "in_proj_qkv",
+            "o_proj",
+            "v_proj",
+            "k_proj",
+            "out_proj"
+          ],
+          "target_parameters": null,
+          "task_type": "CAUSAL_LM",
+          "trainable_token_indices": null,
+          "use_bdlora": null,
+          "use_dora": false,
+          "use_qalora": false,
+          "use_rslora": true
+        },
+        "rl_critic_step400/config.json": {
+          "architectures": [
+            "Qwen3_5ForCausalLM"
+          ],
+          "attention_bias": false,
+          "attention_dropout": 0.0,
+          "attn_output_gate": true,
+          "bos_token_id": 248044,
+          "dtype": "bfloat16",
+          "eos_token_id": 248044,
+          "full_attention_interval": 4,
+          "head_dim": 256,
+          "hidden_act": "silu",
+          "hidden_size": 5120,
+          "initializer_range": 0.02,
+          "intermediate_size": 17408,
+          "layer_types": [
+            "linear_attention",
+            "linear_attention",
+            "linear_attention",
+            "full_attention",
+            "linear_attention",
+            "linear_attention",
+            "linear_attention",
+            "full_attention",
+            "linear_attention",
+            "linear_attention",
+            "linear_attention",
+            "full_attention",
+            "linear_attention",
+            "linear_attention",
+            "linear_attention",
+            "full_attention",
+            "linear_attention",
+            "linear_attention",
+            "linear_attention",
+            "full_attention",
+            "linear_attention",
+            "linear_attention",
+            "linear_attention",
+            "full_attention",
+            "linear_attention",
+            "linear_attention",
+            "linear_attention",
+            "full_attention",
+            "linear_attention",
+            "linear_attention",
+            "linear_attention",
+            "full_attention",
+            "linear_attention",
+            "linear_attention",
+            "linear_attention",
+            "full_attention",
+            "linear_attention",
+            "linear_attention",
+            "linear_attention",
+            "full_attention",
+            "linear_attention",
+            "linear_attention",
+            "linear_attention"
+          ],
+          "linear_conv_kernel_dim": 4,
+          "linear_key_head_dim": 128,
+          "linear_num_key_heads": 16,
+          "linear_num_value_heads": 48,
+          "linear_value_head_dim": 128,
+          "mamba_ssm_dtype": "float32",
+          "max_position_embeddings": 262144,
+          "model_type": "qwen3_5_text",
+          "mtp_num_hidden_layers": 1,
+          "mtp_use_dedicated_embeddings": false,
+          "num_attention_heads": 24,
+          "num_hidden_layers": 43,
+          "num_key_value_heads": 4,
+          "output_gate_type": "swish",
+          "pad_token_id": null,
+          "partial_rotary_factor": 0.25,
+          "rms_norm_eps": 1e-06,
+          "rope_parameters": {
+            "mrope_interleaved": true,
+            "mrope_section": [
+              11,
+              11,
+              10
+            ],
+            "partial_rotary_factor": 0.25,
+            "rope_theta": 10000000,
+            "rope_type": "default"
+          },
+          "tie_word_embeddings": false,
+          "transformers_version": "5.5.4",
+          "use_cache": true,
+          "vocab_size": 248320
+        }
+      }
+    },
+    "sae": {
+      "id": "caiovicentino1/qwen36-27b-sae-fullstack",
+      "revision": "0f03d7c31c10c4b958047b80b224cd03c38fbe85",
+      "files": [
+        {
+          "path": ".gitattributes",
+          "bytes": 1581
+        },
+        {
+          "path": "README.md",
+          "bytes": 8145
+        },
+        {
+          "path": "sae_L15_cfg.json",
+          "bytes": 276
+        },
+        {
+          "path": "sae_L15_latest.safetensors",
+          "bytes": 838953288
+        },
+        {
+          "path": "sae_L15_resume.pt",
+          "bytes": 2517193105
+        },
+        {
+          "path": "sae_L19_cfg.json",
+          "bytes": 276
+        },
+        {
+          "path": "sae_L19_latest.safetensors",
+          "bytes": 838953288
+        },
+        {
+          "path": "sae_L19_resume.pt",
+          "bytes": 2517193105
+        },
+        {
+          "path": "sae_L23_cfg.json",
+          "bytes": 276
+        },
+        {
+          "path": "sae_L23_latest.safetensors",
+          "bytes": 838953288
+        },
+        {
+          "path": "sae_L23_resume.pt",
+          "bytes": 2517193105
+        },
+        {
+          "path": "sae_L27_cfg.json",
+          "bytes": 276
+        },
+        {
+          "path": "sae_L27_latest.safetensors",
+          "bytes": 838953288
+        },
+        {
+          "path": "sae_L27_resume.pt",
+          "bytes": 2517193105
+        },
+        {
+          "path": "sae_L35_cfg.json",
+          "bytes": 276
+        },
+        {
+          "path": "sae_L35_latest.safetensors",
+          "bytes": 838953288
+        },
+        {
+          "path": "sae_L35_resume.pt",
+          "bytes": 2517193105
+        },
+        {
+          "path": "sae_L39_cfg.json",
+          "bytes": 276
+        },
+        {
+          "path": "sae_L39_latest.safetensors",
+          "bytes": 838953288
+        },
+        {
+          "path": "sae_L39_resume.pt",
+          "bytes": 2517193105
+        },
+        {
+          "path": "sae_L43_cfg.json",
+          "bytes": 276
+        },
+        {
+          "path": "sae_L43_latest.safetensors",
+          "bytes": 838953288
+        },
+        {
+          "path": "sae_L43_resume.pt",
+          "bytes": 2517193105
+        },
+        {
+          "path": "sae_L47_cfg.json",
+          "bytes": 276
+        },
+        {
+          "path": "sae_L47_latest.safetensors",
+          "bytes": 838953288
+        },
+        {
+          "path": "sae_L47_resume.pt",
+          "bytes": 2517193105
+        },
+        {
+          "path": "sae_L51_cfg.json",
+          "bytes": 276
+        },
+        {
+          "path": "sae_L51_latest.safetensors",
+          "bytes": 838953288
+        },
+        {
+          "path": "sae_L51_resume.pt",
+          "bytes": 2517193105
+        },
+        {
+          "path": "sae_L59_cfg.json",
+          "bytes": 276
+        },
+        {
+          "path": "sae_L59_latest.safetensors",
+          "bytes": 838953288
+        },
+        {
+          "path": "sae_L59_resume.pt",
+          "bytes": 2517193105
+        },
+        {
+          "path": "sae_L63_cfg.json",
+          "bytes": 276
+        },
+        {
+          "path": "sae_L63_latest.safetensors",
+          "bytes": 838953288
+        },
+        {
+          "path": "sae_L63_resume.pt",
+          "bytes": 2517193105
+        },
+        {
+          "path": "val_report.json",
+          "bytes": 2593
+        },
+        {
+          "path": "val_report_comparison.png",
+          "bytes": 117488
+        }
+      ],
+      "metadata": {
+        "sae_L43_cfg.json": {
+          "architecture": "topk",
+          "d_in": 5120,
+          "d_sae": 40960,
+          "k": 128,
+          "k_aux": 2560,
+          "alpha_aux": 0.03125,
+          "hook_name": "model.language_model.layers.43",
+          "model_name": "Qwen/Qwen3.6-27B",
+          "activation_fn_str": "relu",
+          "tokens_seen": 170006528,
+          "step": 48830
+        }
+      }
+    },
+    "av": {
+      "id": "ceselder/qwen3.6-27b-nla-rl",
+      "revision": "5a13b7ec21a69fcdd0fb24d5edbe96a92aef4b9f",
+      "files": [
+        {
+          "path": ".gitattributes",
+          "bytes": 2232
+        },
+        {
+          "path": "README.md",
+          "bytes": 7646
+        },
+        {
+          "path": "ar_reconstructor/config.json",
+          "bytes": 2248
+        },
+        {
+          "path": "ar_reconstructor/generation_config.json",
+          "bytes": 213
+        },
+        {
+          "path": "ar_reconstructor/model.safetensors",
+          "bytes": 35284007816
+        },
+        {
+          "path": "ar_reconstructor/saved_at_step.txt",
+          "bytes": 3
+        },
+        {
+          "path": "ar_reconstructor/value_head.safetensors",
+          "bytes": 104857688
+        },
+        {
+          "path": "ar_reconstructor_sft_init/chat_template.jinja",
+          "bytes": 7764
+        },
+        {
+          "path": "ar_reconstructor_sft_init/config.json",
+          "bytes": 2247
+        },
+        {
+          "path": "ar_reconstructor_sft_init/generation_config.json",
+          "bytes": 213
+        },
+        {
+          "path": "ar_reconstructor_sft_init/model-00001-of-00002.safetensors",
+          "bytes": 49700357368
+        },
+        {
+          "path": "ar_reconstructor_sft_init/model-00002-of-00002.safetensors",
+          "bytes": 20867581504
+        },
+        {
+          "path": "ar_reconstructor_sft_init/model.safetensors.index.json",
+          "bytes": 56541
+        },
+        {
+          "path": "ar_reconstructor_sft_init/nla_meta.yaml",
+          "bytes": 3418
+        },
+        {
+          "path": "ar_reconstructor_sft_init/tokenizer.json",
+          "bytes": 19989343
+        },
+        {
+          "path": "ar_reconstructor_sft_init/tokenizer_config.json",
+          "bytes": 1099
+        },
+        {
+          "path": "ar_reconstructor_sft_init/value_head.safetensors",
+          "bytes": 104857688
+        },
+        {
+          "path": "ar_sft_checkpoints/iter_0001000/chat_template.jinja",
+          "bytes": 7764
+        },
+        {
+          "path": "ar_sft_checkpoints/iter_0001000/config.json",
+          "bytes": 2247
+        },
+        {
+          "path": "ar_sft_checkpoints/iter_0001000/generation_config.json",
+          "bytes": 213
+        },
+        {
+          "path": "ar_sft_checkpoints/iter_0001000/model-00001-of-00002.safetensors",
+          "bytes": 49700357368
+        },
+        {
+          "path": "ar_sft_checkpoints/iter_0001000/model-00002-of-00002.safetensors",
+          "bytes": 20867581504
+        },
+        {
+          "path": "ar_sft_checkpoints/iter_0001000/model.safetensors.index.json",
+          "bytes": 56541
+        },
+        {
+          "path": "ar_sft_checkpoints/iter_0001000/nla_meta.yaml",
+          "bytes": 3418
+        },
+        {
+          "path": "ar_sft_checkpoints/iter_0001000/tokenizer.json",
+          "bytes": 19989343
+        },
+        {
+          "path": "ar_sft_checkpoints/iter_0001000/tokenizer_config.json",
+          "bytes": 1099
+        },
+        {
+          "path": "ar_sft_checkpoints/iter_0001000/value_head.safetensors",
+          "bytes": 104857688
+        },
+        {
+          "path": "ar_sft_checkpoints/iter_0002000/chat_template.jinja",
+          "bytes": 7764
+        },
+        {
+          "path": "ar_sft_checkpoints/iter_0002000/config.json",
+          "bytes": 2247
+        },
+        {
+          "path": "ar_sft_checkpoints/iter_0002000/generation_config.json",
+          "bytes": 213
+        },
+        {
+          "path": "ar_sft_checkpoints/iter_0002000/model-00001-of-00002.safetensors",
+          "bytes": 49700357368
+        },
+        {
+          "path": "ar_sft_checkpoints/iter_0002000/model-00002-of-00002.safetensors",
+          "bytes": 20867581504
+        },
+        {
+          "path": "ar_sft_checkpoints/iter_0002000/model.safetensors.index.json",
+          "bytes": 56541
+        },
+        {
+          "path": "ar_sft_checkpoints/iter_0002000/nla_meta.yaml",
+          "bytes": 3418
+        },
+        {
+          "path": "ar_sft_checkpoints/iter_0002000/tokenizer.json",
+          "bytes": 19989343
+        },
+        {
+          "path": "ar_sft_checkpoints/iter_0002000/tokenizer_config.json",
+          "bytes": 1099
+        },
+        {
+          "path": "ar_sft_checkpoints/iter_0002000/value_head.safetensors",
+          "bytes": 104857688
+        },
+        {
+          "path": "ar_sft_checkpoints/iter_0003000/chat_template.jinja",
+          "bytes": 7764
+        },
+        {
+          "path": "ar_sft_checkpoints/iter_0003000/config.json",
+          "bytes": 2247
+        },
+        {
+          "path": "ar_sft_checkpoints/iter_0003000/generation_config.json",
+          "bytes": 213
+        },
+        {
+          "path": "ar_sft_checkpoints/iter_0003000/model-00001-of-00002.safetensors",
+          "bytes": 49700357368
+        },
+        {
+          "path": "ar_sft_checkpoints/iter_0003000/model-00002-of-00002.safetensors",
+          "bytes": 20867581504
+        },
+        {
+          "path": "ar_sft_checkpoints/iter_0003000/model.safetensors.index.json",
+          "bytes": 56541
+        },
+        {
+          "path": "ar_sft_checkpoints/iter_0003000/nla_meta.yaml",
+          "bytes": 3418
+        },
+        {
+          "path": "ar_sft_checkpoints/iter_0003000/tokenizer.json",
+          "bytes": 19989343
+        },
+        {
+          "path": "ar_sft_checkpoints/iter_0003000/tokenizer_config.json",
+          "bytes": 1099
+        },
+        {
+          "path": "ar_sft_checkpoints/iter_0003000/value_head.safetensors",
+          "bytes": 104857688
+        },
+        {
+          "path": "av_base/chat_template.jinja",
+          "bytes": 7764
+        },
+        {
+          "path": "av_base/config.json",
+          "bytes": 2740
+        },
+        {
+          "path": "av_base/generation_config.json",
+          "bytes": 213
+        },
+        {
+          "path": "av_base/model-00001-of-00002.safetensors",
+          "bytes": 49825162976
+        },
+        {
+          "path": "av_base/model-00002-of-00002.safetensors",
+          "bytes": 3966947216
+        },
+        {
+          "path": "av_base/model.safetensors.index.json",
+          "bytes": 83909
+        },
+        {
+          "path": "av_base/nla_meta.yaml",
+          "bytes": 3383
+        },
+        {
+          "path": "av_base/tokenizer.json",
+          "bytes": 19989343
+        },
+        {
+          "path": "av_base/tokenizer_config.json",
+          "bytes": 1098
+        },
+        {
+          "path": "av_rl_adapters/iter_000100/adapter_config.json",
+          "bytes": 1190
+        },
+        {
+          "path": "av_rl_adapters/iter_000100/adapter_model.safetensors",
+          "bytes": 1867782664
+        },
+        {
+          "path": "av_rl_adapters/iter_000200/adapter_config.json",
+          "bytes": 1190
+        },
+        {
+          "path": "av_rl_adapters/iter_000200/adapter_model.safetensors",
+          "bytes": 1867782664
+        },
+        {
+          "path": "av_rl_adapters/iter_000300/adapter_config.json",
+          "bytes": 1190
+        },
+        {
+          "path": "av_rl_adapters/iter_000300/adapter_model.safetensors",
+          "bytes": 1867782664
+        },
+        {
+          "path": "av_rl_adapters/iter_000400/adapter_config.json",
+          "bytes": 1190
+        },
+        {
+          "path": "av_rl_adapters/iter_000400/adapter_model.safetensors",
+          "bytes": 1867782664
+        },
+        {
+          "path": "av_rl_adapters/iter_000500/adapter_config.json",
+          "bytes": 1190
+        },
+        {
+          "path": "av_rl_adapters/iter_000500/adapter_model.safetensors",
+          "bytes": 1867782664
+        },
+        {
+          "path": "av_rl_adapters/iter_000600/adapter_config.json",
+          "bytes": 1190
+        },
+        {
+          "path": "av_rl_adapters/iter_000600/adapter_model.safetensors",
+          "bytes": 1867782664
+        },
+        {
+          "path": "av_rl_adapters/iter_000700/adapter_config.json",
+          "bytes": 1208
+        },
+        {
+          "path": "av_rl_adapters/iter_000700/adapter_model.safetensors",
+          "bytes": 1867782664
+        },
+        {
+          "path": "av_rl_adapters/iter_000800/adapter_config.json",
+          "bytes": 1208
+        },
+        {
+          "path": "av_rl_adapters/iter_000800/adapter_model.safetensors",
+          "bytes": 1867782664
+        },
+        {
+          "path": "av_warmstart_lora/iter_0001000/README.md",
+          "bytes": 5186
+        },
+        {
+          "path": "av_warmstart_lora/iter_0001000/adapter_config.json",
+          "bytes": 1180
+        },
+        {
+          "path": "av_warmstart_lora/iter_0001000/adapter_model.safetensors",
+          "bytes": 3735429160
+        },
+        {
+          "path": "av_warmstart_lora/iter_0001000/chat_template.jinja",
+          "bytes": 7764
+        },
+        {
+          "path": "av_warmstart_lora/iter_0001000/nla_meta.yaml",
+          "bytes": 3383
+        },
+        {
+          "path": "av_warmstart_lora/iter_0001000/tokenizer.json",
+          "bytes": 19989343
+        },
+        {
+          "path": "av_warmstart_lora/iter_0001000/tokenizer_config.json",
+          "bytes": 1099
+        },
+        {
+          "path": "av_warmstart_lora/iter_0002000/README.md",
+          "bytes": 5186
+        },
+        {
+          "path": "av_warmstart_lora/iter_0002000/adapter_config.json",
+          "bytes": 1180
+        },
+        {
+          "path": "av_warmstart_lora/iter_0002000/adapter_model.safetensors",
+          "bytes": 3735429160
+        },
+        {
+          "path": "av_warmstart_lora/iter_0002000/chat_template.jinja",
+          "bytes": 7764
+        },
+        {
+          "path": "av_warmstart_lora/iter_0002000/nla_meta.yaml",
+          "bytes": 3383
+        },
+        {
+          "path": "av_warmstart_lora/iter_0002000/tokenizer.json",
+          "bytes": 19989343
+        },
+        {
+          "path": "av_warmstart_lora/iter_0002000/tokenizer_config.json",
+          "bytes": 1099
+        },
+        {
+          "path": "av_warmstart_lora/iter_0003000/README.md",
+          "bytes": 5186
+        },
+        {
+          "path": "av_warmstart_lora/iter_0003000/adapter_config.json",
+          "bytes": 1180
+        },
+        {
+          "path": "av_warmstart_lora/iter_0003000/adapter_model.safetensors",
+          "bytes": 3735429160
+        },
+        {
+          "path": "av_warmstart_lora/iter_0003000/chat_template.jinja",
+          "bytes": 7764
+        },
+        {
+          "path": "av_warmstart_lora/iter_0003000/nla_meta.yaml",
+          "bytes": 3383
+        },
+        {
+          "path": "av_warmstart_lora/iter_0003000/tokenizer.json",
+          "bytes": 19989343
+        },
+        {
+          "path": "av_warmstart_lora/iter_0003000/tokenizer_config.json",
+          "bytes": 1099
+        },
+        {
+          "path": "av_warmstart_lora/iter_0003864/README.md",
+          "bytes": 5186
+        },
+        {
+          "path": "av_warmstart_lora/iter_0003864/adapter_config.json",
+          "bytes": 1180
+        },
+        {
+          "path": "av_warmstart_lora/iter_0003864/adapter_model.safetensors",
+          "bytes": 3735429160
+        },
+        {
+          "path": "av_warmstart_lora/iter_0003864/chat_template.jinja",
+          "bytes": 7764
+        },
+        {
+          "path": "av_warmstart_lora/iter_0003864/nla_meta.yaml",
+          "bytes": 3383
+        },
+        {
+          "path": "av_warmstart_lora/iter_0003864/tokenizer.json",
+          "bytes": 19989343
+        },
+        {
+          "path": "av_warmstart_lora/iter_0003864/tokenizer_config.json",
+          "bytes": 1099
+        },
+        {
+          "path": "data/example_activations.parquet",
+          "bytes": 576171
+        },
+        {
+          "path": "fve_trajectory.json",
+          "bytes": 5166
+        },
+        {
+          "path": "nla_meta.yaml",
+          "bytes": 1393
+        },
+        {
+          "path": "run_config.yaml",
+          "bytes": 1469
+        }
+      ],
+      "metadata": {
+        "nla_meta.yaml": {
+          "dataset_id": "rl_Qwen3.6-27B_L42_regen__rl_Qwen3-8B_L24_6a22e324__rl_raw__shuf42",
+          "stage": "rl",
+          "row_count": 499846,
+          "extraction": {
+            "base_model": "Qwen/Qwen3.6-27B",
+            "d_model": 5120,
+            "layer_index": 42,
+            "norm": "none",
+            "corpus": "/workspace-vast/celeste/nla-data/finefineweb_100k.parquet",
+            "corpus_slice": {
+              "start": 0,
+              "length": 100000
+            },
+            "positions_per_doc": 10
+          },
+          "kind": "nla_dataset",
+          "schema_version": 1,
+          "keep_debug_metadata": true,
+          "tokens": {
+            "injection_char": "\u321c",
+            "injection_token_id": 158983,
+            "injection_left_neighbor_id": 29,
+            "injection_right_neighbor_id": 510,
+            "critic_suffix_ids": null
+          },
+          "prompt_templates": {
+            "actor": "You are a meticulous AI researcher conducting an important investigation into activation vectors from a language model. Your overall task is to describe the semantic content of that activation vector.\n\nWe will pass the vector enclosed in <concept> tags into your context. You must then produce an explanation for the vector, enclosed within <explanation> tags. The explanation consists of 2-3 text snippets describing that vector.\n\nHere is the vector:\n\n<concept>{injection_char}</concept>\n\nPlease provide an explanation.",
+            "critic": "Summary of the following text: <text>{explanation}</text> <summary>"
+          },
+          "parent_datasets": [
+            "rl_Qwen3-8B_L24_6a22e324__rl_raw__shuf42"
+          ],
+          "created_at": "2026-07-05T23:57:19.758064+00:00",
+          "created_by": "scripts.regenerate_activations",
+          "git_commit": "6bdd604"
+        },
+        "av_base/config.json": {
+          "architectures": [
+            "Qwen3_5ForCausalLM"
+          ],
+          "attention_bias": false,
+          "attention_dropout": 0.0,
+          "attn_output_gate": true,
+          "bos_token_id": 248044,
+          "dtype": "bfloat16",
+          "eos_token_id": 248044,
+          "full_attention_interval": 4,
+          "head_dim": 256,
+          "hidden_act": "silu",
+          "hidden_size": 5120,
+          "initializer_range": 0.02,
+          "intermediate_size": 17408,
+          "layer_types": [
+            "linear_attention",
+            "linear_attention",
+            "linear_attention",
+            "full_attention",
+            "linear_attention",
+            "linear_attention",
+            "linear_attention",
+            "full_attention",
+            "linear_attention",
+            "linear_attention",
+            "linear_attention",
+            "full_attention",
+            "linear_attention",
+            "linear_attention",
+            "linear_attention",
+            "full_attention",
+            "linear_attention",
+            "linear_attention",
+            "linear_attention",
+            "full_attention",
+            "linear_attention",
+            "linear_attention",
+            "linear_attention",
+            "full_attention",
+            "linear_attention",
+            "linear_attention",
+            "linear_attention",
+            "full_attention",
+            "linear_attention",
+            "linear_attention",
+            "linear_attention",
+            "full_attention",
+            "linear_attention",
+            "linear_attention",
+            "linear_attention",
+            "full_attention",
+            "linear_attention",
+            "linear_attention",
+            "linear_attention",
+            "full_attention",
+            "linear_attention",
+            "linear_attention",
+            "linear_attention",
+            "full_attention",
+            "linear_attention",
+            "linear_attention",
+            "linear_attention",
+            "full_attention",
+            "linear_attention",
+            "linear_attention",
+            "linear_attention",
+            "full_attention",
+            "linear_attention",
+            "linear_attention",
+            "linear_attention",
+            "full_attention",
+            "linear_attention",
+            "linear_attention",
+            "linear_attention",
+            "full_attention",
+            "linear_attention",
+            "linear_attention",
+            "linear_attention",
+            "full_attention"
+          ],
+          "linear_conv_kernel_dim": 4,
+          "linear_key_head_dim": 128,
+          "linear_num_key_heads": 16,
+          "linear_num_value_heads": 48,
+          "linear_value_head_dim": 128,
+          "mamba_ssm_dtype": "float32",
+          "max_position_embeddings": 262144,
+          "model_type": "qwen3_5_text",
+          "mtp_num_hidden_layers": 1,
+          "mtp_use_dedicated_embeddings": false,
+          "num_attention_heads": 24,
+          "num_hidden_layers": 64,
+          "num_key_value_heads": 4,
+          "output_gate_type": "swish",
+          "pad_token_id": null,
+          "partial_rotary_factor": 0.25,
+          "rms_norm_eps": 1e-06,
+          "rope_parameters": {
+            "mrope_interleaved": true,
+            "mrope_section": [
+              11,
+              11,
+              10
+            ],
+            "partial_rotary_factor": 0.25,
+            "rope_theta": 10000000,
+            "rope_type": "default"
+          },
+          "tie_word_embeddings": false,
+          "transformers_version": "5.5.4",
+          "use_cache": true,
+          "vocab_size": 248320
+        },
+        "run_config.yaml": {
+          "ar_ckpt": "/workspace/easyNLA-qwen36/ckpts/ar_sft_all/iter_0003865",
+          "ar_lora": true,
+          "ar_lora_alpha": 16,
+          "ar_lora_r": 64,
+          "assert_param_sync": false,
+          "av_adapter": null,
+          "av_ckpt": "/workspace/easyNLA-qwen36/ckpts/av_merged_all",
+          "base_ckpt": "Qwen/Qwen3.6-27B",
+          "batch_prompts": 504,
+          "critic_lr": 8e-05,
+          "critic_micro_batch": 4,
+          "eval_every": 10,
+          "eval_n_prompts": 128,
+          "eval_skip_rows": 449846,
+          "eval_temperature": null,
+          "evals": [
+            "base_fve"
+          ],
+          "grad_accum": 1,
+          "gradient_checkpointing": true,
+          "group_size": 8,
+          "initial_sync_warmup": true,
+          "ipc_weight_sync": true,
+          "judge_concurrency": 64,
+          "kl_beta": 0.01,
+          "kl_estimator": "k3",
+          "kl_topk": 64,
+          "length_penalty": 0.01,
+          "length_threshold": 192,
+          "log_reward": false,
+          "logp_micro_batch": 8,
+          "lora_alpha": 16,
+          "lora_r": 64,
+          "lora_scope": "all",
+          "lr": 0.0001,
+          "max_grad_norm": 1.0,
+          "max_new_tokens": 256,
+          "max_rows": 499846,
+          "no_wandb": false,
+          "num_steps": 2000,
+          "resume_from_lora": null,
+          "rl_parquet": "/workspace/easyNLA-qwen36/data/qwen36_27b_L42/rl_shuf.parquet",
+          "save_dir": "/workspace/easyNLA-qwen36/ckpts/rl_vllm_final",
+          "save_every": 100,
+          "seed": 0,
+          "sidecar": "/workspace/easyNLA-qwen36/data/qwen36_27b_L42/rl_shuf.parquet",
+          "start_step": 0,
+          "temperature": 1.0,
+          "text_judges_every": 50,
+          "train_critic": true,
+          "use_rslora": true,
+          "val_rows": 50000,
+          "vllm_attn_backend": "FLASH_ATTN",
+          "vllm_gpu_mem": 0.4,
+          "vllm_max_len": 1024,
+          "vllm_model": "/workspace/easyNLA-qwen36/hf_home/hub/models--Qwen--Qwen3.6-27B/snapshots/6a9e13bd6fc8f0983b9b99948120bc37f49c13e9",
+          "vllm_name_map": "qwen3_5_wrapper",
+          "vllm_tp": 1,
+          "wandb_group": "rl",
+          "wandb_name": "rl_vllm_all_final",
+          "wandb_project": "nla-qwen36-27b",
+          "wandb_tags": null
+        },
+        "av_rl_adapters/iter_000600/adapter_config.json": {
+          "alora_invocation_tokens": null,
+          "alpha_pattern": {},
+          "arrow_config": null,
+          "auto_mapping": null,
+          "base_model_name_or_path": "ceselder/qwen3.6-27b-nla-rl",
+          "bias": "none",
+          "corda_config": null,
+          "ensure_weight_tying": false,
+          "eva_config": null,
+          "exclude_modules": null,
+          "fan_in_fan_out": false,
+          "inference_mode": true,
+          "init_lora_weights": true,
+          "layer_replication": null,
+          "layers_pattern": null,
+          "layers_to_transform": null,
+          "loftq_config": {},
+          "lora_alpha": 16,
+          "lora_bias": false,
+          "lora_dropout": 0.0,
+          "lora_ga_config": null,
+          "megatron_config": null,
+          "megatron_core": "megatron.core",
+          "modules_to_save": null,
+          "peft_type": "LORA",
+          "peft_version": "0.19.1",
+          "qalora_group_size": 16,
+          "r": 64,
+          "rank_pattern": {},
+          "revision": null,
+          "target_modules": [
+            "q_proj",
+            "in_proj_b",
+            "v_proj",
+            "o_proj",
+            "k_proj",
+            "in_proj_qkv",
+            "down_proj",
+            "in_proj_a",
+            "out_proj",
+            "gate_proj",
+            "in_proj_z",
+            "up_proj"
+          ],
+          "target_parameters": null,
+          "task_type": "CAUSAL_LM",
+          "trainable_token_indices": null,
+          "use_bdlora": null,
+          "use_dora": false,
+          "use_qalora": false,
+          "use_rslora": true
+        }
+      }
+    },
+    "jlens": {
+      "id": "neuronpedia/jacobian-lens",
+      "revision": "9fa267f841d62aa468dab5b9b38c3dc45a82d863",
+      "files": [
+        {
+          "path": ".gitattributes",
+          "bytes": 1519
+        },
+        {
+          "path": "README.md",
+          "bytes": 10144
+        },
+        {
+          "path": "deepseek-v4-flash/jlens/NeelNanda-pile-10k/config.yaml",
+          "bytes": 2679
+        },
+        {
+          "path": "deepseek-v4-flash/jlens/NeelNanda-pile-10k/deepseek-v4-flash_jacobian_lens_cblank.pt",
+          "bytes": 1409300741
+        },
+        {
+          "path": "deepseek-v4-flash/jpp/Salesforce-wikitext/DeepSeek-V4-Flash_jpp_lens.pt",
+          "bytes": 1409300869
+        },
+        {
+          "path": "deepseek-v4-flash/jpp/Salesforce-wikitext/config.yaml",
+          "bytes": 3025
+        },
+        {
+          "path": "gemma-2-27b/jlens/Salesforce-wikitext/config.yaml",
+          "bytes": 2817
+        },
+        {
+          "path": "gemma-2-27b/jlens/Salesforce-wikitext/gemma-2-27b_convergence.csv",
+          "bytes": 34184
+        },
+        {
+          "path": "gemma-2-27b/jlens/Salesforce-wikitext/gemma-2-27b_jacobian_lens.pt",
+          "bytes": 1911043762
+        },
+        {
+          "path": "gemma-2-2b-it/jlens/Salesforce-wikitext/config.yaml",
+          "bytes": 2832
+        },
+        {
+          "path": "gemma-2-2b-it/jlens/Salesforce-wikitext/gemma-2-2b-it_convergence.csv",
+          "bytes": 14355
+        },
+        {
+          "path": "gemma-2-2b-it/jlens/Salesforce-wikitext/gemma-2-2b-it_jacobian_lens.pt",
+          "bytes": 265429252
+        },
+        {
+          "path": "gemma-2-2b/jlens/Salesforce-wikitext/config.yaml",
+          "bytes": 2814
+        },
+        {
+          "path": "gemma-2-2b/jlens/Salesforce-wikitext/gemma-2-2b_convergence.csv",
+          "bytes": 19386
+        },
+        {
+          "path": "gemma-2-2b/jlens/Salesforce-wikitext/gemma-2-2b_jacobian_lens.pt",
+          "bytes": 265429159
+        },
+        {
+          "path": "gemma-2-9b-it/jlens/Salesforce-wikitext/config.yaml",
+          "bytes": 2832
+        },
+        {
+          "path": "gemma-2-9b-it/jlens/Salesforce-wikitext/gemma-2-9b-it_convergence.csv",
+          "bytes": 19796
+        },
+        {
+          "path": "gemma-2-9b-it/jlens/Salesforce-wikitext/gemma-2-9b-it_jacobian_lens.pt",
+          "bytes": 1053307540
+        },
+        {
+          "path": "gemma-2-9b/jlens/Salesforce-wikitext/config.yaml",
+          "bytes": 2814
+        },
+        {
+          "path": "gemma-2-9b/jlens/Salesforce-wikitext/gemma-2-9b_convergence.csv",
+          "bytes": 20192
+        },
+        {
+          "path": "gemma-2-9b/jlens/Salesforce-wikitext/gemma-2-9b_jacobian_lens.pt",
+          "bytes": 1053307399
+        },
+        {
+          "path": "gemma-3-12b-it/jlens/Salesforce-wikitext/config.yaml",
+          "bytes": 2838
+        },
+        {
+          "path": "gemma-3-12b-it/jlens/Salesforce-wikitext/gemma-3-12b-it_convergence.csv",
+          "bytes": 37000
+        },
+        {
+          "path": "gemma-3-12b-it/jlens/Salesforce-wikitext/gemma-3-12b-it_jacobian_lens.pt",
+          "bytes": 1386101167
+        },
+        {
+          "path": "gemma-3-12b/jlens/Salesforce-wikitext/config.yaml",
+          "bytes": 2829
+        },
+        {
+          "path": "gemma-3-12b/jlens/Salesforce-wikitext/gemma-3-12b-pt_convergence.csv",
+          "bytes": 33964
+        },
+        {
+          "path": "gemma-3-12b/jlens/Salesforce-wikitext/gemma-3-12b-pt_jacobian_lens.pt",
+          "bytes": 1386101167
+        },
+        {
+          "path": "gemma-3-1b-it/jlens/Salesforce-wikitext/config.yaml",
+          "bytes": 2832
+        },
+        {
+          "path": "gemma-3-1b-it/jlens/Salesforce-wikitext/gemma-3-1b-it_convergence.csv",
+          "bytes": 19644
+        },
+        {
+          "path": "gemma-3-1b-it/jlens/Salesforce-wikitext/gemma-3-1b-it_jacobian_lens.pt",
+          "bytes": 66363652
+        },
+        {
+          "path": "gemma-3-1b/jlens/Salesforce-wikitext/config.yaml",
+          "bytes": 2823
+        },
+        {
+          "path": "gemma-3-1b/jlens/Salesforce-wikitext/gemma-3-1b-pt_convergence.csv",
+          "bytes": 19945
+        },
+        {
+          "path": "gemma-3-1b/jlens/Salesforce-wikitext/gemma-3-1b-pt_jacobian_lens.pt",
+          "bytes": 66363652
+        },
+        {
+          "path": "gemma-3-270m-it/jlens/Salesforce-wikitext/config.yaml",
+          "bytes": 2843
+        },
+        {
+          "path": "gemma-3-270m-it/jlens/Salesforce-wikitext/gemma-3-270m-it_convergence.csv",
+          "bytes": 11818
+        },
+        {
+          "path": "gemma-3-270m-it/jlens/Salesforce-wikitext/gemma-3-270m-it_jacobian_lens.pt",
+          "bytes": 13932714
+        },
+        {
+          "path": "gemma-3-270m/jlens/Salesforce-wikitext/config.yaml",
+          "bytes": 2826
+        },
+        {
+          "path": "gemma-3-270m/jlens/Salesforce-wikitext/gemma-3-270m_convergence.csv",
+          "bytes": 12850
+        },
+        {
+          "path": "gemma-3-270m/jlens/Salesforce-wikitext/gemma-3-270m_jacobian_lens.pt",
+          "bytes": 13932645
+        },
+        {
+          "path": "gemma-3-27b-it/jlens/Salesforce-wikitext/config.yaml",
+          "bytes": 2835
+        },
+        {
+          "path": "gemma-3-27b-it/jlens/Salesforce-wikitext/gemma-3-27b-it_convergence.csv",
+          "bytes": 36296
+        },
+        {
+          "path": "gemma-3-27b-it/jlens/Salesforce-wikitext/gemma-3-27b-it_jacobian_lens.pt",
+          "bytes": 3525986731
+        },
+        {
+          "path": "gemma-3-27b/jlens/Salesforce-wikitext/config.yaml",
+          "bytes": 2826
+        },
+        {
+          "path": "gemma-3-27b/jlens/Salesforce-wikitext/gemma-3-27b-pt_convergence.csv",
+          "bytes": 29344
+        },
+        {
+          "path": "gemma-3-27b/jlens/Salesforce-wikitext/gemma-3-27b-pt_jacobian_lens.pt",
+          "bytes": 3525986731
+        },
+        {
+          "path": "gemma-3-4b-it/jlens/Salesforce-wikitext/config.yaml",
+          "bytes": 2832
+        },
+        {
+          "path": "gemma-3-4b-it/jlens/Salesforce-wikitext/gemma-3-4b-it_convergence.csv",
+          "bytes": 23342
+        },
+        {
+          "path": "gemma-3-4b-it/jlens/Salesforce-wikitext/gemma-3-4b-it_jacobian_lens.pt",
+          "bytes": 432548236
+        },
+        {
+          "path": "gemma-3-4b/jlens/Salesforce-wikitext/config.yaml",
+          "bytes": 2823
+        },
+        {
+          "path": "gemma-3-4b/jlens/Salesforce-wikitext/gemma-3-4b-pt_convergence.csv",
+          "bytes": 26352
+        },
+        {
+          "path": "gemma-3-4b/jlens/Salesforce-wikitext/gemma-3-4b-pt_jacobian_lens.pt",
+          "bytes": 432548236
+        },
+        {
+          "path": "gemma-4-31b/jlens/Salesforce-wikitext/config.yaml",
+          "bytes": 2817
+        },
+        {
+          "path": "gemma-4-31b/jlens/Salesforce-wikitext/gemma-4-31B_convergence.csv",
+          "bytes": 37748
+        },
+        {
+          "path": "gemma-4-31b/jlens/Salesforce-wikitext/gemma-4-31B_jacobian_lens.pt",
+          "bytes": 3410380420
+        },
+        {
+          "path": "gemma-4-31b/jpp/Salesforce-wikitext/config.yaml",
+          "bytes": 2613
+        },
+        {
+          "path": "gemma-4-31b/jpp/Salesforce-wikitext/gemma-4-31B_jpp_lens.pt",
+          "bytes": 3410381570
+        },
+        {
+          "path": "gemma-4-e2b/jlens/Salesforce-wikitext/config.yaml",
+          "bytes": 2820
+        },
+        {
+          "path": "gemma-4-e2b/jlens/Salesforce-wikitext/gemma-4-E2B_convergence.csv",
+          "bytes": 19430
+        },
+        {
+          "path": "gemma-4-e2b/jlens/Salesforce-wikitext/gemma-4-E2B_jacobian_lens.pt",
+          "bytes": 160442957
+        },
+        {
+          "path": "gemma-4-e4b/jlens/Salesforce-wikitext/config.yaml",
+          "bytes": 2820
+        },
+        {
+          "path": "gemma-4-e4b/jlens/Salesforce-wikitext/gemma-4-E4B_convergence.csv",
+          "bytes": 28374
+        },
+        {
+          "path": "gemma-4-e4b/jlens/Salesforce-wikitext/gemma-4-E4B_jacobian_lens.pt",
+          "bytes": 537408054
+        },
+        {
+          "path": "gpt-oss-20b/jlens/Salesforce-wikitext/config.yaml",
+          "bytes": 2820
+        },
+        {
+          "path": "gpt-oss-20b/jlens/Salesforce-wikitext/gpt-oss-20b_convergence.csv",
+          "bytes": 19516
+        },
+        {
+          "path": "gpt-oss-20b/jlens/Salesforce-wikitext/gpt-oss-20b_jacobian_lens.pt",
+          "bytes": 381550248
+        },
+        {
+          "path": "gpt2-small/jlens/Salesforce-wikitext/config.yaml",
+          "bytes": 2826
+        },
+        {
+          "path": "gpt2-small/jlens/Salesforce-wikitext/gpt2_convergence.csv",
+          "bytes": 11775
+        },
+        {
+          "path": "gpt2-small/jlens/Salesforce-wikitext/gpt2_jacobian_lens.pt",
+          "bytes": 12980477
+        },
+        {
+          "path": "llama3.1-8b-it/jlens/Salesforce-wikitext/Llama-3.1-8B-Instruct_convergence.csv",
+          "bytes": 20148
+        },
+        {
+          "path": "llama3.1-8b-it/jlens/Salesforce-wikitext/Llama-3.1-8B-Instruct_jacobian_lens.pt",
+          "bytes": 1040197778
+        },
+        {
+          "path": "llama3.1-8b-it/jlens/Salesforce-wikitext/config.yaml",
+          "bytes": 2871
+        },
+        {
+          "path": "llama3.1-8b/jlens/Salesforce-wikitext/Llama-3.1-8B_convergence.csv",
+          "bytes": 23580
+        },
+        {
+          "path": "llama3.1-8b/jlens/Salesforce-wikitext/Llama-3.1-8B_jacobian_lens.pt",
+          "bytes": 1040197445
+        },
+        {
+          "path": "llama3.1-8b/jlens/Salesforce-wikitext/config.yaml",
+          "bytes": 2834
+        },
+        {
+          "path": "llama3.3-70b-it/jlens/Salesforce-wikitext/Llama-3.3-70B-Instruct_convergence.csv",
+          "bytes": 5489
+        },
+        {
+          "path": "llama3.3-70b-it/jlens/Salesforce-wikitext/Llama-3.3-70B-Instruct_jacobian_lens.pt",
+          "bytes": 10603226027
+        },
+        {
+          "path": "llama3.3-70b-it/jlens/Salesforce-wikitext/config.yaml",
+          "bytes": 2874
+        },
+        {
+          "path": "olmo-3-1025-7b/jlens/Salesforce-wikitext/Olmo-3-1025-7B_convergence.csv",
+          "bytes": 24856
+        },
+        {
+          "path": "olmo-3-1025-7b/jlens/Salesforce-wikitext/Olmo-3-1025-7B_jacobian_lens.pt",
+          "bytes": 1040198095
+        },
+        {
+          "path": "olmo-3-1025-7b/jlens/Salesforce-wikitext/config.yaml",
+          "bytes": 2924
+        },
+        {
+          "path": "olmo-3-1125-32b/jlens/Salesforce-wikitext/Olmo-3-1125-32B_convergence.csv",
+          "bytes": 19928
+        },
+        {
+          "path": "olmo-3-1125-32b/jlens/Salesforce-wikitext/Olmo-3-1125-32B_jacobian_lens.pt",
+          "bytes": 3303034580
+        },
+        {
+          "path": "olmo-3-1125-32b/jlens/Salesforce-wikitext/config.yaml",
+          "bytes": 2865
+        },
+        {
+          "path": "olmo-3-1125-32b/jpp/Salesforce-wikitext/Olmo-3-1125-32B_jpp_lens.pt",
+          "bytes": 3303035018
+        },
+        {
+          "path": "olmo-3-1125-32b/jpp/Salesforce-wikitext/config.yaml",
+          "bytes": 2653
+        },
+        {
+          "path": "pythia-70m-deduped/jlens/Salesforce-wikitext/config.yaml",
+          "bytes": 2872
+        },
+        {
+          "path": "pythia-70m-deduped/jlens/Salesforce-wikitext/pythia-70m-deduped_convergence.csv",
+          "bytes": 42865
+        },
+        {
+          "path": "pythia-70m-deduped/jlens/Salesforce-wikitext/pythia-70m-deduped_jacobian_lens.pt",
+          "bytes": 2624492
+        },
+        {
+          "path": "qwen2.5-7b-it/jlens/Salesforce-wikitext/Qwen2.5-7B-Instruct_convergence.csv",
+          "bytes": 20720
+        },
+        {
+          "path": "qwen2.5-7b-it/jlens/Salesforce-wikitext/Qwen2.5-7B-Instruct_jacobian_lens.pt",
+          "bytes": 693642220
+        },
+        {
+          "path": "qwen2.5-7b-it/jlens/Salesforce-wikitext/config.yaml",
+          "bytes": 2844
+        },
+        {
+          "path": "qwen3-1.7b/jlens/Salesforce-wikitext/Qwen3-1.7B_convergence.csv",
+          "bytes": 19902
+        },
+        {
+          "path": "qwen3-1.7b/jlens/Salesforce-wikitext/Qwen3-1.7B_jacobian_lens.pt",
+          "bytes": 226501315
+        },
+        {
+          "path": "qwen3-1.7b/jlens/Salesforce-wikitext/config.yaml",
+          "bytes": 2807
+        },
+        {
+          "path": "qwen3-14b/jlens/Salesforce-wikitext/Qwen3-14B_convergence.csv",
+          "bytes": 26924
+        },
+        {
+          "path": "qwen3-14b/jlens/Salesforce-wikitext/Qwen3-14B_jacobian_lens.pt",
+          "bytes": 2044735358
+        },
+        {
+          "path": "qwen3-14b/jlens/Salesforce-wikitext/config.yaml",
+          "bytes": 2802
+        },
+        {
+          "path": "qwen3-32b/jlens/Salesforce-wikitext/Qwen3-32B_convergence.csv",
+          "bytes": 24372
+        },
+        {
+          "path": "qwen3-32b/jlens/Salesforce-wikitext/Qwen3-32B_jacobian_lens.pt",
+          "bytes": 3303034166
+        },
+        {
+          "path": "qwen3-32b/jlens/Salesforce-wikitext/config.yaml",
+          "bytes": 3664
+        },
+        {
+          "path": "qwen3-4b/jlens/Salesforce-wikitext/Qwen3-4B_convergence.csv",
+          "bytes": 20461
+        },
+        {
+          "path": "qwen3-4b/jlens/Salesforce-wikitext/Qwen3-4B_jacobian_lens.pt",
+          "bytes": 458762977
+        },
+        {
+          "path": "qwen3-4b/jlens/Salesforce-wikitext/config.yaml",
+          "bytes": 2796
+        },
+        {
+          "path": "qwen3-4b/jpp/Salesforce-wikitext/Qwen3-4B_jpp_lens.pt",
+          "bytes": 458763919
+        },
+        {
+          "path": "qwen3-4b/jpp/Salesforce-wikitext/config.yaml",
+          "bytes": 2496
+        },
+        {
+          "path": "qwen3-4b/oracle/CREDITS.md",
+          "bytes": 2583
+        },
+        {
+          "path": "qwen3-4b/oracle/LICENSE",
+          "bytes": 11358
+        },
+        {
+          "path": "qwen3-4b/oracle/UPSTREAM_README.md",
+          "bytes": 10530
+        },
+        {
+          "path": "qwen3-4b/oracle/adapter_config.json",
+          "bytes": 1248
+        },
+        {
+          "path": "qwen3-4b/oracle/adapter_model.safetensors",
+          "bytes": 132187888
+        },
+        {
+          "path": "qwen3-4b/oracle/lens_config.json",
+          "bytes": 997
+        },
+        {
+          "path": "qwen3-4b/oracle/run.json",
+          "bytes": 456
+        },
+        {
+          "path": "qwen3-8b/jlens/Salesforce-wikitext/Qwen3-8B_convergence.csv",
+          "bytes": 20148
+        },
+        {
+          "path": "qwen3-8b/jlens/Salesforce-wikitext/Qwen3-8B_jacobian_lens.pt",
+          "bytes": 1174416097
+        },
+        {
+          "path": "qwen3-8b/jlens/Salesforce-wikitext/config.yaml",
+          "bytes": 2796
+        },
+        {
+          "path": "qwen3.5-0.8b/jlens/Salesforce-wikitext/Qwen3.5-0.8B_convergence.csv",
+          "bytes": 9884
+        },
+        {
+          "path": "qwen3.5-0.8b/jlens/Salesforce-wikitext/Qwen3.5-0.8B_jacobian_lens.pt",
+          "bytes": 48242373
+        },
+        {
+          "path": "qwen3.5-0.8b/jlens/Salesforce-wikitext/config.yaml",
+          "bytes": 2820
+        },
+        {
+          "path": "qwen3.5-0.8b/jpp/Salesforce-wikitext/Qwen3.5-0.8B_jpp_lens.pt",
+          "bytes": 48243275
+        },
+        {
+          "path": "qwen3.5-0.8b/jpp/Salesforce-wikitext/config.yaml",
+          "bytes": 2532
+        },
+        {
+          "path": "qwen3.5-0.8b/oracle/CREDITS.md",
+          "bytes": 1612
+        },
+        {
+          "path": "qwen3.5-0.8b/oracle/LICENSE",
+          "bytes": 11357
+        },
+        {
+          "path": "qwen3.5-0.8b/oracle/adapter_config.json",
+          "bytes": 1251
+        },
+        {
+          "path": "qwen3.5-0.8b/oracle/adapter_model.safetensors",
+          "bytes": 43340824
+        },
+        {
+          "path": "qwen3.5-0.8b/oracle/run.json",
+          "bytes": 388
+        },
+        {
+          "path": "qwen3.5-122b-a10b/jpp/Salesforce-wikitext/Qwen3.5-122B-A10B_jpp_lens.pt",
+          "bytes": 887111332
+        },
+        {
+          "path": "qwen3.5-122b-a10b/jpp/Salesforce-wikitext/config.yaml",
+          "bytes": 2690
+        },
+        {
+          "path": "qwen3.5-27b/jlens/Salesforce-wikitext/Qwen3.5-27B_convergence.csv",
+          "bytes": 29433
+        },
+        {
+          "path": "qwen3.5-27b/jlens/Salesforce-wikitext/Qwen3.5-27B_jacobian_lens.pt",
+          "bytes": 3303033664
+        },
+        {
+          "path": "qwen3.5-27b/jlens/Salesforce-wikitext/config.yaml",
+          "bytes": 2811
+        },
+        {
+          "path": "qwen3.5-2b-pt/jlens/Salesforce-wikitext/Qwen3.5-2B-Base_convergence.csv",
+          "bytes": 14270
+        },
+        {
+          "path": "qwen3.5-2b-pt/jlens/Salesforce-wikitext/Qwen3.5-2B-Base_jacobian_lens.pt",
+          "bytes": 192945948
+        },
+        {
+          "path": "qwen3.5-2b-pt/jlens/Salesforce-wikitext/config.yaml",
+          "bytes": 2829
+        },
+        {
+          "path": "qwen3.5-2b/jlens/Salesforce-wikitext/Qwen3.5-2B_convergence.csv",
+          "bytes": 12034
+        },
+        {
+          "path": "qwen3.5-2b/jlens/Salesforce-wikitext/Qwen3.5-2B_jacobian_lens.pt",
+          "bytes": 192946315
+        },
+        {
+          "path": "qwen3.5-2b/jlens/Salesforce-wikitext/config.yaml",
+          "bytes": 2608
+        },
+        {
+          "path": "qwen3.5-2b/jpp/Salesforce-wikitext/Qwen3.5-2B_jpp_lens.pt",
+          "bytes": 192946705
+        },
+        {
+          "path": "qwen3.5-2b/jpp/Salesforce-wikitext/config.yaml",
+          "bytes": 2514
+        },
+        {
+          "path": "qwen3.5-2b/oracle/CREDITS.md",
+          "bytes": 1609
+        },
+        {
+          "path": "qwen3.5-2b/oracle/LICENSE",
+          "bytes": 11357
+        },
+        {
+          "path": "qwen3.5-2b/oracle/adapter_config.json",
+          "bytes": 1249
+        },
+        {
+          "path": "qwen3.5-2b/oracle/adapter_model.safetensors",
+          "bytes": 67327072
+        },
+        {
+          "path": "qwen3.5-2b/oracle/run.json",
+          "bytes": 385
+        },
+        {
+          "path": "qwen3.5-4b/jlens/Salesforce-wikitext/CREDIT.md",
+          "bytes": 99
+        },
+        {
+          "path": "qwen3.5-4b/jlens/Salesforce-wikitext/Qwen3.5-4B_convergence.csv",
+          "bytes": 17796
+        },
+        {
+          "path": "qwen3.5-4b/jlens/Salesforce-wikitext/Qwen3.5-4B_jacobian_lens.pt",
+          "bytes": 406333179
+        },
+        {
+          "path": "qwen3.5-4b/jlens/Salesforce-wikitext/Qwen3.5-4B_jacobian_lens_n1000.pt",
+          "bytes": 406332644
+        },
+        {
+          "path": "qwen3.5-4b/jlens/Salesforce-wikitext/config.yaml",
+          "bytes": 2805
+        },
+        {
+          "path": "qwen3.5-9b-pt/jlens/Salesforce-wikitext/Qwen3.5-9B-Base_convergence.csv",
+          "bytes": 20016
+        },
+        {
+          "path": "qwen3.5-9b-pt/jlens/Salesforce-wikitext/Qwen3.5-9B-Base_jacobian_lens.pt",
+          "bytes": 1040197556
+        },
+        {
+          "path": "qwen3.5-9b-pt/jlens/Salesforce-wikitext/config.yaml",
+          "bytes": 2829
+        },
+        {
+          "path": "qwen3.5-9b/jpp/Salesforce-wikitext/Qwen3.5-9B_jpp_lens.pt",
+          "bytes": 1040198385
+        },
+        {
+          "path": "qwen3.5-9b/jpp/Salesforce-wikitext/config.yaml",
+          "bytes": 2597
+        },
+        {
+          "path": "qwen3.6-27b/jlens/Salesforce-wikitext/CREDIT.md",
+          "bytes": 90
+        },
+        {
+          "path": "qwen3.6-27b/jlens/Salesforce-wikitext/Qwen3.6-27B_jacobian_lens_n1000.pt",
+          "bytes": 3303032772
+        },
+        {
+          "path": "qwen3.6-27b/jpp/Salesforce-wikitext/Qwen3.6-27B_jpp_lens.pt",
+          "bytes": 3303034678
+        },
+        {
+          "path": "qwen3.6-27b/jpp/Salesforce-wikitext/config.yaml",
+          "bytes": 2560
+        },
+        {
+          "path": "qwen3.6-27b/oracle/CREDITS.md",
+          "bytes": 2935
+        },
+        {
+          "path": "qwen3.6-27b/oracle/LICENSE",
+          "bytes": 11357
+        },
+        {
+          "path": "qwen3.6-27b/oracle/UPSTREAM_README.md",
+          "bytes": 9347
+        },
+        {
+          "path": "qwen3.6-27b/oracle/adapter_config.json",
+          "bytes": 1289
+        },
+        {
+          "path": "qwen3.6-27b/oracle/adapter_model.safetensors",
+          "bytes": 467047680
+        },
+        {
+          "path": "qwen3.6-27b/oracle/run.json",
+          "bytes": 427
+        }
+      ]
+    },
+    "sae42": {
+      "id": "ceselder/qwen36-27b-sae-l42-1b",
+      "available": false,
+      "error": "RepositoryNotFoundError"
+    },
+    "sae42_old": {
+      "id": "ceselder/qwen36-27b-sae-l42",
+      "available": false,
+      "error": "RepositoryNotFoundError"
+    },
+    "sae42_2m": {
+      "id": "ceselder/qwen36-27b-sae2m-l42",
+      "revision": "3233a3d8744da53999fe5e6d36a8357b873330ba",
+      "files": [
+        {
+          "path": ".gitattributes",
+          "bytes": 1519
+        },
+        {
+          "path": "README.md",
+          "bytes": 4613
+        },
+        {
+          "path": "data/examples.parquet",
+          "bytes": 661454492
+        },
+        {
+          "path": "feature_split.json",
+          "bytes": 478
+        },
+        {
+          "path": "feature_split.npz",
+          "bytes": 8389344
+        },
+        {
+          "path": "maxacts_top5.pt",
+          "bytes": 1526730421
+        },
+        {
+          "path": "maxacts_top5.summary.json",
+          "bytes": 613
+        },
+        {
+          "path": "saes_Qwen_Qwen3.6-27B_batch_top_k/resid_post_layer_42/trainer_0/ae.pt",
+          "bytes": 42958085053
+        },
+        {
+          "path": "saes_Qwen_Qwen3.6-27B_batch_top_k/resid_post_layer_42/trainer_0/config.json",
+          "bytes": 1598
+        },
+        {
+          "path": "verify.json",
+          "bytes": 880
+        }
+      ],
+      "metadata": {
+        "verify.json": {
+          "F": 2097152,
+          "d": 5120,
+          "k": 64,
+          "threshold": 1.682811975479126,
+          "ev": 0.7105275082760971,
+          "ev_batch": 0.6982658775565505,
+          "l0": 67.45353360062833,
+          "frac_fired_in_eval": 1.0,
+          "eval_tokens": 20004864,
+          "online": true,
+          "dataset": "openbmb/Ultra-FineWeb",
+          "split": "en",
+          "dataset_skip": 0,
+          "ctx_len": 512,
+          "norm_mult": 10.0,
+          "gen": {
+            "docs_iterated": 33240,
+            "docs_used": 14639,
+            "windows_made": 39600,
+            "tokens_generated": 20004864,
+            "tokens_dropped": 0,
+            "tokens_forwarded": 20004864,
+            "gen_time_s": 949.8943364620209,
+            "wait_time_s": 9.279117107391357,
+            "n_batches": 2442,
+            "gen_tok_s": 21060.093983200462,
+            "outlier_frac": 0.0
+          },
+          "model_info": {
+            "n_layers_full": 64,
+            "n_layers_kept": 43,
+            "path": "config",
+            "gpu_alloc_gb": 72.8764100074768,
+            "load_s": 18.60409164428711,
+            "layers_module": "model.layers"
+          },
+          "wall_s": 2206.486394405365
+        }
+      }
+    }
+  },
+  "sae_candidates": [
+    "ceselder/maemm-uplift-acts_sae",
+    "ceselder/qwen36-27b-sae2m-l42"
+  ],
+  "status": "metadata_only",
+  "gpu_used": false
+}

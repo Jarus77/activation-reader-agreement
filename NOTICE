@@ -1,0 +1,22 @@
+Activation reader agreement on Qwen3.6-27B
+Copyright 2026 Suraj Prasad
+
+The evaluation prompts, token positions, STOP vocabulary, norm_words function,
+and overlap metric in rfm_agreement.py are adapted from tri-lens by Morgan Hough,
+Orthogonal Research and Education Lab (OREL), released under Apache-2.0.
+Source: https://github.com/m9h/tri-lens
+Reference commit: 002b828aa32e57825481b5d7b24c710d21504c41
+This adaptation adds Qwen activation collection, pretrained SAE annotation and
+screening, prompt-cluster bootstrap estimates, and prompt-vocabulary controls.
+
+Jacobian-lens software is an external dependency, installed at a pinned commit:
+https://github.com/anthropics/jacobian-lens
+581d398613e5602a5af361e1c34d3a92ea82ba8e
+
+Pretrained model weights and original source datasets are not distributed here
+and remain subject to their respective licenses. Published SAE text examples
+included in the annotation records originate from:
+https://huggingface.co/ceselder/qwen36-27b-sae2m-l42
+
+This repository contains an independent adaptation of an agreement experiment.
+It does not imply endorsement by the upstream authors or checkpoint publishers.

@@ -1,0 +1,2592 @@
+{
+  "status": "exploratory_complete",
+  "agreement_run_id": "d1ab6e3cc5e3",
+  "annotation_run_id": "5a305df90b97",
+  "analysis": "post_hoc_prompt_vocabulary_split",
+  "normalization": "Original English regex, stop words, and light plural normalization",
+  "decomposition": "Intersection split by the left/source activation's actual input prompt; both components retain the original denominator and sum exactly to the original score. The source mask is fixed across its matched and mismatched candidates.",
+  "removed_prompt_analysis": "Remove the union of normalized vocabulary from all 12 input prompts from both readouts, identically for every matched and mismatched pair; recompute the overlap denominator from remaining words.",
+  "sample_policy": "Same pre-filter item support as original primary rows (48/44/44); word sets made empty by filtering stay in the analysis with score zero.",
+  "uncertainty": "4,000 prompt-cluster bootstrap replicates, seed 1729, frozen labels; annotation and model uncertainty omitted",
+  "prompts": [
+    {
+      "prompt_idx": 0,
+      "text": "Explain how a volcano erupts and what happens to the surrounding area.",
+      "normalized_words": [
+        "area",
+        "erupt",
+        "erupts",
+        "explain",
+        "happen",
+        "happens",
+        "surrounding",
+        "volcano"
+      ]
+    },
+    {
+      "prompt_idx": 1,
+      "text": "Explain how a fixed-rate mortgage works and what affects the interest rate.",
+      "normalized_words": [
+        "affect",
+        "affects",
+        "explain",
+        "fixed",
+        "interest",
+        "mortgage",
+        "rate",
+        "work",
+        "works"
+      ]
+    },
+    {
+      "prompt_idx": 2,
+      "text": "Explain the rules of cricket to someone who has never seen a match.",
+      "normalized_words": [
+        "cricket",
+        "explain",
+        "has",
+        "match",
+        "never",
+        "rul",
+        "rule",
+        "rules",
+        "seen",
+        "someone"
+      ]
+    },
+    {
+      "prompt_idx": 3,
+      "text": "Describe what happens in a typical opera and why the form endures.",
+      "normalized_words": [
+        "describe",
+        "endur",
+        "endure",
+        "endures",
+        "form",
+        "happen",
+        "happens",
+        "opera",
+        "typical",
+        "why"
+      ]
+    },
+    {
+      "prompt_idx": 4,
+      "text": "Explain how glaciers form and how they reshape a landscape.",
+      "normalized_words": [
+        "explain",
+        "form",
+        "glacier",
+        "glaciers",
+        "landscape",
+        "reshape"
+      ]
+    },
+    {
+      "prompt_idx": 5,
+      "text": "Explain how mitochondria produce energy inside a cell.",
+      "normalized_words": [
+        "cell",
+        "energy",
+        "explain",
+        "inside",
+        "mitochondria",
+        "produce"
+      ]
+    },
+    {
+      "prompt_idx": 6,
+      "text": "Explain how earthquakes happen along tectonic fault lines.",
+      "normalized_words": [
+        "along",
+        "earthquak",
+        "earthquake",
+        "earthquakes",
+        "explain",
+        "fault",
+        "happen",
+        "lin",
+        "line",
+        "lines",
+        "tectonic"
+      ]
+    },
+    {
+      "prompt_idx": 7,
+      "text": "Explain how a compiler turns source code into a running program.",
+      "normalized_words": [
+        "code",
+        "compiler",
+        "explain",
+        "program",
+        "running",
+        "source",
+        "turn",
+        "turns"
+      ]
+    },
+    {
+      "prompt_idx": 8,
+      "text": "Describe how migrating birds navigate over long distances.",
+      "normalized_words": [
+        "bird",
+        "birds",
+        "describe",
+        "distanc",
+        "distance",
+        "distances",
+        "long",
+        "migrating",
+        "navigate",
+        "over"
+      ]
+    },
+    {
+      "prompt_idx": 9,
+      "text": "Explain how coral reefs form and why they are bleaching.",
+      "normalized_words": [
+        "bleaching",
+        "coral",
+        "explain",
+        "form",
+        "reef",
+        "reefs",
+        "why"
+      ]
+    },
+    {
+      "prompt_idx": 10,
+      "text": "Explain how bread dough rises and what yeast is doing.",
+      "normalized_words": [
+        "bread",
+        "doing",
+        "dough",
+        "explain",
+        "ris",
+        "rise",
+        "rises",
+        "yeast"
+      ]
+    },
+    {
+      "prompt_idx": 11,
+      "text": "Explain how a vaccine trains the immune system.",
+      "normalized_words": [
+        "explain",
+        "immune",
+        "system",
+        "train",
+        "trains",
+        "vaccine"
+      ]
+    }
+  ],
+  "pooled_prompt_vocabulary": [
+    "affect",
+    "affects",
+    "along",
+    "area",
+    "bird",
+    "birds",
+    "bleaching",
+    "bread",
+    "cell",
+    "code",
+    "compiler",
+    "coral",
+    "cricket",
+    "describe",
+    "distanc",
+    "distance",
+    "distances",
+    "doing",
+    "dough",
+    "earthquak",
+    "earthquake",
+    "earthquakes",
+    "endur",
+    "endure",
+    "endures",
+    "energy",
+    "erupt",
+    "erupts",
+    "explain",
+    "fault",
+    "fixed",
+    "form",
+    "glacier",
+    "glaciers",
+    "happen",
+    "happens",
+    "has",
+    "immune",
+    "inside",
+    "interest",
+    "landscape",
+    "lin",
+    "line",
+    "lines",
+    "long",
+    "match",
+    "migrating",
+    "mitochondria",
+    "mortgage",
+    "navigate",
+    "never",
+    "opera",
+    "over",
+    "produce",
+    "program",
+    "rate",
+    "reef",
+    "reefs",
+    "reshape",
+    "ris",
+    "rise",
+    "rises",
+    "rul",
+    "rule",
+    "rules",
+    "running",
+    "seen",
+    "someone",
+    "source",
+    "surrounding",
+    "system",
+    "tectonic",
+    "train",
+    "trains",
+    "turn",
+    "turns",
+    "typical",
+    "vaccine",
+    "volcano",
+    "why",
+    "work",
+    "works",
+    "yeast"
+  ],
+  "report": {
+    "jlens|nla": {
+      "scores": {
+        "overall": {
+          "n": 48,
+          "prompts": 12,
+          "null_pairs": 2112,
+          "matched": 0.3291337890058907,
+          "mismatched": 0.022740432983888743,
+          "excess": 0.30639335602200196,
+          "null_sd": 0.0692117915699806,
+          "z_descriptive": 4.426895317573237,
+          "z_note": "Descriptive excess in pairwise null standard deviations; not a significance-test statistic",
+          "excess_ci95": [
+            0.2573307007705345,
+            0.35357871168061344
+          ],
+          "fraction_beats_all_mismatches": 0.75,
+          "bootstrap_replicates": 4000,
+          "bootstrap_seed": 1729
+        },
+        "source_prompt_contribution": {
+          "n": 48,
+          "prompts": 12,
+          "null_pairs": 2112,
+          "matched": 0.03997624269005848,
+          "mismatched": 0.00016910173160173157,
+          "excess": 0.03980714095845675,
+          "null_sd": 0.004659727010277127,
+          "z_descriptive": 8.542805376937588,
+          "z_note": "Descriptive excess in pairwise null standard deviations; not a significance-test statistic",
+          "excess_ci95": [
+            0.020783501723057644,
+            0.06165413492416923
+          ],
+          "fraction_beats_all_mismatches": 0.22916666666666666,
+          "bootstrap_replicates": 4000,
+          "bootstrap_seed": 1729
+        },
+        "non_source_prompt_contribution": {
+          "n": 48,
+          "prompts": 12,
+          "null_pairs": 2112,
+          "matched": 0.28915754631583224,
+          "mismatched": 0.022571331252287007,
+          "excess": 0.26658621506354524,
+          "null_sd": 0.06911000462244789,
+          "z_descriptive": 3.8574185679761097,
+          "z_note": "Descriptive excess in pairwise null standard deviations; not a significance-test statistic",
+          "excess_ci95": [
+            0.21985425682747675,
+            0.3158871188739428
+          ],
+          "fraction_beats_all_mismatches": 0.6875,
+          "bootstrap_replicates": 4000,
+          "bootstrap_seed": 1729
+        },
+        "all_prompts_removed": {
+          "n": 48,
+          "prompts": 12,
+          "null_pairs": 2112,
+          "matched": 0.3046547775203003,
+          "mismatched": 0.022704581245360567,
+          "excess": 0.2819501962749397,
+          "null_sd": 0.06965143502794444,
+          "z_descriptive": 4.048017046049664,
+          "z_note": "Descriptive excess in pairwise null standard deviations; not a significance-test statistic",
+          "excess_ci95": [
+            0.23504978465211826,
+            0.3313601056411357
+          ],
+          "fraction_beats_all_mismatches": 0.6875,
+          "bootstrap_replicates": 4000,
+          "bootstrap_seed": 1729
+        }
+      },
+      "matched_overlap_prompt_fraction": 0.12145894473734206,
+      "excess_nonprompt_fraction": 0.8700783154201354,
+      "matched_word_counts": [
+        {
+          "prompt_idx": 0,
+          "pos": 60,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [
+            "consequenc",
+            "consequence",
+            "consequences",
+            "effect",
+            "effects"
+          ],
+          "shared_words_after_pooled_removal": [
+            "consequenc",
+            "consequence",
+            "consequences",
+            "effect",
+            "effects"
+          ]
+        },
+        {
+          "prompt_idx": 0,
+          "pos": 85,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [
+            "buildup",
+            "formation",
+            "geological",
+            "magma",
+            "volcanic"
+          ],
+          "shared_words_after_pooled_removal": [
+            "buildup",
+            "formation",
+            "geological",
+            "magma",
+            "volcanic"
+          ]
+        },
+        {
+          "prompt_idx": 0,
+          "pos": 110,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [
+            "magma",
+            "melt",
+            "melting",
+            "volcanic"
+          ],
+          "shared_words_after_pooled_removal": [
+            "magma",
+            "melt",
+            "melting",
+            "volcanic"
+          ]
+        },
+        {
+          "prompt_idx": 0,
+          "pos": 135,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [
+            "geological",
+            "volcanic"
+          ],
+          "shared_words_after_pooled_removal": [
+            "geological",
+            "volcanic"
+          ]
+        },
+        {
+          "prompt_idx": 1,
+          "pos": 60,
+          "shared_prompt_words": [
+            "rate"
+          ],
+          "shared_nonprompt_words": [
+            "rat",
+            "rates"
+          ],
+          "shared_words_after_pooled_removal": [
+            "rat",
+            "rates"
+          ]
+        },
+        {
+          "prompt_idx": 1,
+          "pos": 85,
+          "shared_prompt_words": [
+            "fixed"
+          ],
+          "shared_nonprompt_words": [],
+          "shared_words_after_pooled_removal": []
+        },
+        {
+          "prompt_idx": 1,
+          "pos": 110,
+          "shared_prompt_words": [
+            "mortgage"
+          ],
+          "shared_nonprompt_words": [
+            "monthly",
+            "payment",
+            "payments"
+          ],
+          "shared_words_after_pooled_removal": [
+            "monthly",
+            "payment",
+            "payments"
+          ]
+        },
+        {
+          "prompt_idx": 1,
+          "pos": 135,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [
+            "predictable",
+            "stability"
+          ],
+          "shared_words_after_pooled_removal": [
+            "predictable",
+            "stability"
+          ]
+        },
+        {
+          "prompt_idx": 2,
+          "pos": 60,
+          "shared_prompt_words": [
+            "cricket"
+          ],
+          "shared_nonprompt_words": [
+            "scoring",
+            "similar"
+          ],
+          "shared_words_after_pooled_removal": [
+            "scoring",
+            "similar"
+          ]
+        },
+        {
+          "prompt_idx": 2,
+          "pos": 85,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [
+            "divided",
+            "division",
+            "divisions",
+            "inning",
+            "innings",
+            "period",
+            "session",
+            "sessions"
+          ],
+          "shared_words_after_pooled_removal": [
+            "divided",
+            "division",
+            "divisions",
+            "inning",
+            "innings",
+            "period",
+            "session",
+            "sessions"
+          ]
+        },
+        {
+          "prompt_idx": 2,
+          "pos": 110,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [
+            "swap"
+          ],
+          "shared_words_after_pooled_removal": [
+            "swap"
+          ]
+        },
+        {
+          "prompt_idx": 2,
+          "pos": 135,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [
+            "player",
+            "players",
+            "team",
+            "teams"
+          ],
+          "shared_words_after_pooled_removal": [
+            "player",
+            "players",
+            "team",
+            "teams"
+          ]
+        },
+        {
+          "prompt_idx": 3,
+          "pos": 60,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [
+            "classical",
+            "era",
+            "historical"
+          ],
+          "shared_words_after_pooled_removal": [
+            "classical",
+            "era",
+            "historical"
+          ]
+        },
+        {
+          "prompt_idx": 3,
+          "pos": 85,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [
+            "emotion",
+            "emotional"
+          ],
+          "shared_words_after_pooled_removal": [
+            "emotion",
+            "emotional"
+          ]
+        },
+        {
+          "prompt_idx": 3,
+          "pos": 110,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [
+            "narrative",
+            "theatrical"
+          ],
+          "shared_words_after_pooled_removal": [
+            "narrative",
+            "theatrical"
+          ]
+        },
+        {
+          "prompt_idx": 3,
+          "pos": 135,
+          "shared_prompt_words": [
+            "opera"
+          ],
+          "shared_nonprompt_words": [
+            "music",
+            "musical",
+            "scen",
+            "scene",
+            "scenes"
+          ],
+          "shared_words_after_pooled_removal": [
+            "music",
+            "musical",
+            "scen",
+            "scene",
+            "scenes"
+          ]
+        },
+        {
+          "prompt_idx": 4,
+          "pos": 60,
+          "shared_prompt_words": [
+            "glacier",
+            "glaciers",
+            "landscape"
+          ],
+          "shared_nonprompt_words": [
+            "erosion",
+            "forc",
+            "force",
+            "forces",
+            "geological",
+            "landscap",
+            "landscapes",
+            "powerful"
+          ],
+          "shared_words_after_pooled_removal": [
+            "erosion",
+            "forc",
+            "force",
+            "forces",
+            "geological",
+            "landscap",
+            "landscapes",
+            "powerful"
+          ]
+        },
+        {
+          "prompt_idx": 4,
+          "pos": 85,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [
+            "environmental",
+            "formation",
+            "process",
+            "processe",
+            "processes"
+          ],
+          "shared_words_after_pooled_removal": [
+            "environmental",
+            "formation",
+            "process",
+            "processe",
+            "processes"
+          ]
+        },
+        {
+          "prompt_idx": 4,
+          "pos": 110,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [
+            "accumulation",
+            "proces",
+            "process",
+            "processe",
+            "processes",
+            "snow"
+          ],
+          "shared_words_after_pooled_removal": [
+            "accumulation",
+            "proces",
+            "process",
+            "processe",
+            "processes",
+            "snow"
+          ]
+        },
+        {
+          "prompt_idx": 4,
+          "pos": 135,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [
+            "accumulation",
+            "annual"
+          ],
+          "shared_words_after_pooled_removal": [
+            "accumulation",
+            "annual"
+          ]
+        },
+        {
+          "prompt_idx": 5,
+          "pos": 60,
+          "shared_prompt_words": [
+            "energy"
+          ],
+          "shared_nonprompt_words": [
+            "atp"
+          ],
+          "shared_words_after_pooled_removal": [
+            "atp"
+          ]
+        },
+        {
+          "prompt_idx": 5,
+          "pos": 85,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [
+            "proces",
+            "process",
+            "stag",
+            "stage",
+            "stages"
+          ],
+          "shared_words_after_pooled_removal": [
+            "proces",
+            "process",
+            "stag",
+            "stage",
+            "stages"
+          ]
+        },
+        {
+          "prompt_idx": 5,
+          "pos": 110,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [
+            "phas",
+            "phase",
+            "phases",
+            "stag",
+            "stage",
+            "stages",
+            "three"
+          ],
+          "shared_words_after_pooled_removal": [
+            "phas",
+            "phase",
+            "phases",
+            "stag",
+            "stage",
+            "stages",
+            "three"
+          ]
+        },
+        {
+          "prompt_idx": 5,
+          "pos": 135,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [
+            "proces",
+            "process"
+          ],
+          "shared_words_after_pooled_removal": [
+            "proces",
+            "process"
+          ]
+        },
+        {
+          "prompt_idx": 6,
+          "pos": 60,
+          "shared_prompt_words": [
+            "earthquak",
+            "earthquake",
+            "earthquakes"
+          ],
+          "shared_nonprompt_words": [
+            "boundari",
+            "boundarie",
+            "boundaries",
+            "earth",
+            "geological",
+            "movement"
+          ],
+          "shared_words_after_pooled_removal": [
+            "boundari",
+            "boundarie",
+            "boundaries",
+            "earth",
+            "geological",
+            "movement"
+          ]
+        },
+        {
+          "prompt_idx": 6,
+          "pos": 85,
+          "shared_prompt_words": [
+            "earthquak",
+            "earthquake",
+            "earthquakes"
+          ],
+          "shared_nonprompt_words": [
+            "earth",
+            "forc",
+            "force",
+            "forces",
+            "movement"
+          ],
+          "shared_words_after_pooled_removal": [
+            "earth",
+            "forc",
+            "force",
+            "forces",
+            "movement"
+          ]
+        },
+        {
+          "prompt_idx": 6,
+          "pos": 110,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [],
+          "shared_words_after_pooled_removal": []
+        },
+        {
+          "prompt_idx": 6,
+          "pos": 135,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [
+            "speed"
+          ],
+          "shared_words_after_pooled_removal": [
+            "speed"
+          ]
+        },
+        {
+          "prompt_idx": 7,
+          "pos": 60,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [],
+          "shared_words_after_pooled_removal": []
+        },
+        {
+          "prompt_idx": 7,
+          "pos": 85,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [],
+          "shared_words_after_pooled_removal": []
+        },
+        {
+          "prompt_idx": 7,
+          "pos": 110,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [
+            "fil",
+            "file",
+            "files",
+            "header",
+            "headers"
+          ],
+          "shared_words_after_pooled_removal": [
+            "fil",
+            "file",
+            "files",
+            "header",
+            "headers"
+          ]
+        },
+        {
+          "prompt_idx": 7,
+          "pos": 135,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [
+            "remov",
+            "remove",
+            "removes"
+          ],
+          "shared_words_after_pooled_removal": [
+            "remov",
+            "remove",
+            "removes"
+          ]
+        },
+        {
+          "prompt_idx": 8,
+          "pos": 60,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [
+            "destination",
+            "direction"
+          ],
+          "shared_words_after_pooled_removal": [
+            "destination",
+            "direction"
+          ]
+        },
+        {
+          "prompt_idx": 8,
+          "pos": 85,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [],
+          "shared_words_after_pooled_removal": []
+        },
+        {
+          "prompt_idx": 8,
+          "pos": 110,
+          "shared_prompt_words": [
+            "bird",
+            "birds"
+          ],
+          "shared_nonprompt_words": [
+            "solar",
+            "sunlight"
+          ],
+          "shared_words_after_pooled_removal": [
+            "solar",
+            "sunlight"
+          ]
+        },
+        {
+          "prompt_idx": 8,
+          "pos": 135,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [
+            "clock",
+            "day",
+            "using"
+          ],
+          "shared_words_after_pooled_removal": [
+            "clock",
+            "day",
+            "using"
+          ]
+        },
+        {
+          "prompt_idx": 9,
+          "pos": 60,
+          "shared_prompt_words": [
+            "coral",
+            "reef",
+            "reefs"
+          ],
+          "shared_nonprompt_words": [
+            "ecosystem",
+            "ecosystems",
+            "ocean",
+            "oceans",
+            "underwater"
+          ],
+          "shared_words_after_pooled_removal": [
+            "ecosystem",
+            "ecosystems",
+            "ocean",
+            "oceans",
+            "underwater"
+          ]
+        },
+        {
+          "prompt_idx": 9,
+          "pos": 85,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [
+            "proces",
+            "process",
+            "processe",
+            "processes"
+          ],
+          "shared_words_after_pooled_removal": [
+            "proces",
+            "process",
+            "processe",
+            "processes"
+          ]
+        },
+        {
+          "prompt_idx": 9,
+          "pos": 110,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [
+            "animal",
+            "animals",
+            "biology",
+            "creatur",
+            "creature",
+            "creatures"
+          ],
+          "shared_words_after_pooled_removal": [
+            "animal",
+            "animals",
+            "biology",
+            "creatur",
+            "creature",
+            "creatures"
+          ]
+        },
+        {
+          "prompt_idx": 9,
+          "pos": 135,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [
+            "protective",
+            "skeleton"
+          ],
+          "shared_words_after_pooled_removal": [
+            "protective",
+            "skeleton"
+          ]
+        },
+        {
+          "prompt_idx": 10,
+          "pos": 60,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [],
+          "shared_words_after_pooled_removal": []
+        },
+        {
+          "prompt_idx": 10,
+          "pos": 85,
+          "shared_prompt_words": [
+            "yeast"
+          ],
+          "shared_nonprompt_words": [
+            "biological",
+            "living",
+            "organism"
+          ],
+          "shared_words_after_pooled_removal": [
+            "biological",
+            "living",
+            "organism"
+          ]
+        },
+        {
+          "prompt_idx": 10,
+          "pos": 110,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [
+            "moisture",
+            "warmth",
+            "water"
+          ],
+          "shared_words_after_pooled_removal": [
+            "moisture",
+            "warmth",
+            "water"
+          ]
+        },
+        {
+          "prompt_idx": 10,
+          "pos": 135,
+          "shared_prompt_words": [
+            "yeast"
+          ],
+          "shared_nonprompt_words": [
+            "fermentation",
+            "sugar",
+            "sugars"
+          ],
+          "shared_words_after_pooled_removal": [
+            "fermentation",
+            "sugar",
+            "sugars"
+          ]
+        },
+        {
+          "prompt_idx": 11,
+          "pos": 60,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [
+            "different",
+            "mechanism",
+            "typ",
+            "type",
+            "types",
+            "way",
+            "ways"
+          ],
+          "shared_words_after_pooled_removal": [
+            "different",
+            "mechanism",
+            "typ",
+            "type",
+            "types",
+            "way",
+            "ways"
+          ]
+        },
+        {
+          "prompt_idx": 11,
+          "pos": 85,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [
+            "initial",
+            "introduction"
+          ],
+          "shared_words_after_pooled_removal": [
+            "initial",
+            "introduction"
+          ]
+        },
+        {
+          "prompt_idx": 11,
+          "pos": 110,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [
+            "bacteria",
+            "pathogen",
+            "pathogens",
+            "virus",
+            "viruse",
+            "viruses"
+          ],
+          "shared_words_after_pooled_removal": [
+            "bacteria",
+            "pathogen",
+            "pathogens",
+            "virus",
+            "viruse",
+            "viruses"
+          ]
+        },
+        {
+          "prompt_idx": 11,
+          "pos": 135,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [
+            "disease",
+            "illnes",
+            "illness",
+            "infected",
+            "infection"
+          ],
+          "shared_words_after_pooled_removal": [
+            "disease",
+            "illnes",
+            "illness",
+            "infected",
+            "infection"
+          ]
+        }
+      ],
+      "empty_readouts_after_pooled_removal": {
+        "left": 5,
+        "right": 0
+      },
+      "matched_positions_with_pooled_nonprompt_overlap": 42
+    },
+    "nla|sae": {
+      "scores": {
+        "overall": {
+          "n": 44,
+          "prompts": 12,
+          "null_pairs": 1770,
+          "matched": 0.20839380951326134,
+          "mismatched": 0.05241468607582921,
+          "excess": 0.15597912343743212,
+          "null_sd": 0.0645274484248852,
+          "z_descriptive": 2.4172523049474606,
+          "z_note": "Descriptive excess in pairwise null standard deviations; not a significance-test statistic",
+          "excess_ci95": [
+            0.10425680211912632,
+            0.21128448845391107
+          ],
+          "fraction_beats_all_mismatches": 0.3181818181818182,
+          "bootstrap_replicates": 4000,
+          "bootstrap_seed": 1729
+        },
+        "source_prompt_contribution": {
+          "n": 44,
+          "prompts": 12,
+          "null_pairs": 1770,
+          "matched": 0.02474155127422304,
+          "mismatched": 0.0009584673227639881,
+          "excess": 0.023783083951459054,
+          "null_sd": 0.009020893822386411,
+          "z_descriptive": 2.636444283651641,
+          "z_note": "Descriptive excess in pairwise null standard deviations; not a significance-test statistic",
+          "excess_ci95": [
+            0.004489452838658781,
+            0.04773562304557676
+          ],
+          "fraction_beats_all_mismatches": 0.18181818181818182,
+          "bootstrap_replicates": 4000,
+          "bootstrap_seed": 1729
+        },
+        "non_source_prompt_contribution": {
+          "n": 44,
+          "prompts": 12,
+          "null_pairs": 1770,
+          "matched": 0.18365225823903833,
+          "mismatched": 0.051456218753065226,
+          "excess": 0.1321960394859731,
+          "null_sd": 0.06294345148024616,
+          "z_descriptive": 2.1002349946993424,
+          "z_note": "Descriptive excess in pairwise null standard deviations; not a significance-test statistic",
+          "excess_ci95": [
+            0.09156724690098318,
+            0.1709761638829359
+          ],
+          "fraction_beats_all_mismatches": 0.3181818181818182,
+          "bootstrap_replicates": 4000,
+          "bootstrap_seed": 1729
+        },
+        "all_prompts_removed": {
+          "n": 44,
+          "prompts": 12,
+          "null_pairs": 1770,
+          "matched": 0.19593699987644608,
+          "mismatched": 0.052922013296874716,
+          "excess": 0.14301498657957137,
+          "null_sd": 0.06619390490455564,
+          "z_descriptive": 2.1605461527882865,
+          "z_note": "Descriptive excess in pairwise null standard deviations; not a significance-test statistic",
+          "excess_ci95": [
+            0.09566439006092274,
+            0.19040954898071064
+          ],
+          "fraction_beats_all_mismatches": 0.3181818181818182,
+          "bootstrap_replicates": 4000,
+          "bootstrap_seed": 1729
+        }
+      },
+      "matched_overlap_prompt_fraction": 0.11872498195609112,
+      "excess_nonprompt_fraction": 0.8475239286685753,
+      "matched_word_counts": [
+        {
+          "prompt_idx": 0,
+          "pos": 60,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [
+            "phrase",
+            "process",
+            "topic"
+          ],
+          "shared_words_after_pooled_removal": [
+            "phrase",
+            "process",
+            "topic"
+          ]
+        },
+        {
+          "prompt_idx": 0,
+          "pos": 85,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [
+            "followed",
+            "section",
+            "sections"
+          ],
+          "shared_words_after_pooled_removal": [
+            "followed",
+            "section",
+            "sections"
+          ]
+        },
+        {
+          "prompt_idx": 0,
+          "pos": 110,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [
+            "clause",
+            "condition",
+            "conditions",
+            "crust",
+            "earth",
+            "formation",
+            "process",
+            "rock",
+            "volcanic"
+          ],
+          "shared_words_after_pooled_removal": [
+            "clause",
+            "condition",
+            "conditions",
+            "crust",
+            "earth",
+            "formation",
+            "process",
+            "rock",
+            "volcanic"
+          ]
+        },
+        {
+          "prompt_idx": 0,
+          "pos": 135,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [
+            "geological",
+            "plate",
+            "tectonic"
+          ],
+          "shared_words_after_pooled_removal": [
+            "geological",
+            "plate"
+          ]
+        },
+        {
+          "prompt_idx": 1,
+          "pos": 60,
+          "shared_prompt_words": [
+            "interest",
+            "rate"
+          ],
+          "shared_nonprompt_words": [
+            "educational",
+            "financial",
+            "loan",
+            "loans",
+            "rat",
+            "rates"
+          ],
+          "shared_words_after_pooled_removal": [
+            "educational",
+            "financial",
+            "loan",
+            "loans",
+            "rat",
+            "rates"
+          ]
+        },
+        {
+          "prompt_idx": 1,
+          "pos": 85,
+          "shared_prompt_words": [
+            "fixed",
+            "rate"
+          ],
+          "shared_nonprompt_words": [
+            "bullet",
+            "colon",
+            "followed",
+            "introduced",
+            "point",
+            "points"
+          ],
+          "shared_words_after_pooled_removal": [
+            "bullet",
+            "colon",
+            "followed",
+            "introduced",
+            "point",
+            "points"
+          ]
+        },
+        {
+          "prompt_idx": 1,
+          "pos": 110,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [
+            "amortization",
+            "detail",
+            "details",
+            "loan",
+            "payment",
+            "schedule"
+          ],
+          "shared_words_after_pooled_removal": [
+            "amortization",
+            "detail",
+            "details",
+            "loan",
+            "payment",
+            "schedule"
+          ]
+        },
+        {
+          "prompt_idx": 1,
+          "pos": 135,
+          "shared_prompt_words": [
+            "fixed",
+            "rate"
+          ],
+          "shared_nonprompt_words": [
+            "loan",
+            "rat",
+            "rates",
+            "stability"
+          ],
+          "shared_words_after_pooled_removal": [
+            "loan",
+            "rat",
+            "rates",
+            "stability"
+          ]
+        },
+        {
+          "prompt_idx": 2,
+          "pos": 60,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [
+            "baseball",
+            "core",
+            "game",
+            "sport"
+          ],
+          "shared_words_after_pooled_removal": [
+            "baseball",
+            "core",
+            "game",
+            "sport"
+          ]
+        },
+        {
+          "prompt_idx": 2,
+          "pos": 85,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [
+            "division",
+            "part",
+            "parts"
+          ],
+          "shared_words_after_pooled_removal": [
+            "division",
+            "part",
+            "parts"
+          ]
+        },
+        {
+          "prompt_idx": 2,
+          "pos": 110,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [
+            "between",
+            "role",
+            "switching"
+          ],
+          "shared_words_after_pooled_removal": [
+            "between",
+            "role",
+            "switching"
+          ]
+        },
+        {
+          "prompt_idx": 2,
+          "pos": 135,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [
+            "core",
+            "explanatory",
+            "game",
+            "item",
+            "list",
+            "played",
+            "sport"
+          ],
+          "shared_words_after_pooled_removal": [
+            "core",
+            "explanatory",
+            "game",
+            "item",
+            "list",
+            "played",
+            "sport"
+          ]
+        },
+        {
+          "prompt_idx": 3,
+          "pos": 60,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [
+            "classical",
+            "era",
+            "historical",
+            "music",
+            "period"
+          ],
+          "shared_words_after_pooled_removal": [
+            "classical",
+            "era",
+            "historical",
+            "music",
+            "period"
+          ]
+        },
+        {
+          "prompt_idx": 3,
+          "pos": 85,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [
+            "emotion",
+            "experience"
+          ],
+          "shared_words_after_pooled_removal": [
+            "emotion",
+            "experience"
+          ]
+        },
+        {
+          "prompt_idx": 3,
+          "pos": 110,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [
+            "element",
+            "elements",
+            "followed",
+            "item",
+            "marker",
+            "section"
+          ],
+          "shared_words_after_pooled_removal": [
+            "element",
+            "elements",
+            "followed",
+            "item",
+            "marker",
+            "section"
+          ]
+        },
+        {
+          "prompt_idx": 3,
+          "pos": 135,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [
+            "component",
+            "components"
+          ],
+          "shared_words_after_pooled_removal": [
+            "component",
+            "components"
+          ]
+        },
+        {
+          "prompt_idx": 4,
+          "pos": 60,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [
+            "earth",
+            "forc",
+            "force",
+            "forces",
+            "geological",
+            "impact",
+            "movement",
+            "phrase",
+            "powerful",
+            "process",
+            "processe",
+            "processes",
+            "shape",
+            "surface"
+          ],
+          "shared_words_after_pooled_removal": [
+            "earth",
+            "forc",
+            "force",
+            "forces",
+            "geological",
+            "impact",
+            "movement",
+            "phrase",
+            "powerful",
+            "process",
+            "processe",
+            "processes",
+            "shape",
+            "surface"
+          ]
+        },
+        {
+          "prompt_idx": 4,
+          "pos": 85,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [
+            "formation",
+            "process",
+            "processe",
+            "processes"
+          ],
+          "shared_words_after_pooled_removal": [
+            "formation",
+            "process",
+            "processe",
+            "processes"
+          ]
+        },
+        {
+          "prompt_idx": 4,
+          "pos": 110,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [
+            "accumulation",
+            "formation",
+            "ice",
+            "involving",
+            "snow"
+          ],
+          "shared_words_after_pooled_removal": [
+            "accumulation",
+            "formation",
+            "ice",
+            "involving",
+            "snow"
+          ]
+        },
+        {
+          "prompt_idx": 4,
+          "pos": 135,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [
+            "phrase"
+          ],
+          "shared_words_after_pooled_removal": [
+            "phrase"
+          ]
+        },
+        {
+          "prompt_idx": 5,
+          "pos": 60,
+          "shared_prompt_words": [
+            "energy"
+          ],
+          "shared_nonprompt_words": [
+            "atp",
+            "cellular",
+            "clause",
+            "following",
+            "function",
+            "process",
+            "processe",
+            "processes",
+            "role"
+          ],
+          "shared_words_after_pooled_removal": [
+            "atp",
+            "cellular",
+            "clause",
+            "following",
+            "function",
+            "process",
+            "processe",
+            "processes",
+            "role"
+          ]
+        },
+        {
+          "prompt_idx": 5,
+          "pos": 110,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [
+            "cycle",
+            "occur",
+            "occurs",
+            "three"
+          ],
+          "shared_words_after_pooled_removal": [
+            "cycle",
+            "occur",
+            "occurs",
+            "three"
+          ]
+        },
+        {
+          "prompt_idx": 5,
+          "pos": 135,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [
+            "analysi",
+            "analysis",
+            "phrase",
+            "requiring"
+          ],
+          "shared_words_after_pooled_removal": [
+            "analysi",
+            "analysis",
+            "phrase",
+            "requiring"
+          ]
+        },
+        {
+          "prompt_idx": 6,
+          "pos": 60,
+          "shared_prompt_words": [
+            "earthquak",
+            "earthquake",
+            "earthquakes",
+            "tectonic"
+          ],
+          "shared_nonprompt_words": [
+            "boundari",
+            "boundarie",
+            "boundaries",
+            "earth",
+            "featur",
+            "feature",
+            "features",
+            "geological",
+            "make",
+            "movement",
+            "plat",
+            "plate",
+            "plates"
+          ],
+          "shared_words_after_pooled_removal": [
+            "boundari",
+            "boundarie",
+            "boundaries",
+            "earth",
+            "featur",
+            "feature",
+            "features",
+            "geological",
+            "make",
+            "movement",
+            "plat",
+            "plate",
+            "plates"
+          ]
+        },
+        {
+          "prompt_idx": 6,
+          "pos": 85,
+          "shared_prompt_words": [
+            "earthquak",
+            "earthquake",
+            "earthquakes",
+            "tectonic"
+          ],
+          "shared_nonprompt_words": [
+            "earth",
+            "forc",
+            "force",
+            "forces",
+            "movement",
+            "plat",
+            "plate",
+            "plates"
+          ],
+          "shared_words_after_pooled_removal": [
+            "earth",
+            "forc",
+            "force",
+            "forces",
+            "movement",
+            "plat",
+            "plate",
+            "plates"
+          ]
+        },
+        {
+          "prompt_idx": 6,
+          "pos": 110,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [
+            "bold",
+            "formatting",
+            "key"
+          ],
+          "shared_words_after_pooled_removal": [
+            "bold",
+            "formatting",
+            "key"
+          ]
+        },
+        {
+          "prompt_idx": 6,
+          "pos": 135,
+          "shared_prompt_words": [
+            "tectonic"
+          ],
+          "shared_nonprompt_words": [
+            "earth",
+            "movement",
+            "plat",
+            "plate",
+            "plates",
+            "typically"
+          ],
+          "shared_words_after_pooled_removal": [
+            "earth",
+            "movement",
+            "plat",
+            "plate",
+            "plates",
+            "typically"
+          ]
+        },
+        {
+          "prompt_idx": 7,
+          "pos": 110,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [
+            "compilation",
+            "fil",
+            "file",
+            "files",
+            "header"
+          ],
+          "shared_words_after_pooled_removal": [
+            "compilation",
+            "fil",
+            "file",
+            "files",
+            "header"
+          ]
+        },
+        {
+          "prompt_idx": 7,
+          "pos": 135,
+          "shared_prompt_words": [
+            "code"
+          ],
+          "shared_nonprompt_words": [
+            "consistent",
+            "macro",
+            "macros",
+            "sequence"
+          ],
+          "shared_words_after_pooled_removal": [
+            "consistent",
+            "macro",
+            "macros",
+            "sequence"
+          ]
+        },
+        {
+          "prompt_idx": 8,
+          "pos": 60,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [
+            "article"
+          ],
+          "shared_words_after_pooled_removal": [
+            "article"
+          ]
+        },
+        {
+          "prompt_idx": 8,
+          "pos": 85,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [
+            "heading",
+            "section"
+          ],
+          "shared_words_after_pooled_removal": [
+            "heading",
+            "section"
+          ]
+        },
+        {
+          "prompt_idx": 8,
+          "pos": 110,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [
+            "descriptive",
+            "educational",
+            "follow",
+            "item",
+            "use"
+          ],
+          "shared_words_after_pooled_removal": [
+            "descriptive",
+            "educational",
+            "follow",
+            "item",
+            "use"
+          ]
+        },
+        {
+          "prompt_idx": 8,
+          "pos": 135,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [
+            "use"
+          ],
+          "shared_words_after_pooled_removal": [
+            "use"
+          ]
+        },
+        {
+          "prompt_idx": 9,
+          "pos": 60,
+          "shared_prompt_words": [
+            "coral",
+            "reef",
+            "reefs"
+          ],
+          "shared_nonprompt_words": [
+            "tropical"
+          ],
+          "shared_words_after_pooled_removal": [
+            "tropical"
+          ]
+        },
+        {
+          "prompt_idx": 9,
+          "pos": 110,
+          "shared_prompt_words": [
+            "coral"
+          ],
+          "shared_nonprompt_words": [
+            "polyp",
+            "process",
+            "processe",
+            "processes"
+          ],
+          "shared_words_after_pooled_removal": [
+            "polyp",
+            "process",
+            "processe",
+            "processes"
+          ]
+        },
+        {
+          "prompt_idx": 9,
+          "pos": 135,
+          "shared_prompt_words": [
+            "coral"
+          ],
+          "shared_nonprompt_words": [
+            "polyp"
+          ],
+          "shared_words_after_pooled_removal": [
+            "polyp"
+          ]
+        },
+        {
+          "prompt_idx": 10,
+          "pos": 60,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [],
+          "shared_words_after_pooled_removal": []
+        },
+        {
+          "prompt_idx": 10,
+          "pos": 85,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [
+            "biological",
+            "descriptive",
+            "occur",
+            "occurs",
+            "process"
+          ],
+          "shared_words_after_pooled_removal": [
+            "biological",
+            "descriptive",
+            "occur",
+            "occurs",
+            "process"
+          ]
+        },
+        {
+          "prompt_idx": 10,
+          "pos": 110,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [
+            "baking"
+          ],
+          "shared_words_after_pooled_removal": [
+            "baking"
+          ]
+        },
+        {
+          "prompt_idx": 10,
+          "pos": 135,
+          "shared_prompt_words": [
+            "yeast"
+          ],
+          "shared_nonprompt_words": [
+            "fermentation",
+            "process",
+            "step"
+          ],
+          "shared_words_after_pooled_removal": [
+            "fermentation",
+            "process",
+            "step"
+          ]
+        },
+        {
+          "prompt_idx": 11,
+          "pos": 60,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [],
+          "shared_words_after_pooled_removal": []
+        },
+        {
+          "prompt_idx": 11,
+          "pos": 85,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [
+            "followed",
+            "section",
+            "sections"
+          ],
+          "shared_words_after_pooled_removal": [
+            "followed",
+            "section",
+            "sections"
+          ]
+        },
+        {
+          "prompt_idx": 11,
+          "pos": 110,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [
+            "pathogen"
+          ],
+          "shared_words_after_pooled_removal": [
+            "pathogen"
+          ]
+        },
+        {
+          "prompt_idx": 11,
+          "pos": 135,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [
+            "like",
+            "you",
+            "your"
+          ],
+          "shared_words_after_pooled_removal": [
+            "like",
+            "you",
+            "your"
+          ]
+        }
+      ],
+      "empty_readouts_after_pooled_removal": {
+        "left": 0,
+        "right": 0
+      },
+      "matched_positions_with_pooled_nonprompt_overlap": 42
+    },
+    "jlens|sae": {
+      "scores": {
+        "overall": {
+          "n": 44,
+          "prompts": 12,
+          "null_pairs": 1770,
+          "matched": 0.1427618932104578,
+          "mismatched": 0.009076631094655967,
+          "excess": 0.1336852621158018,
+          "null_sd": 0.047985996257735836,
+          "z_descriptive": 2.785922405315288,
+          "z_note": "Descriptive excess in pairwise null standard deviations; not a significance-test statistic",
+          "excess_ci95": [
+            0.07766774083507617,
+            0.18867862473888078
+          ],
+          "fraction_beats_all_mismatches": 0.4318181818181818,
+          "bootstrap_replicates": 4000,
+          "bootstrap_seed": 1729
+        },
+        "source_prompt_contribution": {
+          "n": 44,
+          "prompts": 12,
+          "null_pairs": 1770,
+          "matched": 0.028225263572153523,
+          "mismatched": 0.00045240219192047915,
+          "excess": 0.027772861380233042,
+          "null_sd": 0.008626307913924628,
+          "z_descriptive": 3.219553678973359,
+          "z_note": "Descriptive excess in pairwise null standard deviations; not a significance-test statistic",
+          "excess_ci95": [
+            0.008838316116922483,
+            0.050231229307044795
+          ],
+          "fraction_beats_all_mismatches": 0.11363636363636363,
+          "bootstrap_replicates": 4000,
+          "bootstrap_seed": 1729
+        },
+        "non_source_prompt_contribution": {
+          "n": 44,
+          "prompts": 12,
+          "null_pairs": 1770,
+          "matched": 0.11453662963830427,
+          "mismatched": 0.008624228902735488,
+          "excess": 0.10591240073556879,
+          "null_sd": 0.04616048522538546,
+          "z_descriptive": 2.2944386355220416,
+          "z_note": "Descriptive excess in pairwise null standard deviations; not a significance-test statistic",
+          "excess_ci95": [
+            0.060615002246015744,
+            0.15266088222844842
+          ],
+          "fraction_beats_all_mismatches": 0.36363636363636365,
+          "bootstrap_replicates": 4000,
+          "bootstrap_seed": 1729
+        },
+        "all_prompts_removed": {
+          "n": 44,
+          "prompts": 12,
+          "null_pairs": 1770,
+          "matched": 0.1203932630368037,
+          "mismatched": 0.008897408369715134,
+          "excess": 0.11149585466708857,
+          "null_sd": 0.047855108913476614,
+          "z_descriptive": 2.3298631472906313,
+          "z_note": "Descriptive excess in pairwise null standard deviations; not a significance-test statistic",
+          "excess_ci95": [
+            0.05870424641439255,
+            0.1666967913779928
+          ],
+          "fraction_beats_all_mismatches": 0.36363636363636365,
+          "bootstrap_replicates": 4000,
+          "bootstrap_seed": 1729
+        }
+      },
+      "matched_overlap_prompt_fraction": 0.19770866676966936,
+      "excess_nonprompt_fraction": 0.7922518837104466,
+      "matched_word_counts": [
+        {
+          "prompt_idx": 0,
+          "pos": 60,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [],
+          "shared_words_after_pooled_removal": []
+        },
+        {
+          "prompt_idx": 0,
+          "pos": 85,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [],
+          "shared_words_after_pooled_removal": []
+        },
+        {
+          "prompt_idx": 0,
+          "pos": 110,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [
+            "volcanic"
+          ],
+          "shared_words_after_pooled_removal": [
+            "volcanic"
+          ]
+        },
+        {
+          "prompt_idx": 0,
+          "pos": 135,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [
+            "earthquak",
+            "earthquake",
+            "earthquakes",
+            "geological"
+          ],
+          "shared_words_after_pooled_removal": [
+            "geological"
+          ]
+        },
+        {
+          "prompt_idx": 1,
+          "pos": 60,
+          "shared_prompt_words": [
+            "rate"
+          ],
+          "shared_nonprompt_words": [
+            "rat",
+            "rates"
+          ],
+          "shared_words_after_pooled_removal": [
+            "rat",
+            "rates"
+          ]
+        },
+        {
+          "prompt_idx": 1,
+          "pos": 85,
+          "shared_prompt_words": [
+            "fixed"
+          ],
+          "shared_nonprompt_words": [],
+          "shared_words_after_pooled_removal": []
+        },
+        {
+          "prompt_idx": 1,
+          "pos": 110,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [
+            "payment",
+            "repayment"
+          ],
+          "shared_words_after_pooled_removal": [
+            "payment",
+            "repayment"
+          ]
+        },
+        {
+          "prompt_idx": 1,
+          "pos": 135,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [
+            "stability"
+          ],
+          "shared_words_after_pooled_removal": [
+            "stability"
+          ]
+        },
+        {
+          "prompt_idx": 2,
+          "pos": 60,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [],
+          "shared_words_after_pooled_removal": []
+        },
+        {
+          "prompt_idx": 2,
+          "pos": 85,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [
+            "division",
+            "section",
+            "sections"
+          ],
+          "shared_words_after_pooled_removal": [
+            "division",
+            "section",
+            "sections"
+          ]
+        },
+        {
+          "prompt_idx": 2,
+          "pos": 110,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [],
+          "shared_words_after_pooled_removal": []
+        },
+        {
+          "prompt_idx": 2,
+          "pos": 135,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [],
+          "shared_words_after_pooled_removal": []
+        },
+        {
+          "prompt_idx": 3,
+          "pos": 60,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [
+            "classical",
+            "era",
+            "historical",
+            "modern"
+          ],
+          "shared_words_after_pooled_removal": [
+            "classical",
+            "era",
+            "historical",
+            "modern"
+          ]
+        },
+        {
+          "prompt_idx": 3,
+          "pos": 85,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [
+            "emotion",
+            "emotions"
+          ],
+          "shared_words_after_pooled_removal": [
+            "emotion",
+            "emotions"
+          ]
+        },
+        {
+          "prompt_idx": 3,
+          "pos": 110,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [],
+          "shared_words_after_pooled_removal": []
+        },
+        {
+          "prompt_idx": 3,
+          "pos": 135,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [],
+          "shared_words_after_pooled_removal": []
+        },
+        {
+          "prompt_idx": 4,
+          "pos": 60,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [
+            "forc",
+            "force",
+            "forces",
+            "geological",
+            "power",
+            "powerful"
+          ],
+          "shared_words_after_pooled_removal": [
+            "forc",
+            "force",
+            "forces",
+            "geological",
+            "power",
+            "powerful"
+          ]
+        },
+        {
+          "prompt_idx": 4,
+          "pos": 85,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [
+            "creation",
+            "formation",
+            "process",
+            "processe",
+            "processes"
+          ],
+          "shared_words_after_pooled_removal": [
+            "creation",
+            "formation",
+            "process",
+            "processe",
+            "processes"
+          ]
+        },
+        {
+          "prompt_idx": 4,
+          "pos": 110,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [
+            "accumulation",
+            "snow"
+          ],
+          "shared_words_after_pooled_removal": [
+            "accumulation",
+            "snow"
+          ]
+        },
+        {
+          "prompt_idx": 4,
+          "pos": 135,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [],
+          "shared_words_after_pooled_removal": []
+        },
+        {
+          "prompt_idx": 5,
+          "pos": 60,
+          "shared_prompt_words": [
+            "energy"
+          ],
+          "shared_nonprompt_words": [
+            "atp"
+          ],
+          "shared_words_after_pooled_removal": [
+            "atp"
+          ]
+        },
+        {
+          "prompt_idx": 5,
+          "pos": 110,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [
+            "three"
+          ],
+          "shared_words_after_pooled_removal": [
+            "three"
+          ]
+        },
+        {
+          "prompt_idx": 5,
+          "pos": 135,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [
+            "complex",
+            "method",
+            "methods"
+          ],
+          "shared_words_after_pooled_removal": [
+            "complex",
+            "method",
+            "methods"
+          ]
+        },
+        {
+          "prompt_idx": 6,
+          "pos": 60,
+          "shared_prompt_words": [
+            "earthquak",
+            "earthquake",
+            "earthquakes"
+          ],
+          "shared_nonprompt_words": [
+            "boundari",
+            "boundarie",
+            "boundaries",
+            "earth",
+            "geological",
+            "movement"
+          ],
+          "shared_words_after_pooled_removal": [
+            "boundari",
+            "boundarie",
+            "boundaries",
+            "earth",
+            "geological",
+            "movement"
+          ]
+        },
+        {
+          "prompt_idx": 6,
+          "pos": 85,
+          "shared_prompt_words": [
+            "earthquak",
+            "earthquake",
+            "earthquakes"
+          ],
+          "shared_nonprompt_words": [
+            "earth",
+            "forc",
+            "force",
+            "forces",
+            "geological",
+            "movement"
+          ],
+          "shared_words_after_pooled_removal": [
+            "earth",
+            "forc",
+            "force",
+            "forces",
+            "geological",
+            "movement"
+          ]
+        },
+        {
+          "prompt_idx": 6,
+          "pos": 110,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [],
+          "shared_words_after_pooled_removal": []
+        },
+        {
+          "prompt_idx": 6,
+          "pos": 135,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [],
+          "shared_words_after_pooled_removal": []
+        },
+        {
+          "prompt_idx": 7,
+          "pos": 110,
+          "shared_prompt_words": [
+            "compiler"
+          ],
+          "shared_nonprompt_words": [
+            "fil",
+            "file",
+            "files",
+            "header"
+          ],
+          "shared_words_after_pooled_removal": [
+            "fil",
+            "file",
+            "files",
+            "header"
+          ]
+        },
+        {
+          "prompt_idx": 7,
+          "pos": 135,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [],
+          "shared_words_after_pooled_removal": []
+        },
+        {
+          "prompt_idx": 8,
+          "pos": 60,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [],
+          "shared_words_after_pooled_removal": []
+        },
+        {
+          "prompt_idx": 8,
+          "pos": 85,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [],
+          "shared_words_after_pooled_removal": []
+        },
+        {
+          "prompt_idx": 8,
+          "pos": 110,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [],
+          "shared_words_after_pooled_removal": []
+        },
+        {
+          "prompt_idx": 8,
+          "pos": 135,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [],
+          "shared_words_after_pooled_removal": []
+        },
+        {
+          "prompt_idx": 9,
+          "pos": 60,
+          "shared_prompt_words": [
+            "coral",
+            "reef",
+            "reefs"
+          ],
+          "shared_nonprompt_words": [
+            "marine"
+          ],
+          "shared_words_after_pooled_removal": [
+            "marine"
+          ]
+        },
+        {
+          "prompt_idx": 9,
+          "pos": 110,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [
+            "biological"
+          ],
+          "shared_words_after_pooled_removal": [
+            "biological"
+          ]
+        },
+        {
+          "prompt_idx": 9,
+          "pos": 135,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [],
+          "shared_words_after_pooled_removal": []
+        },
+        {
+          "prompt_idx": 10,
+          "pos": 60,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [],
+          "shared_words_after_pooled_removal": []
+        },
+        {
+          "prompt_idx": 10,
+          "pos": 85,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [
+            "biological"
+          ],
+          "shared_words_after_pooled_removal": [
+            "biological"
+          ]
+        },
+        {
+          "prompt_idx": 10,
+          "pos": 110,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [],
+          "shared_words_after_pooled_removal": []
+        },
+        {
+          "prompt_idx": 10,
+          "pos": 135,
+          "shared_prompt_words": [
+            "yeast"
+          ],
+          "shared_nonprompt_words": [
+            "fermentation"
+          ],
+          "shared_words_after_pooled_removal": [
+            "fermentation"
+          ]
+        },
+        {
+          "prompt_idx": 11,
+          "pos": 60,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [],
+          "shared_words_after_pooled_removal": []
+        },
+        {
+          "prompt_idx": 11,
+          "pos": 85,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [],
+          "shared_words_after_pooled_removal": []
+        },
+        {
+          "prompt_idx": 11,
+          "pos": 110,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [
+            "pathogen"
+          ],
+          "shared_words_after_pooled_removal": [
+            "pathogen"
+          ]
+        },
+        {
+          "prompt_idx": 11,
+          "pos": 135,
+          "shared_prompt_words": [],
+          "shared_nonprompt_words": [],
+          "shared_words_after_pooled_removal": []
+        }
+      ],
+      "empty_readouts_after_pooled_removal": {
+        "left": 3,
+        "right": 0
+      },
+      "matched_positions_with_pooled_nonprompt_overlap": 22
+    }
+  },
+  "training_performed": false,
+  "gpu_used": false,
+  "steering_performed": false,
+  "limitations": [
+    "Literal word removal does not remove synonyms, semantic topic cues, or continuation templates",
+    "The decomposition's null labels are source-anchored; the pooled-removal analysis uses a uniform mask instead",
+    "Re-normalized filtered overlap is a different metric and should not be added to prompt contributions",
+    "Only 12 prompt clusters; selected topics, automatic SAE labels, and incomplete coverage",
+    "Post hoc sensitivity analysis, not a preregistered test or evidence of causality"
+  ],
+  "source_sha256": {
+    "sae_comparisons.json": "60d5dd9ff2a344b022b0afb8ad9673eb8d81f852304c2423141a80a69941a1bd",
+    "agreement.json": "a6b77b1f41d81b9556b4cb71efaafb13d62dcfccbe70cfeed312dc2430dbdc9a"
+  }
+}

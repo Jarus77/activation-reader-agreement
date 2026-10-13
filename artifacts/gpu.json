@@ -1,0 +1,173 @@
+{
+  "run_id": "68e585774fe9",
+  "status": "format_incomplete",
+  "stage": "smoke_complete",
+  "scope": "compatibility_smoke_only",
+  "gpu": "NVIDIA H200",
+  "total_gpu_gib": 139.80084228515625,
+  "versions": {
+    "torch": "2.8.0+cu128",
+    "transformers": "5.5.4",
+    "peft": "0.19.1",
+    "accelerate": "1.12.0",
+    "jlens": "0.1.0"
+  },
+  "backend": {
+    "attention": "eager",
+    "gdn": "native_pytorch"
+  },
+  "revisions": {
+    "base": "6a9e13bd6fc8f0983b9b99948120bc37f49c13e9",
+    "nla": "54e3ce6040b9a37fd341e286870b7480b3e6bd50",
+    "sae": "0f03d7c31c10c4b958047b80b224cd03c38fbe85",
+    "av": "5a13b7ec21a69fcdd0fb24d5edbe96a92aef4b9f",
+    "jlens": "9fa267f841d62aa468dab5b9b38c3dc45a82d863",
+    "sae42": null,
+    "sae42_old": null
+  },
+  "checks": {
+    "same_activation_sae": {
+      "passed": false,
+      "nla_block_index": 42,
+      "sae_hook": "model.language_model.layers.43",
+      "reason": "SAE block 43 differs from NLA block 42; excluded from agreement scoring"
+    },
+    "base_load": {
+      "passed": true,
+      "allocated_gpu_gib": 50.9559760093689
+    },
+    "activation_extraction": {
+      "passed": true,
+      "block_index": 42,
+      "samples": 2,
+      "norms": [
+        89.00179290771484,
+        109.06410217285156
+      ]
+    },
+    "published_lens": {
+      "passed": true,
+      "n_prompts": 1000,
+      "source_block_index": 42,
+      "target_block_index": null,
+      "metadata": {
+        "n_prompts": 1000,
+        "d_model": 5120
+      }
+    },
+    "jacobian_backward": {
+      "passed": true,
+      "source_block": 42,
+      "target_block": 63,
+      "rows_tested": 16,
+      "dim_batch": 8,
+      "full_rows": 5120,
+      "seq_len": 96,
+      "skip_first": 16,
+      "row_norms": [
+        0.8319077491760254,
+        0.9695867300033569,
+        1.0472633838653564,
+        0.9675557017326355,
+        1.2087737321853638,
+        0.8548897504806519,
+        0.7508390545845032,
+        0.9616295695304871,
+        0.9182806015014648,
+        0.8749255537986755,
+        0.8317467570304871,
+        0.8328034281730652,
+        0.8819003701210022,
+        0.879859983921051,
+        1.173531174659729,
+        0.9596289396286011
+      ],
+      "estimate_note": "Extrapolated from one warm backward pass at dim_batch=8; tuning batch size changes throughput"
+    },
+    "base_freed": {
+      "allocated_gpu_gib": 0.0625
+    },
+    "av_load": {
+      "passed": true,
+      "step": 600,
+      "base": "merged_warmstart",
+      "allocated_gpu_gib": 51.899630546569824
+    },
+    "nla_injection": {
+      "passed": true,
+      "injection_block_index": 1,
+      "method": "h + norm(h) * v / norm(v)",
+      "samples": 2,
+      "format_complete_count": 0
+    }
+  },
+  "timings": {
+    "base_load_seconds": 49.009712246,
+    "activation_extraction_seconds": 2.9035869759999997,
+    "published_lens_load_and_readout_seconds": 0.39409451200000944,
+    "sixteen_jacobian_rows_seconds": 4.4939366149999955,
+    "jacobian_forward_seconds": 3.3033775899999966,
+    "jacobian_backward_cold_seconds": 0.7895318959999997,
+    "jacobian_backward_warm_seconds": 0.39040225599998735,
+    "rough_one_prompt_full_jacobian_seconds": 253.5599510699919,
+    "av_load_seconds": 50.505433994000015,
+    "av_three_generations_seconds": 89.416448871
+  },
+  "elapsed_seconds": 210.42702393,
+  "peak_gpu_gib": 64.20854806900024,
+  "readouts": [
+    {
+      "prompt_idx": 0,
+      "source": "A volcano erupts when pressure from dissolved gases drives magma toward the surface. Magma contains molten rock, crystals, and gases such as water vapor and carbon dioxide. As it rises, falling pressure allows bubbles to expand. Explosive eruptions eject ash and fragments of rock, while quieter eruptions produce lava flows. Scientists monitor ground movement, small earthquakes, and gas emissions to understand changes beneath a volcano. Ash can affect aviation and breathing, and volcanic soils can support farming.",
+      "jlens_tokens": [
+        "  \n\n",
+        " \n\n",
+        "<|im_end|>",
+        "   \n\n",
+        " \n\n\n",
+        "\u2011",
+        "  \n\n\n",
+        "\u2026\u201d",
+        "____",
+        "\ufffd",
+        "\u2026**",
+        " \r\n\r\n"
+      ],
+      "text": "<explanation>\nEducational science passage style: short declarative sentences explaining volcanic concepts for a general or student audience.\n\nSequential factual coverage pattern: each sentence introduces a distinct volcanic concept (formation, eruption, hazards, monitoring, prediction), suggesting the passage is wrapping up its informational scope.\n\nFinal sentence \"Volcanic ash can harm health, but volcanic soil helps farming.\" ends with a contrasting benefit clause, likely concluding the passage or transitioning to a new topic or question prompt.\n\"Volcanoes form from magma and plate movement. Eruptions release gas, ash, and lava. Hazards include lava flows, ash clouds, and tsunamis. Scientists use sensors and models to monitor and predict eruptions. Early warnings reduce danger. Volcanic ash can harm health, but",
+      "explanation": null,
+      "format_complete": false,
+      "injection_count": 1,
+      "relative_norm_error": 1.1920928955078125e-07
+    },
+    {
+      "prompt_idx": 1,
+      "source": "A compiler translates a program from a source language into machine instructions. The lexer identifies tokens, and the parser organizes them into a syntax tree. The type checker verifies that operations use compatible values. An intermediate representation allows optimization passes to simplify expressions and remove unused computations. The backend selects instructions for a particular processor and assigns registers. A linker combines compiled objects with libraries and resolves external symbols. Debugging information connects the resulting instructions to locations in the original source code so a developer can inspect",
+      "jlens_tokens": [
+        " debugger",
+        " debugging",
+        " debug",
+        "-debug",
+        " Debugger",
+        "/debug",
+        " diagnostic",
+        " inspect",
+        "Debugger",
+        "debug",
+        "\u8c03\u8bd5",
+        "Debug"
+      ],
+      "text": "<explanation>\nTechnical compiler documentation style, describing MLIR/LLVM pipeline capabilities in parallel list structure.\n\nThe sentence enumerates compiler output features (\"optimization opportunities,\" \"debug information\"), establishing a pattern of capability descriptions with explanatory clauses.\n\nFinal token \"inspect\" ends a clause about debug information enabling debugging (\"maps source locations to generated code, so a debugger can set breakpoints that a programmer can inspect\"), immediately expecting a direct object \u2014 likely \"variables,\" \"state,\" or \"memory\" to complete the phrase.\n\"The compiler can emit optimized machine code, or a less optimized version with debug information. It also produces debug information that maps source variables to runtime locations, enabling breakpoints so a developer can inspect\" \u2014 expects a noun phrase completing what the developer inspects, such as",
+      "explanation": null,
+      "format_complete": false,
+      "injection_count": 1,
+      "relative_norm_error": 0.0
+    }
+  ],
+  "no_injection_control": "<explanation>\nParallel structure pattern: each aircraft entry follows identical format \u2014 description, then \"lower deck was painted with [colors]\" and \"upper deck was painted with [colors].\"\n\nThe article systematically covers both the F-100 and F-16 sections, mirroring the earlier F-100 description which listed specific color percentages and components.\n\nFinal token \"with \"\" opens the color description for the F-16 lower deck, directly paralleling \"the lower deck was painted with 'green'\" from the F-100 section \u2014 next tokens must be a quoted color scheme like \"brown and green\" or similar.\n\n\"the upper deck was painted with '\" \u2014 the unclosed quote and incomplete sentence demand a color description, likely \"brown and green",
+  "remaining": [
+    "Validate published Jacobian lens provenance and readout performance",
+    "Validate NLA reconstruction on independent held-out data",
+    "Obtain or train block-42 SAE and independently validate feature labels",
+    "Run prompt-level mismatch controls and causal steering experiments"
+  ]
+}

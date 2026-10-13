@@ -1,0 +1,16 @@
+{
+  "method": "Assistant spot check of 12 randomly selected labels after the first automatic screen, seed 20261012; this is not a human audit.",
+  "finding": "Some descriptions were overly broad or inaccurate despite passing the small-model screen.",
+  "response": "Rechecked every one of the 154 nonduplicate screened descriptions with a separate larger model; retained 88.",
+  "remaining_examples": [
+    {
+      "feature_id": 17222,
+      "issue": "Core possessive usage is supported, but the label incorrectly calls possessive determiners definite articles."
+    },
+    {
+      "feature_id": 640286,
+      "issue": "Held-out text supports marine coral/reef content; the tropical qualifier is not explicit."
+    }
+  ],
+  "conclusion": "Automatic review reduces obvious errors but does not establish fully validated semantics; results remain exploratory."
+}

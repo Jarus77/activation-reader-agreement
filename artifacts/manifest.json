@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "repository": "Jarus77/activation-reader-agreement",
+  "experiment_date": "2026-10-12",
+  "prepared_utc": "2026-10-13T07:01:16.331163+00:00",
+  "checkpoint_revisions": {
+    "base": {
+      "id": "Qwen/Qwen3.6-27B",
+      "revision": "6a9e13bd6fc8f0983b9b99948120bc37f49c13e9"
+    },
+    "av": {
+      "id": "ceselder/qwen3.6-27b-nla-rl",
+      "revision": "5a13b7ec21a69fcdd0fb24d5edbe96a92aef4b9f"
+    },
+    "jlens": {
+      "id": "neuronpedia/jacobian-lens",
+      "revision": "9fa267f841d62aa468dab5b9b38c3dc45a82d863"
+    },
+    "sae42_2m": {
+      "id": "ceselder/qwen36-27b-sae2m-l42",
+      "revision": "3233a3d8744da53999fe5e6d36a8357b873330ba"
+    },
+    "label": {
+      "id": "Qwen/Qwen3-4B-Instruct-2507",
+      "revision": "cdbee75f17c01a7cc42f958dc650907174af0554"
+    }
+  },
+  "jacobian_lens_software_commit": "581d398613e5602a5af361e1c34d3a92ea82ba8e",
+  "reference_experiment": {
+    "repository": "https://github.com/m9h/tri-lens",
+    "commit": "002b828aa32e57825481b5d7b24c710d21504c41"
+  },
+  "runs": {
+    "agreement.json": {
+      "run_id": "d1ab6e3cc5e3",
+      "status": "exploratory_complete"
+    },
+    "gpu.json": {
+      "run_id": "68e585774fe9",
+      "status": "format_incomplete"
+    },
+    "nla.json": {
+      "run_id": "6416b7112216",
+      "status": "passed",
+      "inherited_from": "68e585774fe9"
+    },
+    "metadata.json": {
+      "status": "metadata_only"
+    },
+    "sae_encode.json": {
+      "run_id": "9d8a496f027d",
+      "status": "encoding_complete",
+      "agreement_run_id": "d1ab6e3cc5e3"
+    },
+    "sae_labels.json": {
+      "run_id": "a2acc6540e38",
+      "status": "annotation_complete",
+      "encoding_run_id": "9d8a496f027d"
+    },
+    "sae_review.json": {
+      "run_id": "5a305df90b97",
+      "status": "annotation_complete",
+      "encoding_run_id": "9d8a496f027d",
+      "annotation_run_id": "a2acc6540e38"
+    },
+    "sae_label_quality_notes.json": {}
+  },
+  "source_files": {
+    "agreement.json": {
+      "sha256": "a6b77b1f41d81b9556b4cb71efaafb13d62dcfccbe70cfeed312dc2430dbdc9a",
+      "bytes": 148447
+    },
+    "gpu.json": {
+      "sha256": "17855dfa75561f05343b5f7b49c5821efc1e686b3bd0330625befdd3ef9c9fc4",
+      "bytes": 8335
+    },
+    "nla.json": {
+      "sha256": "0439ca9f4d84307db69891e6a96635e0ba4c2f137a2fcc816c1de9556095f0ae",
+      "bytes": 10253
+    },
+    "metadata.json": {
+      "sha256": "83079a301e02ed35644667f3356dd6535bac22cfaf21062f160349ce4c4c2812",
+      "bytes": 67696
+    },
+    "sae_encode.json": {
+      "sha256": "f73e66220ce231c862aa35cf0a72cb17223749d707a64fa1dca0869a571f1dcd",
+      "bytes": 703819
+    },
+    "sae_labels.json": {
+      "sha256": "f52ee33b82da65e649e52a116a03d4eaa9a4848e5821faab109cfb93dcb0b995",
+      "bytes": 107126
+    },
+    "sae_review.json": {
+      "sha256": "cf0ecf2e547ac0d0a4586f4128001141371e499420e238b1f5014e00b810c2a4",
+      "bytes": 154122
+    },
+    "sae_label_quality_notes.json": {
+      "sha256": "4422623f9d38653d028876011ee8ad387b36c2afd1a352735c6741ccd3c5ca84",
+      "bytes": 860
+    }
+  },
+  "derived_files": {
+    "sae_comparisons.json": {
+      "sha256": "60d5dd9ff2a344b022b0afb8ad9673eb8d81f852304c2423141a80a69941a1bd",
+      "bytes": 154655
+    },
+    "prompt_overlap.json": {
+      "sha256": "d6bc263781edb89649c36afcb094f53a6811a9eed807ebb201c93bde3e7589ae",
+      "bytes": 64772
+    }
+  },
+  "local_analysis_versions": {
+    "numpy": "2.4.4",
+    "matplotlib": "3.10.9"
+  },
+  "training_performed": false,
+  "steering_performed": false,
+  "notes": [
+    "Source readouts and annotation records are sufficient for offline scoring; model weights and activation tensors are not distributed.",
+    "Historical metadata contains extra checkpoint candidates that were not used for same-activation SAE scoring; fresh collection uses the pinned five-role registry.",
+    "The gpu preflight recorded incomplete descriptions at a shorter limit; the separate nla preflight completed at 256 tokens, followed by the 48-item agreement collection.",
+    "Original annotation pack used document-ID withholding; duplicate-text exclusion was applied before SAE agreement scores. Fresh code excludes duplicate text before label construction.",
+    "Bootstrap intervals condition on the frozen accepted labels; no same-topic null, semantic prompt-concept removal, or causal experiment has been run."
+  ]
+}
