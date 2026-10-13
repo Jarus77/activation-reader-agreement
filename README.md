@@ -166,4 +166,4 @@ The experiment covers one model, one block, and 12 prompts. English lexical over
 
 Same-topic mismatches and prompt-only expected-concept removal have been proposed but not run. Oracle-lens, Skip-lens, majority-vote scoring, and causal steering are outside the completed experiment. **No steering experiment has been launched; it requires separate user consultation and explicit approval.**
 
-Code is released under [Apache-2.0](LICENSE); attribution is in [NOTICE](NOTICE). Pretrained weights are not distributed and retain their own licenses. SAE example excerpts retain their source terms. The repository runs independently of the reference checkout, with adapted prompts and scoring functions credited to tri-lens. Companion reports, credentials, model caches, and launch records are excluded from publication.
+Code is released under [Apache-2.0](LICENSE); attribution is in [NOTICE](NOTICE). Pretrained weights are not distributed and retain their own licenses. SAE example excerpts retain their source terms. The repository runs independently of the reference checkout. Companion reports, credentials, model caches, and launch records are excluded from publication.
